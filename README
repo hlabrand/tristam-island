@@ -1,0 +1,19 @@
+Welcome!
+
+"Tristam Island" is a retro text adventure that was released on November 20, 2020. You can view the itch.io page at hlabrande.itch.io/tristam-island.
+
+The game is now open source and under a Creative Commons Zero licence. (See LICENSE for details.) The cover art that it was released with (and which appears in some of the binaries) is copyright Karen Christie & Stephen F. Winsor.
+
+* The "binaries" folder contains all the game files from the latest release.
+* The "design" folder contains brainstorming and design documents, including a post mortem.
+* The "feelies" folder contains the feelies that were released with the game - including the ones previously exclusive to pre-orders.*
+* The other two folders are needed for compiling the game.
+* "tristam-en.inf" is the Inform 6 / PunyInform source code.
+* "retrobuild.sh" and "retrobuild-new.sh" are the shell scripts I used to compile all the versions of the game in Linux. WARNING: a lot of files, disks, interpreters, etc. are missing, so this script will not work; it is there for the people who are curious about it. (If you want to compile an Inform game into multiple retro platforms, check out the Puddle Build Tools by Stefan Vogt; however the scripts here contain a few scripts for a few platforms that Stefan's script doesn't cover, so there is a bit of novelty in here!)
+* "abbreviations.py" is my own script to determine better abbreviations for Inform; Henrik Asman's "ZAbbrevMaker" gives much better results than this script however.
+* "transform_latin1_z3-en.py" and "-fr.py" are scripts that transform a source file into another one with some accented/special characters transformed. This was very useful, maybe mostly for the French version though.
+* "runtests.rb" is a script by Fredrik Ramsberg & Johan Berntsson that allows to run a game automatically after a build to e.g. check for game-breaking errors introduced by a change.
+
+It has been a pleasure and an honor to write this game and distribute it, and see so many people who have enjoyed it. Please enjoy the documents here, fork this repository, create your own games, modify this one, etc. This is a seed that I'm planting and I hope it'll grow!
+
+Hugo Labrande

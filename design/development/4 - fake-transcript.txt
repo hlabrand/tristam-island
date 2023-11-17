@@ -1,0 +1,2223 @@
+! Lower island
+
+Immaculate beach
+  This is the south side of the island you are now stuck on. The immensity of the Atlantic Ocean makes you feel minuscule, a needle in a haystack, with no chance of being rescued. A steep hill covered by a dense forest stands to the north; climbing it would likely take hours, and you don't really know what you could find there, but you might as well explore your new home. The beach extends to the northeast, where you can see a large boulder, and to the west.
+
+! Exploration
+> x beach / sand / sandy beach
+The beach angles slightly downhill towards the sea. It is made of yellow, compact sand; the high tide probably submerges the beach every time.
+TODO: angles downhill, really???
+
+> x forest / trees
+A dense forest covers the south side of the island; you have to go through it if you want to climb up the hill and see the rest of the island.
+TODO: but should it really be covered in a dense forest? cause it slopes? UUUGH I hate this
+
+> x hill / island / mountain
+The island you ended up on appears to be a tall chunk of rock that seems to form a plateau at the top. Cliffs surround the island, except on the south side, which has a more gentle slope and is covered by a dense forest.
+TODO: tall chunk of rock? uuuugh i hate this
+
+> x boulder
+You decide to go take a closer look at the boulder, and head northeast.
+
+End of the beach
+  You reached what seems to be the end of the beach; behind a large boulder, it seems to taper off quickly, and the coast turns into steep rocks and shallow tidal pools. A small cove is to the north; the rest of the beach extends southwest.
+  
+> x boulder / x rock / x ball / x formation
+A large rock formation, not quite detached from the rest of the island, marks the end of the beach. Behind it, the eastern shore of the island mostly consists in jagged rocks and shallow tidal pools.
+! TODO: jagged rock formation?
+
+! TODO: jagged rocks, tidal pools, strait, cove (faire des flags pour leur découverte)
+! TODO: un flag de découverte de traces humaines
+
+> w
+Immaculate beach
+
+> w
+Sandy beach by the forest
+  The small beach is angled down, with very small waves crashing periodically on the shore. You can clearly see the high tide line, delineated by small shrubs that grow very close to the sand. Behind these, to the north, is a clearing leading into the forest. The sandy beach extends eastward; to the west, below tall cliffs, it becomes smaller and rockier.
+! TODO angled??
+
+> s
+Waist-deep in the ocean
+  You trudge uncomfortably into the cold water, and try to look around you. The horizon is bare, and there aren't any fish, or anything floating at the surface. The island looms behind you.
+
+> x horizon
+You squint and try to find something, anything, on the horizon. After a few minutes, you give up.
+
+> x island / hill / mountain
+From the ocean, you can appreciate the size of the island: rather large, and tall, but you probably only need a couple of days to explore it. You are off shore from a beach near a clearing, north of you.
+
+> w
+Knee-deep in the ocean
+  A submerged sandbank extending southwest makes it so you can walk further into the ocean without getting too wet. Behind you, you can see the cliffs of the southwestern tip of the island.
+
+> x cliffs / x chalk / x tall / x white
+These tall white cliffs appear to be made of chalk; you guess they are probably fifty feet tall. At the top of the cliffs, dense trees are growing -- although you think you can spot something behind them. It looks like a tall, metallic mast, although it's unlikely to be that on a deserted island.
+
+> x mast / x tower / x radio / x mast / x metal / x metallic / x steel
+You can't really see it clearly from where you are, as the angle isn't great, but there definitely seems like there is something up there.
+
+> sw
+You go a bit further along this underwater sandbank.
+
+Knee-deep in the ocean
+  A submerged sandbank extending southwest makes it so you can walk further into the ocean without getting too wet. Behind you, you can see the cliffs of the southwestern tip of the island. Up above the cliffs, behind some trees, you can distinguish the top of a steel tower.
+
+>x cliffs
+These tall white cliffs appear to be made of chalk; you guess they are probably fifty feet tall. At the top of the cliffs, dense trees are growing; behind them, you can clearly see the top of a steel tower.
+
+> x mast / x tower / x radio / x mast / x metal / x metallic / x steel / x watchtower / x watch / x railing
+You see a steel tower peeking behind the trees; it looks like it is a watchtower, with a platform surrounded by a waist-high metal railing at the top. Atop the tower is a mast -- perhaps a radio mast, which would be very interesting to you.
+! TODO: really, observation deck? mirador?
+! TODO: une tour qui fait à la fois radio et observation ? c'est possible ? Et le grounding? (enfin, ptet qu'ils désactivaient la radio quand y'avait une observation nucléaire aussi, hein. Oui mais si j'active la radio avec le courant, est-ce que je vais me prendre un choc en y montant ?)
+[Your score went up by 1? point.]
+
+> sw (x10) et la 10e fois :
+You go a bit further along this underwater sandbank.
+Knee-deep in the ocean
+  A submerged sandbank extending southwest makes it so you can walk further into the ocean without getting too wet. Behind you, you can see the cliffs of the southwestern tip of the island. Up above the cliffs, behind some trees, you can distinguish the top of a steel tower. Looking southwest, you think you can see something lying low on the horizon.
+
+>x something / x shape / x lying / x low / x island
+You try to focus on the shape, but it is very faint. It looks like there is something, though; maybe some kind of island.
+[Your score went up by 1? point.]
+
+> sw
+You go a bit further along this underwater sandbank.
+Waist-deep in the ocean
+  A submerged sandbank extending southwest makes it so you can walk further into the ocean without getting too wet. Behind you, you can see the cliffs of the southwestern tip of the island. Up above the cliffs, behind some trees, you can distinguish the top of a steel tower. Looking southwest, you think you can see something lying low on the horizon.
+  
+> sw
+You try to go further along this direction, but the sea becomes too deep at this point; you swim back to where you can touch the ocean floor.
+
+> ne (x10)
+Knee-deep in the ocean [depth=1]
+
+> x cliffs / x chalk / x tall / x white
+These tall white cliffs appear to be made of chalk; you guess they are probably fifty feet tall. At the top of the cliffs, dense trees are growing; behind them, you spot the tall, metallic mast at the top of the watchtower you spotted earlier.
+
+> x mast / x tower / x radio / x mast / x metal / x metallic / x steel / x watchtower / x watch / x railing
+You can't really see it clearly from where you are, but you know it's a watchtower.
+
+> ne 
+Southwestern cliffs
+You are at the bottom of tall and almost vertical cliffs, standing on a small flat stretch of sand and rocks that you can barely call a beach. East of you is a sandy beach; to the northwest, you can see a small strait.
+! TODO: delete the strait? cause you don't have a bay and a waterfall there anymore
+
+>x sand / x rocks / beach
+The beach here is noticeably smaller than what is on the south side of the island; the sand is dotted with white rocks, some quite large, that probably fell from the cliffs.
+
+> x cliffs
+These tall white cliffs appear to be made of chalk; you guess they are probably fifty feet tall. At the top of the cliffs, you can see a few branches and leaves; some trees must be growing there.
+(ou si on a vu la steel tower)
+These tall white cliffs appear to be made of chalk; you guess they are probably fifty feet tall. At the top of the cliffs, you can see a few branches and leaves, from the trees growing there; however you cannot see the steel tower from here.
+
+>x strait
+TODO (à supprimer ?)
+You decide to go take a closer look at the strait, and head northeast.
+
+Narrow strait
+TODO (à supprimer ?)
+
+> x strait
+TODO (à supprimer ?)
+
+> w
+Waist-deep in the ocean
+  You trudge uncomfortably into the cold water, and try to look around you. The horizon is bare, and the island looms behind you. You take a closer look at the sea; after a minute or so, you spot some movement below the surface a few feet away from you. It looks like this is a good area for fishing.
+
+> x fish / x shadows
+You stand still, and look in the direction you saw the fish. After a few moments, you spot {%a fin poking out of the water|a shadow getting close to the surface|a turbulence at the surface, made by a tail that suddenly changed direction}.
+
+> fish fish
+With what? Your bare hands?
+
+> yes
+This isn't that kind of Adventure.
+
+> e
+Narrow strait
+
+> n
+Northwestern cliffs
+A small beach runs along the cliffs to the northwest of the island. South of you is a narrow strait, and the beach continues to the northeast.
+! TODO: delete strait
+
+> ne
+Northern cliffs
+  A tall cliff made of chalk runs along the northern edge of the island; down below, where you are standing, is a small beach littered with rocks and pebbles. You're surprised to see a small fishing boat, moored to a long wooden pier; this is the first trace of human life you have spotted on this island! There is also a rickety-looking platform on the beach, right against the side of the cliff; it looks like it can rise all the way up to the top of the cliff with a rope and pulley mechanism.
+
+> x pier / dock / pontoon / wooden
+There is a wooden pier here, about twenty feet long; the wood looks old and wet, but it is still in very good shape. A small fishing boat is moored here.
+
+> x boat / x fishing / x rowboat / x compartment / x drawer / x trunk / x case
+A small fishing boat is moored here; it looks sturdy, but it's not very usable, as its oars are missing. A wide compartment made of wood is at the stern of the boat; it is closed.
+
+> find oar
+Unfortunately, the oars of the boat could be anywhere; the tide probably took them.
+
+> enter boat / climb in boat
+Without oars, that boat isn't very useful.
+
+> open boat
+You run your fingers around the compartment, and manage to find a way to pop it open. Inside, you find a fishing rod, a bowie knife, and a fishing net.
+
+> take all
+You can only carry 2 items.
+
+> take fishing rod
+Taken.
+> x it
+Surprisingly, this fishing rod looks in rather good condition, including its reel, which still turns rather well. It is about two to three feet long; the hook and the line are on there too, which is good, as you're not sure you would have known how to attach them there.
+
+> x reel / x line / x hook -> fishing rod
+> take/remove reel/line/hook
+This is attached to the fishing rod, and you don't particularly want to remove them from there -- you're not sure you'd know how to put it back together.
+
+> take fishing net / made of rope / hemp / x weights / x floats
+Taken.
+> x it
+This fishing net is very long, of a rectangular shape, with floats on one side and weights on the other; you doubt you could use it by yourself. You're guessing it is meant to be held vertically in the sea by at least two people. However, you might be able to find another use for it; the rope it's made of is strong, and there are very few holes in it that would compromise its structural integrity.
+! TODO pas besoin de la structural integrity?
+
+> x fishing bowie sharp knife / x handle
+This is probably a knife to gut fish; it has a slightly curved, six inch blade, and a wide wooden handle.
+
+> take fishing bowie knife
+TODO: max_carried = 2 pour l'instant
+
+> cut rod / line / net with knife
+Cutting these up would seriously diminish your chances of survival.
+
+> look under boat
+You kneel on the wooden pier and look in the water, under the boat's hull. You can't spot anything, except seaweed.
+
+> x seaweed
+Some seaweed has grown under the boat's hull, which hasn't been scraped for years.
+
+> take seaweed
+Taken.
+
+> eat seaweed / eat algae / (dry seaweed?)
+You've heard before that seaweed is full of vitamins. You don't really want to eat it sopping wet, so you spread it on the wooden pier, letting the sun dry it. You wait quite a while, contemplating the horizon and your surroundings, until the seaweed is much more edible. You eat it; it tastes salty, its texture reminds you of overcooked spaghetti, and your stomach is so happy you moan in contentment.
+[Your score has increased by 1? point.]
+
+> x elevator / platform / mechanism / ropes / pulley / pulleys / elevated
+Your eyes follow the very long rope running alongside the cliff. It runs from the beach, up to a pulley mechanism that is installed at the top of the cliff, then back down, where it is tied to a sort of arch, a metal handle attached to both sides of a rudimentary platform on the beach. This bucket-like platform looks looks large enough to carry a fisherman, or its large haul of fish, all the way up the cliff.
+
+> cut rope with knife / untie rope
+You might be able to recover the rope this way, but it would be smarter to leave it like that and use it to climb up the cliffs.
+
+> climb rope
+You could attempt to climb the rope if all else fails, but that platform looks like it could take you to the top of the cliff.
+
+> pull rope
+You pull on the rope and, with some effort, manage to raise the platform by a few feet. You don't see the point of going any higher; you carefully let the rope go until the platform is once again on the ground.
+
+> get in elevator / get on platform
+You enter the platform, minding your head.
+
+> pull rope
+You start pulling on the rope, and the platform slowly ascends; it takes a lot of effort to pull your own weight up. You start feeling weak after a few feet, and you decide to slowly, carefully, let the rope go, instead of going for broke and risking plumetting to your death. You should try this again when you feel more rested and have more energy - eating a good meal would be a good start.
+
+(si t'as déjà mangé le poisson : You should try this again when you feel more rested.)
+
+> e
+Northeastern tip
+You reach what appears to be the end of the beach on this side of the island. The steep terrain here is impenetrable, but you might be able to walk in shallow waters and follow the coast towards the southeast, where the island retreats and forms a small cove.
+
+! TODO: follow coast / follow island ?
+! TODO: climb island (in various places)
+
+> se
+Cove
+This small cove is made of a steep beach made of wet sand; the waves are a little more turbulent here, but it's still a nice place to stop at for a moment. The part of the island that stands behind you is a steep hill covered in trees, curving up to what seems to be a plateau; this is probably not a good approach for the climb. From here, you can follow the coast by walking in shallow waters, towards the northwest or the south.
+
+> s
+End of the beach
+
+> sw (back to beginning)
+Immaculate beach
+
+> w
+Sandy beach by the forest
+
+> n
+Edge of the woods
+The woods begin here, in this small clearing; the trees, dense and bearing flowers of strikingly vibrant colors, give you a nice respite from the sun beating down on your head. The floor of the forest is rather dense undergrowth, which you imagine teeming with life; you're pretty sure you can see something moving under the large mossy rock here. You can go deeper in the forest by going north, or back to the beach by going to the south.
+
+> smell
+The woods here smell damp, with a hint of a flowery smell.
+
+> x trees (colorful flowers)
+The trees here look rather old and sturdy; their small flowers display every shade between dark orange and bright yellow.
+
+> smell tree
+You smell the tree's trunk; it smells like wet wood.
+
+> cut tree with knife
+You doubt you could fell a tree with this.
+
+> x flowers
+The small flowers that cover the trees display every shade between dark orange and bright yellow.
+
+> cut flowers with knife / smell flowers
+You cut a few flowers off the trees and smell them; their smell is fresh but faint.
+
+> eat flowers
+You have no idea if these flowers are safe or not; you'd rather eat them.
+
+> x large mossy lopsided rock
+A large, lopsided rock with a rather flat top seems to provide darkness and moisture to a whole bunch of critters underneath it.
+
+> x critters / x worm / x beetles / look under rock
+There seems to be movement under the rock; keeping your distance, you manage to spot a couple of beetles and a few thick worms.
+
+> eat critters / eat thick worm/maggot / eat beetle
+It is a source of protein indeed, but you think you're going to save it for when you get desperate.
+
+> n
+Deep in the woods
+You are unable to get much further here; in front of you, the hill gets very steep, covered in grass and mud, and these white stones with sharp edges look like they could hurt. The forest is dense around you, but you can always go back to the clearing to the south.
+
+> x hill
+The hill gets very steep, and you doubt you could climb it; the wet grass and patches of mud would certainly make you slip onto these sharp white stones that you can see, almost perfectly spaced, all the way up to the hill.
+
+> x sharp pyramidal stone/rocks white
+You contemplate one of the white stones poking out of the mud, and suddenly its shape, an almost perfect pyramid, seems unnatural, almost too sharp. Almost... carved? Like the edge of a carved slab of rock... And looking up, seeing all these edges appear at a regular interval... Could these be... stairs?
+[Your score went up 1? point.]
+
+> climb up stairs / climb hill / climb island / climb stairs / u (can't, too muddy and slippery, gotta take mud off)
+You attempt to climb the hill, using the white rock as grips for your hands and feet, but it's all too slippery and hard.
+
+> clean stairs / rub earth / clean mud / take mud / remove mud (no tool, no strength)
+You clear off some of the mud near one of the white rocks, revealing that the rock has indeed been carved in straight lines, in a rectangular shape. You sigh contemplating the size of the task at hand; you're much too tired (if didn't eat yet: and weak) to undertake such a task right now.
+
+! Eat (+ albatross)
+> s
+Edge of the woods
+
+> drop knife
+Dropped.
+
+> take worm
+Crouching by the rock, you grab a wiggly worm between two fingers. You can't really carry anything else with that hand, what with your arm extended all the way away from your body. Yuck.
+
+> put worm on hook / stab worm on hook / rig worm on hook / kill worm on hook / kill worm / add worm to hook
+The worm will make nice bait for the fish; you stab the worm onto the hook.
+[Your score went up by 1 point.]
+
+> take flower
+You pick a flower of the tree, choosing a particularly bright one.
+
+> put flower on hook / stab flower on hook
+You pierce the flower through the hook; its bright color should hopefully lure fish to take the bait.
+[Your score went up by 1 point.]
+
+> take knife
+Taken.
+
+> s
+Sandy beach by the forest
+
+> w
+Southeastern cliffs
+
+> nw
+Narrow strait
+
+> w
+Waist-deep in the ocean
+
+
+
+
+> fish fish with line / fish fish with rod / cast line / cast rod / fish / use fishing rod / catch fish with rod / catch fish with line
+(si t'as déjà les mains pleines) You need both your hands free to do this.
+(si t'as pas la fleur) You cast the line towards the fish, and wait patiently. However, none of the fish seem to be eager to take the bait; you wonder if they even notice it. Perhaps you need to add something colorful onto the hook as a lure that would make them notice you.
+(si c'est good) You cast the line towards the group of fish, and wait patiently. You're about to give up when suddenly, you feel the line tense up; you got one! You carefully reel it in, and grab the fish firmly by its tail; the fish is grey, about five inches long, and should make a nice meal.
+
+> e
+Narrow strait
+A shadow passes over you. You look up, and see a huge, white albatross descending towards you. The bird is magnificent, and its enormous wingspan makes it look bigger than you; you recoil a little bit, and instinctively protect your fish. The albatross lands near you, and looks at you intently.
+
+>n
+Northeastern cliffs
+
+The albatross follows you{% with some pep in its step| easily, flapping its wings only a couple times to catch up with you|, letting out a little sqwawk that sounded almost amused| like a dog, in no hurry| confidently}.
+
+>sw (into the sea)
+You try to go back into the sea, but the albatross takes flight and gets in front of you, barring the way. It lets out a rather rude sqwawk.
+
+> x albatross
+A magnificent beast, a huge white bird with a wingspan so big you can't help but feel threatened by it. But so far, it seems pretty staid, respectful even; pushy, but polite. It knows that you know what it wants, and will wait until you're ready to give it up.
+
+> show fish to albatros
+The albatross moves forward, then backs up a bit; it sqwawks to confirm that's what he'd like to have.
+
+> attack albatross / shoo albatross / kill bird with knife
+You try to shoo away the bird, running towards it while shouting; but it just lands right back behind you, and gives you a quizzical look.
+
+{
+(solution 1)
+> drop fishing rod
+You kneel to carefully drop your fishing rod. The albatross perks up; you look at your rod for just one second, and it swoops in and snatches the fish out of your hand. It's too late -- it already gulped the fish down. The albatross lets out a satisfied sqwawk, and flies around you energetically, like a victory lap of sorts.
+
+(solution 2)
+> drop fish / give fish to albatros / throw fish at albatros
+You raise the fish above your head, and the albatross perks up. You throw the fish in front of you; it barely lands on the floor, and already it is in the albatross's mouth. You watch the albatross gulp the fish down quickly; it then lets out a satisfied sqwawk.
+}
+The albatross takes flight and disappears somewhere, behind some rocks. You sigh; you're going to have to try to fish again.
+
+But suddenly, the albatross comes back, and lands softly near you. In its beak, there is some kind of stick, that he drops on the floor, at your feet. You pick it up. You could swear you saw the albatross nod at you before taking flight again -- this time for good.
+
+> x flute / x holey stick / x empty stick
+This is the stick the albatross dropped after you gave it the fish. It's a few inches long, and hollow, with a few holes on its side. Oddly enough, it kind of reminds you of some sort of flute.
+
+> blow in flute (l'albatros arrive et shruggue)
+After a few seconds, you see the albatross approaching, and it flies above you in circles, surveying the situation. It then lands near you, and looks at you straight in the eye. Its glare is confused, maybe even angry; it tilts his head to the side, seemingly wondering why you called for help and what it is that you're expecting. It finally lets out a frustrated squawk and flies away.
+
+> se
+Southeastern cliffs
+
+> e
+Sandy beach by the forest
+
+> n
+Edge of the woods
+
+> look under rock
+There seems to be movement under the rock; keeping your distance, you manage to spot a couple of beetles and a few thick worms.
+
+> take worm
+The worm will make nice bait for the fish; you stab the worm onto the hook.
+
+> take flower
+You pick a flower of the tree, choosing a particularly bright one.
+
+> put flower on hook / stab flower on hook
+You pierce the flower through the hook; its bright color should hopefully lure fish to take the bait.
+
+> s
+Sandy beach by the forest
+
+> w
+Southeastern cliffs
+
+> nw
+Narrow strait
+
+> w
+Waist-deep in the ocean
+
+> fish fish with line / fish fish with rod / cast line / cast rod / fish / use fishing rod / catch fish with rod / catch fish with line
+You cast the line towards the group of fish, and wait patiently. You're about to give up when suddenly, you feel the line tense up; you got one! You carefully reel it in, and grab the fish firmly by its tail; the fish is grey, about five inches long, and should make a nice meal.
+
+> eat fish
+It's fresh fish alright, but you don't really want to eat it raw. You should probably make a campfire.
+
+> drop fish / release fish
+You really, really need this meal.
+
+! campfire time
+
+> ne
+Southwester cliffs
+
+> e
+Beach near forest
+
+> n
+Edge of the woods
+
+> i
+You have:
+    a matchbook, in your pocket (with a few matches left)
+
+> x matchbook / x sleeve / x matches / x match / look in matchbook / open matchbook
+The little sleeve only contains a few matches, and they look a bit wet. It'll have to do...
+
+> insert fish in matchbook
+Nothing else fits in the matchbook.
+
+> close matchbook
+It's already closed.
+
+> gather wood / break branch / take wood / take branches / cut tree/branches with knife
+You are already holding too much.
+
+> drop fishing rod
+Dropped.
+
+> drop fish
+You don't really want to put your dinner on the floor.
+
+> gather wood/firewood / break branch / take wood / take branches / cut tree/branches with knife
+You spend quite a long time trying to find wood that could be used to light a fire. You manage to gather enough wood, but most of it is damp. You put your knife on top of a rock so you can carry all that wood.
+// OU //
+You search the trees and manage to find a few short branches that don't bear flowers and look drier than the others. You manage to gather a little bundle of firewood.
+[Your score went up by 5? points.]
+
+> drop wood/firewood
+You put the wood on the forest floor, trying to space the sticks apart so they dry; but there is not much sun or wind here to dry the wood.
+
+> x wood
+The wooden sticks you picked up in the forest to make a fire look very damp.
+
+> z
+> x wood (pareil)
+
+> take wood
+
+> s
+Beach near forest
+
+> drop wood
+You put the wood on the beach, trying to space the sticks apart so they dry. There is some sun here, but there would be more on the north side of the island.
+(this is for all the south east side)
+
+> z. x wood
+The wooden sticks you picked up in the forest to make a fire look rather damp.
+
+> z. x wood
+The wooden sticks you picked up in the forest to make a fire look a bit damp.
+
+> z. x wood
+The wooden sticks you picked up in the forest to make a fire look quite a bit drier now.
+(this would be good enough for the fire)
+
+> z. x wood
+The wooden sticks you picked up in the forest to make a fire look dry.
+
+> take wood
+Taken.
+
+> w
+Southwestern Cliffs
+
+> drop wood
+You put the wood on the rocks, trying to space the sticks apart so they dry. The sun is shining pretty directly on them.
+(this gives +2 per turn instead of +1)
+(same until the northeastern tip)
+}
+(if the wood is dry)
+You drop the wood on the floor, and start arranging it to make a fire. You learned how to do it years ago, but the muscle memory comes back just fine. After a few minutes, the wood is ready.
+
+> make fire / light match / strike match / strike match on matchbook / light fire / eat fish / cut fish with knife / open fish / gut fish / cook fish / burn fish
+You take your matchbook out of your pocket, and take a deep breath. The matches are wet, and you try them one by one... until, by chance, the last one catches fire! You very cautiously start the fire, and spend several minutes making sure it catches, stoking the flames and setting bigger and bigger sticks alight. After a while, you have a good fire going; you find a long branch and use it to cook the fish above the flame. The process takes a while, and your stomach gurgles, but when you finally cut the fish and start eating it, it tastes like the best fish you have ever had.
+
+! Sleep
+>s
+Beach near forest
+>sleep
+You'd be awoken by the high tide soaking you wet, judging by the fact that the sand doesn't seem to get dry here.
+
+> n
+Edge of the woods
+
+>sleep
+One look at the critters, and you decide not to sleep on the floor of the forest.
+
+> take net
+Taken.
+
+> tie net around tree / use net as hammock
+You take the large fishing net and start making it a hammock. By chance, there are two solid-looking trees that are spaced just right. You open the fishing net, and tie the ends around the trees as solidly as you can. The result looks like a perfect hammock.
+
+> untie net
+It's perfect the way it is.
+
+> cut net
+This net is now your bed; you do not want to cut it.
+
+> sleep / climb hammock / climb in net / enter net / get in net
+This net should be sturdy enough - after all, it is made to catch a lot of fish and not break... You climb inside the hammock, which bends under your weight. The net's knots are digging in your back, but you finally find a way to be comfortable. You close your eyes and finally get the restful sleep you needed...
+
+You wake up in the morning, full of energy, ready to explore the rest of the island.
+
+! Solution 1 : up the elevator
+(from the forest)
+> s
+> w
+> nw
+> n
+> ne
+> get in platform
+You enter the platform.
+You enter the platform, minding your head.
+
+> pull rope
+You start pulling on the rope, and the platform slowly ascends; it takes a lot of effort to pull your own weight up. However, you feel well-rested, and the effort isn't unsurmountable. The lip of the cliff is getting closer, which only strengthens your resolve. You manage to climb up the cliff safely; you tie the rope to the metal arm that supports the platform and the pulley.
+
+! Solution 2 : escalier
+> n
+> cut earth with knife / scrape earth with knife / clean step / clean stairs / clear stairs / clear step
+You look up, and the tall hill seems daunting; but looking closely, you see some steps poking out of the mud, all the way up. You reckon you have time, and you don't have to finish today; so you sit down and start clearing the dirt off the steps. There's a few inches of soft mud covering the small steps, but some patience, and your sturdy fishing knife to carve out some of the mud, you manage to clear enough mud to step on the next step. You carve yourself a path on the steps, uncovering them one by one after all these years. On the morning of the second day, you finally reach the top; you let out a victory shout, rub your hands on your trousers to get some of the mud off, and finally climb the last step.
+
+! Dans tous les cas
+The top of the hill is rather flat, forming a vast plateau. You look around you, and your heart fills with joy. Incredibly, there are a dozen buildings here, of various sizes, the tallest one being the radio tower at the southwest, and the most imposing one being the tall, white house looming in the backdrop, to the east. It all seems surreal, but there it is: the island was inhabited by several dozen people, at some point. Now, everyone seems to have gone, but there is probably a lot of things lying around that could be useful -- not to mention, the radio might still be in working condition, and you might be able to figure out how to use it to call for help. Your chances of survival have drastically gone up!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+! Upper island
+
+> x village / buildings / houses / radio tower (if not in location) / white house (if not in location)
+Incredibly, there are a dozen buildings here, of various sizes and all fairly recent-looking, the tallest one being the radio tower at the southwest, and the most imposing one being the tall, white house looming in the backdrop, to the east. Building that kind of community ex nihilo must have been quite the undertaking. Who would build this in the middle of the ocean? And why?
+
+! Exploration
+(starting from the top of the stairs)
+> x stairs
+(if mud hasn't been cleared) You can't see this here.
+(else) It took you two days of labor to remove enough of the mud covering the steps that you could climb up the stairs. Now, you can go up and down as you wish.
+
+> n
+Houses by the town centre
+A few houses are arranged in a row that forms a path going north, to a sort of plaza at the center of the village, and south, to the edge of the plateau. The houses look similar, except the door to one of them looks different from the others -- much cruder, as if it had been replaced. You can cut accross the grass to the west, to another house, or to the east, towards a fence.
+
+(unnecessary flourishes?)
+> x fence
+(found_in...) You decide to go take a closer look at the fence, and head east.
+> x center / centre / town / plaza
+(found_in...) You decide to go take a closer look at the centre, and head north.
+
+> x houses / house
+Those small one-storey houses aren't much to look at; they are made of concrete and their roof is made of the corrugated tin you see everywhere else in the island. One of them stands out, as its door seems to have been replaced by a much cruder wooden door, and its hinges are on the exterior of the house. You wonder if that door was made on the island.
+
+> x crude wooden door / hinges outside / exterior hinges
+This door looks rather unique, as if it had been hacked together using only the resources of the island; the other doors look like standard doors that must have been made in a factory and imported here. Interestingly, the hinges are positioned on the exterior of the house here.
+
+> open door / open house / enter house
+All of these doors are closed and locked.
+
+> break door
+These doors are quite sturdy -- even the crude wooden door, which doesn't budge.
+
+> n
+Center of the village
+This area looks like the center of the village, with paths going many directions from the small fountain at the middle. Some buildings are at the north, closer to the edge of the cliff, and south, forming a path that runs to the edge of the plateau overlooking the forest. You can also go east to an imposing fence around the white house, or west to the island's pub. Finally, you spot some diesel generators to the northeast, between the houses and the fence.
+
+(unnecessary flourishes?)
+> x pub
+(found_in) You decide to go take a closer look at the pub, and head west.
+>x fence
+(found_in) You decide to go take a closer look at the fence, and head east.
+>x white house
+(found_in) You decide to go take a closer look at the white house, and head east.
+>x diesel generators
+(found_in) You decide to go take a closer look at the diesel generators, and head northeast.
+
+[note: y'a une nappe phréatique sur l'île ? must be, otherwise how do you survive, just use nuclear to filter seawater?]
+> x fountain / pump / tub / metal
+The village fountain is really just a small pump that can pour water over a metal tub.
+
+> search fountain / look in fountain
+You look inside the pump, and see a shiny sixpence.
+
+> take sixpence
+Taken.
+
+> pump pump / push pump / operate pump / drink water from pump
+Amazingly, it still works, and the water that falls in the tub is very clear. Tasting it reveals it's freshwater, which is a big relief; you may not have to collect rainwater to survive here after all.
+You drink some of the water from the pump and instantly feel refreshed.
+
+> w
+Outside the pub
+The building in front of you has a sign displaying ~SHIP AND ANCHOR~ -- a great name for a pub on this island, really. From the outside, it doesn't really look like your classic English pub: no thatched roof here, just the same greenish corrugated tin roof you see everywhere on this island. But the building doesn't look in bad shape. Behind it, to the west, is a small garden; paths lead northwest and southwest to other buildings, or east to go back to the fountain.
+
+> x pub
+This is the pub of the island, the ~Ship and Anchor~. This means the people who lived here were British; after all, wherever there's Brits near the sea, there's a pub named ~Ship and Anchor~.
+
+> x door
+This door is closed and locked.
+
+> open door
+It is locked.
+
+> w / go behind pub
+Overgrown garden
+This seems to have been, a long time ago, some sort of vegetable patch. About a dozen shallow trenches have been dug here; they are now covered in weeds and tall grass. You're guessing the people living here were trying to grow a few vegetables, to supplement a diet that mostly consisted of fish from the sea and canned food from the island's storehouse, which you can see to the north. You are behind the island's pub, which is east of you; there is also a house to the south.
+
+>x pub
+(found_in) You decide to go take a closer look at the pub.
+
+> x brambles / x bushes / x weeds / x shallow trenches / x tall grass / x rows / x garden / x vegetable patch / x thick vegetation
+The trenches that were dug by the inhabitants of the island have been invaded by weeds and grass; the outline of the vegetable patch is only vaguely discernible under the thick vegetation.
+
+> search trenches
+You take a look at the trenches, hoping to find something interesting{, but there doesn't seem to be anything|. After a few minutes, you spot a coin; it's a sixpence, that you pick up.}
+
+> burn brambles: would achieve nothing
+
+> cut vegetation / clear vegetation / remove vegetation
+You probably will want to clear that patch and try to revive it if you have to stay here for months, or years. But you haven't resigned yourself to that fate yet; let's first explore options to escape the island sooner than later.
+
+> n
+Outside the storehouse
+You are near the edge of the cliff. There is a platform here, hanging via a rope-and-pulley mechanism above a beach; this was probably used for fishing. The building here is larger than most other ones in the village, and doesn't have any windows; it looks like the island's storehouse. Its door was left open, and you can see there still are a few things inside on its shelves. South is an overgrown garden, and southeast is the island's pub. You can also go east to a house by the cliffs.
+
+>x storehouse
+The island's storehouse, surprisingly not that empty; the people leaving the island probably didn't have the space, or the time, to take all of it.
+
+> look inside storehouse / x shelves
+(found_in) You decide to go take a closer look at the shelves.
+> x house
+(found_in) You decide to go take a closer look at the house.
+
+> e
+House by the cliff
+You are following a wide path along the northern cliff of the island; west is the island's storehouse and the elevated platform, and east is a small shop, while going south, behind the house, leads to the island's pub. There is a small house here; the door (might be unlocked)(is unlocked).
+
+>x storehouse / x platform
+(found_in) You decide to go take a closer look at the storehouse.
+>x shop
+(found_in) You decide to go take a closer look at the shop.
+>x pub
+(found_in) You decide to go take a closer look at the pub.
+>x house
+This is a small house, very similar to the other buildings here, with its concrete walls and corrugated tin roof. Near the front door, a window is facing the sea, but it was broken at some point.
+>x window / look through window / look in house
+You look inside the house; it doesn't look too messy, but there doesn't seem to be much of interest there either.
+
+> in
+Small house by the northern cliffs
+The light of the sun illuminates the inside of the small house. It's rather minimalist in there: there is a small sink, an empty pantry, a few lights and a few chairs. The only way is out.
+> sit on chairs
+You sit on a chair for a few minutes, and rest your legs while your mind tries to figure out what to do next. ! TODO: barrett it
+> x pantry / sink / shelves / furniture / stuff / house
+There really isn't much worth searching or taking in there.
+> turn off light
+The light switch doesn't work. Actually, it's probably that there is no electricity on the island. ! TODO: change depending on the state of diesel
+
+> out
+House by the cliffs
+
+> e
+Small shop
+This is a small shop, with a wide window allowing you to peek inside the shop. The window has been painted with a crude logo, displaying ~Harry's Earthly Pleasures~. Judging by what you see through the window, that shop has wares that were probably imported from the land -- hence the play on words. The cliffs advance to form a small tip to the north of here; you can also go east, towards a woodshop, or west, towards a small house.
+! TODO: too risqué ?
+! TODO: if the window has been smashed, change it
+
+> x woodshop / x wood shop
+(found_in) You decide to take a closer look at the wood shop.
+> x house
+(found_in) You decide to take a closer look at the house.
+
+> x shop / x harry's earthly pleasures / x import shop / x window / look inside shop / look through window / x cigarettes / x comic books
+You peek through the window and see a few things on display in the shelves, such as cigarettes and some comic books.
+
+> in
+The door is closed.
+
+> break window / smash window
+You could, but there doesn't seem to be a rock large enough to smash the window around.
+
+> n
+Scenic view
+Atop the cliffs is a small grassy area that looks rather pleasant. From here, the immensity of the ocean is on full display, and it feels like a nice area for a rest. Apparently, you're not the only one to have had this idea: a few logs have been placed here, in a circle, and you can see the remnants of a fire in the center of the circle. Looks like this was a popular picnic area. You can go back towards the small shop to the south.
+
+> x shop
+(found_in) You decide to take a closer look at the small shop.
+
+> x fire / logs / wood / chunks / burnt/spent
+No fire has been lit here for a very long time. A few large rocks are arranged in a circle, and a few chunks of wood are in the middle. Next to the fire, there is an empty can of Spam.
+
+> x spam can
+A can of Spam, that canned spiced ham that really doesn't taste very good. A wartime delicacy, as Thatcher famously said -- the British army sure ate their share during the war. But you're guessing that if you're on an island in the middle of nowhere, trying to feed dozens of people for months on end, you don't have many options, and you have to resort to it. The menu here probably resembled the one in that Monty Python sketch -- maybe there were fewer Vikings around, though.
+
+> take spam can
+You'd rather not -- it's garbage, at this point.
+> look inside spam can
+The spam can is basically empty.
+> insert X in spam can
+You'd rather not put anything in a can of spam that's been open for that long.
+
+> s
+Small shop
+
+> e
+Woodshop
+From what you can see inside the large window at the front of the building, this is some kind of woodshop. Presumably, someone here was in charge of making or fixing all sorts of furniture and wooden objects for the whole island; you can see a sturdy-looking table in the middle of the workshop. Another shop is next to this one, to the east; behind the woodshop, you can see diesel generators, to the south.
+
+> x diesel generators
+(found_in) You decide to go take a look at the generators.
+> x other shop / x harry's shop
+(found_in) You decide to go take a look at the shop.
+
+> open door
+The door is locked.
+
+> break window / smash window
+You could, but there doesn't seem to be a rock large enough to smash the window around.
+! TODO: smash it around?!
+
+> x window / x table / x woodshop / look through window / look in shop
+Inside the woodshop is a table, presumably the last project of the woodworker before fleeing the island.
+
+> touch window / take table / touch table
+<in>
+The window is still intact after all these years.
+You climb in the window to enter the shop.
+
+> s
+Power generators of the island
+A dirt path leads to an small area off to the side, behind some shrubs and close to the fence closing off the white house. Here, three green machines stand tall; it looks like they used to be the island's main power source. The power generators are all connected to a central tank, which would get filled, presumably with diesel, to keep the lights on -- and, presumably, the radio tower. Restarting them would give you a good chance of being able to call for help. To the north, near the cliffs, is the island's woodshop; you can follow the fence towards the main door to the south, or go to the center of the village, southwest of you.
+
+> x diesel generators / x crank / x flywheel / x sticker / x green lister diesel generators
+Three imposing, green diesel generators made of metal are here; the sticker, which is almost peeled off, says ~Lister Diesel Power Generator - 12 hp~. {The generators seem to have been modified to all get their fuel from a central tank, also painted green.} {They have seen better days: the paint on the flywheel is chipped, and the crank shows some corrosion.} Hopefully you can get them to run for a few hours, so you can {%power the radio on and send a call for help|open the mansion's door and, hopefully, find a way to send a distress radio signal}.
+
+> x crank
+The crank is connected to a heavy flywheel. You don't know too much about generators, but it looks like turning the crank starts the flywheel, which starts the whole generator and the fuel injection system. {They have seen better days: the paint on the flywheel is chipped, and the crank shows some corrosion.}
+
+> x tank / x fuel tank
+{The generators seem to have been modified to all get their fuel from a central tank, also painted green.} The tank is very large, and can probably store enough fuel for days. The problem is, you have no idea where to find any diesel, if there is even any left on the island. You might need to get creative.
+
+> listen
+You hear nothing unexpected; the generators are off.
+
+> switch/turn generators on / turn-push-pull crank
+The wheels are very heavy, and it's quite the effort to start turning the crank. You turn it for a few rotations, but nothing happens; even after you flip the small lever on the generator, which in theory should start injecting the fuel, still nothing.
+
+> open tank
+The lid on top of the tank is heavy, but you manage to push it to the side enough to see what's inside. The tank is empty.
+
+> x fence
+The chainlink fence surrounds a field in which a tall white mansion is. This, of course, makes you want to enter it and find out what is so important in it that it needed to be protected from everyone else on this island. But the fence is close to ten feet tall, and topped with barbed wire.
+
+> x bushes / x shrub / x bush / x shrubs
+Around the generators, and close to the fence, there are a few bushes and shrubs. They are quite dense, {and you can't really see at a first glance if there is anything hiding under or behind them}{but you were able to spot a hole in the fence behind them}.
+
+> x bushes again / look under/behind bushes / search bushes
+You decide to take a closer look at the bushes and search them. They are quite dense, and rather prickly, so you proceed with caution; but eventually, you manage to spot a hole in the fence, near the ground.
+
+> x hole/opening
+There is a hole in the fence here, near the ground and big enough for someone to crawl through. You doubt the hole was made by an animal; someone probably made the hole so they could enter the white house without being seen. Interesting!
+
+> x fence
+(on rajoute la mention du trou) The chainlink fence surrounds a field in which a tall white mansion is. This, of course, makes you want to enter it and find out what is so important in it that it needed to be protected from everyone else on this island. But the fence is close to ten feet tall, and topped with barbed wire. However, here, there seems to be a hole behind the bushes.
+
+> s
+Door in the fence
+You are standing by an open field, behind a fence, west of a white mansion with a closed front door. The fence is tall, and there is barbed wire at the top; the door here allowed people to go in and out, but the guardhouse shows it was closely monitored. A sign by the guardhouse right behind the fence reads ~Authorised Personnel Only~. The door is locked. You can follow the fence by going north or southeast, or go to the center of the village by going west; a dirt path to the southwest leads to a few houses near the edge of the village.
+
+> x white house / x mansion
+The white mansion is two stories tall and is made of wooden boards painted in white. The front door is not boarded, but the windows are. The fact that this house is behind a tall fence with access closely monitored entrance {makes you want to enter it and find out what is so important in it that it needed to be protected from everyone else on this island}.
+
+> x fence
+(same description as in the diesel generator, without a mention of the hole) The chainlink fence surrounds a field in which a tall white mansion is. This, of course, {makes you want to enter it and find out what is so important in it that it needed to be protected from everyone else on this island}. But the fence is close to ten feet tall, and topped with barbed wire.
+
+> climb fence
+You're not very good at climbing, and the barbed wire at the top of the fence would prevent you from going over.
+
+> x guard shack / x sign
+A small shack, with only a chair and a little desk, is {behind|near} the fence, right next to the door. This means there was a guard employed full-time to monitor access, and occasionally point to the sign that says ~Authorised Personnel Only~. But what could be in that white house that was so important to be closed off to the rest of the people in the island?
+
+>touch/push/pull/turn/look inside/insert/search
+(can't, you're the wrong side)
+
+> x door
+The door in the fence is locked.
+
+> se
+Around the fence
+You are roughly to the south of the tall white mansion, but on the other side of the chainlink fence with barbed wire at the top. {This is the edge of the plateau, where the forest starts; the trees are rather tall, and their branches grow above the fence.} You're guessing they didn't use to be so tall when the island was inhabited. You can go to the door in the fence to the northwest, or follow the edge of the plateau towards a few houses to the south.
+! TODO: bof, pas super
+
+> x fence (no hole)
+(same description as in the diesel generator, without a hole) The chainlink fence surrounds a field in which a tall white mansion is. This, of course, makes you want to enter it and find out what is so important in it that it needed to be protected from everyone else on this island. But the fence is close to ten feet tall, and topped with barbed wire.
+
+> x tree / x forest / x trees / x branch(es)
+{This is the edge of the plateau, where the forest starts; the trees are rather tall, and their branches grow above the fence.} One of them in particular seems rather sturdy and extends all the way behind the fence.
+
+! Opening the fence
+! Solution 1:
+> climb tree
+You look up, and there is indeed one large branch that grows above the fence. It's a bit dangerous, but it'll work... You start climbing the tree, slowly and carefully, then sit astride the branch. Your heart is beating fast, and you try your best not to look down as you steadily progress along the branch, which bends under your weight. You keep going -- but the branch is getting too thin to support your weight, and start cracking and tipping! You lose your grip, and land on your back in a mighty crash. Your back is sore, but you don't seem to have broken anything. After a few minutes, you sit up with some difficulty... and find yourself inside the fenced area! It's good you landed on the right side of the fence...
+
+! Solution 2:
+> nw
+> n
+> cut bushes
+(if knife in player) The branches of the bush are prickly and thick; you manage to cut one of them after a few minutes and a couple of cuts to your fingers. You decide to give up; there's got to be a better way.
+> crawl in hole / go in hole / go through hole / kneel / crawl
+The hole is very close to the dense bushes, and going through them isn't easy -- let alone try to kneel down. You cut your hands on the prickly branches, and even your temple when you try to crouch in the bush. In the end, the best way is to crawl backwards into the bushes, and fumble trying to find the hole in the fence: at least your shoes clear the way, and you don't get pricked as much. It's quite the ordeal, and you still manage to get cut a couple more times, but you finally manage to get to the other side, and into the fenced area.
+
+Field
+You are inside the fence, in a wide open field that's overgrown with rather tall grass. In the middle, the grass hasn't grown as much, suggesting this used to be a dirt path leading from the door in the fence and the guard's shack, which are west of you, to the front porch of the white house, which looms east of you.
+
+> x guard shack
+A small shack, with only a chair and a little desk, is {behind|near} the fence, right next to the door. This means there was a guard employed full-time to monitor access, and occasionally point to the sign that says ~Authorised Personnel Only~. But what could be in that white house that was so important to be closed off to the rest of the people in the island?
+
+> search guard shack / enter guard shack / look inside guard shack
+You enter the small shack, hoping to find something useful, like a key, or a torch with its batteries still in it; but you find nothing useful.
+
+> x grass / x field
+This is a big field, about half the size of a football field; whoever built the fence obviously didn't want people to get anywhere close to the white house. Tall, green grass has grown everywhere here, after years without any human presence.
+
+> search grass
+You start walking through the grass while looking down attentively; maybe something useful was dropped here, years ago. You drag your feet on purpose, hoping to stumble upon something. This takes a long time, but you'd rather be thorough; and after ten minutes, you find a shilling, which only strengthens your resolve to walk the rest of the field. A few minutes later, your shoe hits a small, hard object. You get down on your knees and search the grass, and you end up finding a small key! The rest of your search is fruitless, but you're very happy you did it.
+(move guard key to player)
+(move shilling to player)
+
+> unlock door with key
+The door in the fence unlocks.
+
+> open door
+The door in the fence opens.
+
+>w
+Front door of the white house
+Two wide steps lead to a small porch, which makes the front door of the white house look even more imposing. This is a tall double door, and it's made of metal, whereas the house itself is made of wooden boards painted in white. Clearly, this is the entrance of a very private building; the rusty keypad to the right makes it clear that only those who know the secret code can enter.
+
+>x door
+The tall double door is made of metal, and looks reinforced. It has a handle, but no keyhole; and it is locked. It would be quite hard to go past this door without knowing the code.
+
+>x keypad
+This is a rather primitive keypad, with buttons arranged in two rows and displaying all numbers from 0 to 10, and an extra button to clear the code. The metal plate has rusted over the years, and so did one of the screws holding the plate. You're guessing that, like all keypads, it requires electricity to work and open the door remotely.
+
+>type 0000 on keypad / type 0000
+You press the button to clear input, then type the number on the keypad, but the door doesn't open.
+
+! Turning the electricity on
+(outside the storehouse)
+> open door / unlock door
+The door is already open.
+
+> enter / in
+Storehouse - Front
+The storehouse doesn't have any windows, so it's quite dark in here; but with the door open, you can see enough to notice that there are quite a few things left on the shelves. You can't really go further in the storehouse, as it is too dark, but you can go out through the door.
+
+> x shelves
+You step aside so the sun lights the shelves a bit better. There are a few tools, a little bit of hardware, and -- ah! A torch! You grab it, wondering if it still works, and if there's any batteries inside.
+
+> open torch
+The torch opens, and there's a battery inside. You put it back together; it is much more useful this way.
+
+> turn flashlight/torch on
+You turn the torch on{(first) -- it's quite amazing it still works}. (if room doesn't have light: You can now see better in this dark room.)
+<Look>
+Storehouse - Front
+There are quite a few things left on the shelves; one seems to be for random tools and hardware, and another one, in the corner, is for food -- breakfast food, apparently. You can go around the shelves towards the back of the storehouse, or leave through the door.
+
+> x hardware / tools / spanners / wrenches / wires / batteries
+On the shelves by the door are a few tools, like spanners of different sizes, some batteries, and a few wires.
+> take hardware / tools / spanners / wrenches / wires / batteries
+You don't have the need for them right now, but you know where they are if you need them.
+> replace batteries
+The torch seems to work fine.
+
+> x breakfast food / x coffee / x beans / x teabags / x jam / x margarine
+You'll need more than the food on this shelf to survive, but what's on display here might still be very useful to you. The bag of coffee might still be good, but you're not sure about these teabags. The jam is probably bad, as well as the margarine; but those cans of beans are almost definitely still edible. You're not hungry right now, since you ate that fish not so long ago, but it's nice to know your menu choices have slightly expanded.
+> open it / eat it
+You're not hungry right now, since you ate that fish not so long ago.
+
+> turn torch off
+You turn off the torch so as to preserve the battery.
+
+> in / w
+Storehouse - Back
+The light of your torch shows a bit of a messier area, and you have to step over some boxes that were seemingly hastily discarded on the way out. The shelves here have a few cans of food -- mostly fish and SPAM -- and a couple of bottles of sauces. Further in the storehouse, there seems to be a dark room, which you enter by going through door frame; you can also go back out to the front of the storehouse.
+
+(inform)A backpack is here, slouched against the wall by the door frame.
+
+> turn off torch
+You'd rather wait -- you wouldn't want to trip on something on your way out.
+
+> x dark room / x door frame
+You light up the room with your torch, and can't really figure out what the room was used for. You'll have to go take a closer look.
+
+> x khaki/green/military backpack / rucksack / bag
+This khaki backpack isn't broken or torn; it's just been forgotten, left slumped against a wall at the back of the storehouse. This is great for you, and will increase your carrying capacity.
+> take backpack
+You take the backpack and wear it on your shoulders.
+> drop/disrobe backpack
+No way; this backpack is extremely useful to you.
+
+> x food / x shelves / x cans / x kilner jars / x sauces / x bottles of worcestershire/marmite/sauce / x spam / x canned fish
+These shelves haven't been completely emptied, as there are a few cans, jars and bottles left. The bottles are mostly sauce, namely worcestershire and marmite -- which confirms that the island was inhabited by British people. The cans are cans of SPAM spiced ham, with the iconic label; as for the jars, they look like regular canning jars, probably Kilner jars, and they contain a grey and silver mixture. Coming closer, you see there are labels: ~Grey mullet~, ~Bluefish~, and the appetizing-sounding ~Various~. This probably means the people living on the island fished extensively, and canned whatever fish they could spare in order to have some on hand at any time. This is very good news for you; the cans will last a while and save you some trouble.
+> eat food / open food
+You're not hungry right now, since you ate that fish not so long ago.
+
+
+> enter room/frame / go through door frame / in
+Canning workbench
+It {takes|took} you a few minutes to realize what this room was used for, but you realize this was a canning workbench, which presumably was used to can fish, and maybe other things. There is a workbench in the middle of the room{, on top of which is resting a metal bowl}. A low sink is to the side of the room, next to a stovetop, on top of which is a pressure canner; the rest is empty counterspace, and a few empty Kilner jars.
+
+> x kilner/mason jars / x lids / x counter(space)
+A dozen clean, empty Kilner jars are resting on the counters; their lids are somewhere around there, too. These would presumably have been used to can more fish.
+> take jars
+They are made of breakable glass and they cannot contain that much; you'd rather not bother with them.
+
+> x workbench / x stovetop / x sink / x pressure canner/cooker
+There is everything you need here to can fish: a workbench, as high as your waist, to cut the fish; a stovetop, to boil water; and a pressure canner, to put the jars in for sterilization.
+> take (any of these)
+You don't really need any of this canning equipment right now. It's good to know it's there, but you might never end up needing it.
+
+> x metal bowl
+This metal bowl was probably used to gut fish; it is looks like stainless steel, and cleaned up very nicely.
+
+> smell metal bowl
+This bowl doesn't even smell like fish anymore, which is pretty incredible.
+
+> take metal bowl
+Taken.
+
+> put it in backpack
+You put the metal bowl in the backpack.
+
+> out
+> out
+> out
+> s
+Overgrown garden
+
+> s
+Small house
+This is the last house of the village on this side of the island; it is rather small, compared to the other ones on the island, but looks exactly the same as the other buildings here. It is fairly close to the steel tower, which is southwest, and behind the pub, which is northeast. North is an overgrown garden, and east are a few more houses.
+
+> open door
+You try to open the door; much to your surprise, it wasn't locked before the occupants fled the island. You open it fully and enter the house.
+
+Inside the house
+Even with the door open, you cannot see much inside this house; only dark shapes that you are unable to identify.
+
+> touch wall
+You feel the wall around the door, and your fingers encounter what seems to be a light switch.
+
+> turn on light switch
+You feel the wall and find the light switch. You flick it, but nothing happens.
+
+> turn flashlight/torch on
+You turn the torch on{(first) -- it's quite amazing it still works}. (if room doesn't have light: You can now see better in this dark room.)
+<Look>
+Inside the pub landlord's house
+This is a very small house, more like a cottage really. The posters on the wall give a clue about who lived in that house: given that they're all Guinness or Watneys posters, and given the aprons hanging on the hooks by the door, you're quite sure this is the pub landlord's house. There is no kitchen, just a living room and a small bathroom, and there are few pieces of furniture: a bed, a table and four chairs. You also spot a safe by the foot of the bed. The only way here is out.
+
+> x bathroom / x room / x living room / x sink / x toilet
+<room description>
+
+> x poster(s) / x guinness/watneys/beer/ale/stout posters/murals/canvas / x ad/slogan / x tucan / x man/gentleman/golfer/golfing
+(read => same)
+You have never heard of Watneys, but you have definitely heard of, and drank, Guinness. These are vintage posters, with a graphic style that you associate with the 1940s or 1950s. The Watneys poster shows a golfing gentleman with the slogan ~What we want is Watney's Pale Ale~; the Guinness one is more fun, featuring a tucan balancing pints of Guinness on its beak, with the slogan ~Guinness is good for you~.
+
+> x apron/aprons/jackets / x hook
+Near the door are a row of hooks, with several white aprons and black jackets. You're guessing a pub landlord needs several of them, as they would get dirty quite frequently.
+
+> smell apron
+You close your eyes and smell the aprons. You smell a faint smell of beer and smoke, and you suddenly feel like you're in an old pub, with music and chatters around you. Or maybe it's just your imagination.
+
+> wear/take apron/jacket
+You pick a{n apron| jacket} from the hooks and wear it, then walk around with a grin on your face. ~{Last call! Last call, gentlemen!|All hail to the ale!|Hey you! Don't get too rowdy or I'll show you the door!|No, mate, you've had enough already! Go home!}~, you {proclaim loudly|bellow|bark}, then giggle as you put the outfit back on the hook.
+
+> x safe / x safe door / x door
+A short, cube-shaped safe is by the foot of the bed; its door seems shut.
+
+> unlock safe / open safe
+(the first time) You pull on the safe door -- and, to your surprise, it opens, just like that! The safe appears to contain a key.
+
+> take pub landlord's key
+Taken.
+
+> out
+> ne
+> unlock door with key
+The key fits; you unlock the door with the key.
+! TODO: change this in Puny's normal messages
+
+> open pub door
+> enter pub ! TODO: important that this is recognized!
+Pub
+(if self hasnt light) The pub is mostly engulfed in darkness, although a little light is filtering through the windows. You can spot the bar and a few chairs, but that's about it.
+
+> x bar
+The bar is, of course, opposite the door. You can't see it very well.
+> x tables/chairs
+There appears to be quite a few tables and chairs {in the darkness}{here}. Given the number of buildings you've seen, this might have been enough to fit the whole village.
+
+> turn flashlight on
+You turn the torch on{(first) -- it's quite amazing it still works}. (if room doesn't have light: You can now see better in this dark room.)
+<Look>
+Pub
+The pub is rather large, with a dozen of different tables, and lots of chairs; a solitary pint is on a table. The bar is opposite of the door; the shelves behind it appear empty, as if all the alcohol had been taken. The door frame behind the bar leads to the pub's kitchen. On the south wall are hung a map, and a notice board with a signup sheet; there is a vintage-looking jukebox on the north wall.
+
+> x pub / x north wall / x south wall
+<Look>
+
+> x jukebox
+This small jukebox is strategically placed in the middle of the room, against a wall. A list of twenty songs is displayed at the top of the cabinet; the buttons next to each of them {are off}{glow invitingly}. The main window in the middle of the cabinet {is dark}{emits a bright yellow light, and displays the plate and record-changing mechanism}; a decal on the window identifies the machine as a BAL-AMi Junior. A note taped below the window, next to the coin receiver, reads ~One Song - 6p - 3 Songs - 1s~.
+
+> turn on jukebox
+There is no obvious button to do this; the problem seems to be that the whole island is currently without electricity.
+
+> insert coin in jukebox
+The only song a switched-off jukebox can play is ~4'33~ by John Cage, and you've already heard it before.{Inserting a coin into a jukebox that's turned off would be a waste of a coin.}
+
+> x/read bulletin/notice/pin board/signup sheet/names/rows
+The notice board hung to the wall is made of cork, and has a single sheet pinned to it. The title typed at the top reads ~COMMUNITY GARDEN SHIFTS~, and the rows below are for the month of february: Thursday the 1st, Friday the 2nd, Saturday the 3rd, etc. One or two people have signed up every day, until February 18th, at which point only one person signed up, then nobody else for the rest of the month. Strange.
+
+> x tables / x chairs : same description
+
+> x pint / x glass/cup / x beer glass
+A single pint is on a table, empty and forgotten.
+> drink/smell it
+It is empty, and it doesn't even smell like anything anymore.
+> break it
+This would make it dangerous to walk around.
+> take it
+It is made of breakable glass and cannot contain that much; you'd rather not bother with it.
+
+> x poster/map/islands/tristam island/this island/kingsley island (this is XX island, southwest is tristam island)
+(we know tristam is nearby flag updated)
+if first time description and we haven't seen tristam through binoculars (and we haven't explored the sandbank? do we do a flag then?)
+    The map on the wall displays two islands. The largest one is called Kingsley Island; to the southwest is Tristam Island. You contemplate the geography for a few seconds, then it strikes you: the large island is the one you are on right now! No doubt about it: the plateau, the forest, the cliffs, the roughly circular shape... So now, you know that you are stuck on Kingsley Island. What's new to you{how about if they followed the sandbank?} is that there is an island to the southwest, named Tristam Island. You wonder what's on that island.
+if second time description and we haven't seen tristam through binoculars (and we haven't explored the sandbank? do we do a flag then?)
+    The map on the wall displays two islands. The largest one, the one you are stuck on, is called Kingsley Island; to the southwest is Tristam Island. You wonder what's on that island.
+    
+if first time description and we have seen tristam through binoculars
+    The map on the wall displays two islands. The largest one is called Kingsley Island; to the southwest is Tristam Island. You contemplate the geography for a few seconds, then it strikes you: the large island is the one you are on right now! No doubt about it: the plateau, the forest, the cliffs, the roughly circular shape... So now, you know that you are stuck on Kingsley Island. And Tristam Island must be the charred, destroyed, mysterious island you saw through your binoculars. You wonder if you can find out what happened there.
+if second time description and we have seen tristam through binoculars
+    The map on the wall displays two islands. The largest one, the one you are stuck on, is called Kingsley Island; to the southwest is Tristam Island, the charred, destroyed, mysterious island you saw through your binoculars. You wonder if you can find out what happened there.
+
+> x bar
+The bar is a bit dusty, after all these years. The shelves behind it, as well as under it, are completely empty; it looks like the inhabitants of the island thought it was necessary to bring all the alcohol with them.
+
+> enter kitchen
+Kitchen
+The kitchen at the back of the pub is small but functional. The countertops are bare, and a bit stained; pots and pans are stored on shelves below. There are a few appliances here, such as a fridge, a stovetop, and a deep fryer. The only way is out, back to the pub.
+ 
+> x formica counter / countertop
+There isn't anything on the wooden countertop but a few circular stains -- probably from setting a hot pot or pan on the surface -- and a bit of dust. Under the countertop is where the pots and pans were stored.
+
+> x pots / x pans
+The pots and pans are stored under the wooden countertops of the kitchen. They look ancient (or, shall we say, they have a vintage design), and are made of stainless steel -- unless it's alluminium? You're not sure.
+> take pots / pans
+After thinking it over, you decide to take a pot -- the pans are too shallow to be useful for anything else than cooking, and it's not really time for you to make food yet.
+> take pots / pans
+Since you're the only one on this island, you're going to have to do all the dishes; the thought of dirtying another pot sounds awful to you.
+
+> x fridge/refrigerator / x fridge door
+This tall, old fridge is empty, and was left open for years. It is plugged in, but isn't making any noise; probably because there is no electricity on this island.
+> listen to fridge
+You hear nothing unexpected.
+> put knife in fridge
+You don't really need to refrigerate this.
+(open/close container)
+
+> x stovetop / burner(s)
+The pub's electric stovetop has four big burners, and they really could have used a more thorough cleaning; there is brown grease and red stains between the burners.
+> switch on stovetop
+You try to push or turn the knobs, but nothing happens. Then you remember there still is no electricity on the island.
+
+> x deep fryer / congealed/solid cooking oil / white fat
+You're guessing this deep fryer was installed because any British pub has to have fish and chips on the menu. Whatever cooking oil was used has completely congealed, and now forms a huge block of white fat in the deep fryer.
+> take it
+You try to grab the cooking oil out of the deep fryer with your bare hands, but it's really stuck in there.
+> cut it
+With what?
+> cut it with knife / carve oil with knife / extract oil with knife
+You take your fishing knife and start cutting off a block of congealed oil. It takes a while, and your knife gets very messy, but eventually you manage to carve out a block that's about half of what was there.
+
+> x block of oil
+This is old cooking oil, that solidified after being left out here for who knows how long. It's roughly a cube of one foot by one foot by one foot. It's pretty slippery and greasy.
+> slide oil / pour oil / slip on oil
+The oil isn't hot enough to be liquid. Besides, may I remind you that you're lost at sea; this is no time to build a slip and slide.
+> put oil in backpack
+You don't want to put this oily mess in your backpack.
+> drop oil / put oil on stovetop
+Dropped. I guess it's not like you wanted to use it for cooking, so it's fine on the floor.
+> put oil in pot/bowl
+You put the oil in the pot/bowl; it is easier and less messy to carry this way.
+
+> out
+> out
+> n
+> e
+> n
+> take rock
+Taken. (or: first putting the bowl in the backpack)
+
+> put rock in backpack
+You'd rather not fill your backpack with rocks; surviving is alreay hard enough as it is.
+
+> s
+> break glass / smash rock in glass / throw rock in glass / break window / break in shop
+You lift the rock above your head, then throw it against the window, as hard as you can. The window of the shop shatters in a terrible noise. It makes you feel bad for a second, before you remember how dire your situation is.
+(update flags)
+
+> enter shop / in
+You cautiously climb inside the shattered window and into the shop.
+
+Inside Harry's shop
+This is ~Harry's Earthly Pleasures~, a shop that has all sorts of goods that were probably imported from the land, for people here to buy with whatever disposable income they had. There's not much left on the shelves and the counter, but you see two packs of cigarettes{, a lighter}{, some binoculars}, some candy, a pack of gum, and a comic book. Some of this might be useful, but this is overall a bit disappointing. You can go out through the door.
+
+There is a sixpence on the counter.
+
+> x shop / counter / shelves / imported wares/goods
+<Look>
+
+> take sixpence
+Taken.
+
+> x comic book magazine / comics / fantastic four issue (/ mutant / torch / mr fantastic / thing / invisible girl)
+This is ~The Fantastic Four~, from 1 Nov. It must be the first issue, as it proclaims ~Featuring The Thing! Mr Fantastic! Human Torch! Invisible Girl! Together for the first time in one mighty magazine!~. Some green mutant is emerging from a street, while the four heroes talk to each other in various poses.
+
+> open/read comic book
+You flip through the pages, and read distractedly. The heroes save the day at the end. You never really were into superheroes anyway.
+
+> take comic book
+Why bother? You don't really see the value of it. In fact, it's probably worthless.
+
+> x cigarettes pack
+There are two packs of cigarettes here, untouched.
+
+> smoke cigarettes / take cigarettes
+Now would be a bad time to start smoking; you'd be addicted to nicotine just as you finish smoking the second pack.
+
+> x pack of gum
+This is a pack of Wrigley's Spearming Chewing Gum. It's probably not very fresh, but it's worth a shot.
+
+> eat gum / chew gum
+You chew on one of the gums. {You taste the juice of real mint leaves.|The flavor lasts.|It feels healthful, refreshing, delicious.}
+
+> x binoculars
+Except the dust, these binoculars are in great condition. ! TODO: the focal indicates 20x ?
+> take binoculars
+Taken.
+
+> x lighter
+This is a small lighter. You flick it, and it seems to still work well. Handy.
+> take lighter
+Taken.
+
+> out
+> n
+Scenic area
+
+> burn log / burn remnants of fire / burn campfire logs (with lighter)
+The logs look dry enough to be set alight. You use your lighter to burn some of the smaller bits of wood first, then keep working on it until the logs are on fire.
+
+> x logs / fire / campfire
+The fire is burning rather well, and there's enough logs that it will last a while.
+
+> get bowl
+> get oil
+> put oil in bowl
+
+> cook oil / put bowl on fire / burn oil / burn bowl
+You carefully place the (bowl/pot) containing the oil above the fire. Standing this close to the fire is a bit nerve-wracking, and your hands are getting warm, but the oil is melting rather fast. You take a few breaks to rest your arms and your hands, but after a few minutes, the (bowl/pot) is full of liquid cooking oil.
+
+> x oil / pot|bowl
+The pot|bowl is now full of liquid cooking oil; there's a few liters here.
+
+> put bowl|pot in backpack
+This would only result in a soggy mess.
+
+> s
+> e
+> s
+
+> open green tank (diesel generators?)
+The lid on top of the tank is heavy, but you manage to push it to the side enough to see what's inside. The tank is empty.
+
+> put oil|pot|bowl in generators|tank / pour oil|pot|bowl in generators|tank
+Slowly, carefully, you lift your bowl|pot full of cooking oil, and pour the oil inside the tank.
+(note : si pas fondu : Using the cooking oil as fuel is a good idea, but the generators run on liquid fuel, not solid.)
+
+
+> x pot|bowl
+The pot|bowl is now empty, though there is still a film of oil.
+
+> turn on generators / turn crank
+The wheels are very heavy, and it's quite the effort to start turning the crank. You turn it for a few rotations, and flip the small lever on the generator to start injecting the fuel. The generator starts shuddering, and lets out a thunderous sound. It works! After all these years, it still works! You can barely conceal your excitement: now you have a chance at calling for help and being rescued! Soon, the noise becomes more regular, although still noisy. You turn on a second generator in the same way, to make sure all the electrical devices on the island are brought back to life.
+
+(give a few objects light, like the tv and the lamps)
+(give points)
+
+> look
+Power generators of the island
+A dirt path leads to an small area off to the side, behind some shrubs and close to the fence closing off the white house. Here, three green machines stand tall; it looks like they used to be the island's main power source. You have filled the central tank with cooking oil -- call it biodiesel -- and now the generators are running and making a {low hum|loud noise} that indicates the power is on. You're hoping the generators will last until you find a way to call for help. To the north, near the cliffs, is the island's woodshop; you can follow the fence towards the main door to the south, or go to the center of the village, southwest of you.
+
+> x diesel generators / x crank / x flywheel / x sticker / x green lister diesel generators
+Three imposing, green diesel generators made of metal are here; the sticker, which is almost peeled off, says ~Lister Diesel Power Generator - 12 hp~. {The generators seem to have been modified to all get their fuel from a central tank, also painted green.} {They have seen better days: the paint on the flywheel is chipped, and the crank shows some corrosion.} <Listen self>
+> x crank
+The crank is connected to a heavy flywheel. Turning the crank starts the flywheel, which starts the whole generator and the fuel injection system. {They have seen better days: the paint on the flywheel is chipped, and the crank shows some corrosion.}
+> x tank / x fuel tank
+{The generators seem to have been modified to all get their fuel from a central tank, also painted green.} The tank is very large, much larger than whatever oil you poured in there; you hope this will be enough.
+> listen
+The generators are currently running, and are making a {low hum, which you hope means it doesn't consume too much oil at the time|loud noise; you worry they are going through the oil a bit too fast}. You do need power on to use the radio, after all.
+> turn off generators
+You're not sure how to do that, and you need the electricity to be on for the island's radio to work.
+
+
+
+Optional: to get more points
+> n
+> w
+> w
+> enter house
+Small house by the northern cliffs
+The light of the light bulb illuminates the inside of the small house. It's rather minimalist in there: there is a small sink, an empty pantry, a few lights and a few chairs. The only way is out.
+> turn off light
+You turn off the light; the sun's light is still enough for you to see inside, so might as well conserve energy.
+(score+1)
+> look
+Small house by the northern cliffs
+The light of the sun illuminates the inside of the small house. It's rather minimalist in there: there is a small sink, an empty pantry, a few lights and a few chairs. The only way is out.
+
+> out
+> s
+> in
+> in
+> turn on stovetop
+You turn on the stovetop, and it seems to work fine. However, you're not hungry yet, and whatever energy is still in the generators would be better used to find and use the radio to send a distress call. You turn it back off.
+
+> x fridge
+(TODO: "turn off the lights or the fuel runs out and you have to do it again" is a bit of a pain to prove a point, so we cut it, but if we have room it'd be nice)
+This tall, old fridge is empty, and was left open for years. It is plugged in, and makes a low hum as it tries to refrigerate {more air, as it escapes out of the door}{after all these years}. Of course, it's useless, as it doesn't contain anything.
+> listen to fridge
+The refrigerator makes a low hum as it tries to refrigerate {more air, as it escapes out of the door}{after all these years}.
+> unplug fridge / turn off fridge / x plug
+You find the plug for the fridge at the back and unplug it. No need to run a old fridge for no reason when you need to conserve energy.
+(score+++)
+
+> out
+> out
+> sw
+> enter
+Inside the pub landlord's house
+This is a very small house, more like a cottage really. The posters on the wall give a clue about who lived in that house: given that they're all Guinness or Watneys posters, and given the aprons hanging on the hooks by the door, you're quite sure this is the pub landlord's house. There is no kitchen, just a living room and a small bathroom, and there are few pieces of furniture: a bed, a table and four chairs. You also spot a safe by the foot of the bed. The only way here is out. The light is on.
+
+> touch wall
+You feel the wall around the door, and your fingers encounter what seems to be a light switch.
+
+> turn on light switch
+It's already on.
+> turn off light switch / flick light switch
+You turn off the light; might as well preserve energy.
+(score++)
+
+Optional: listen to music
+> out
+> ne
+> in
+Pub
+<description with light, then "the lights are on">
+> turn off light
+You turn off the light; might as well preserve energy.
+> look
+Pub
+(if self hasnt light but electricity is on and jukebox is on) The pub is mostly engulfed in darkness, although a little light is filtering through the windows, and the jukebox is also making a little light. You can spot the bar and a few chairs, but that's about it.
+
+> x jukebox / x bal ami junior / x coin receiver / x window / look through window / x mechanism
+This small jukebox is strategically placed in the middle of the room, against a wall. A list of twenty songs is displayed at the top of the cabinet; the buttons next to each of them glow invitingly. The main window in the middle of the cabinet emits a bright yellow light, and displays the plate and record-changing mechanism; a decal on the window identifies the machine as a BAL-AMi Junior. A note taped below the window, next to the coin receiver, reads ~One Song - 6p - 3 Songs - 1s~.
+> listen to jukebox
+The jukebox isn't playing any music; the only noise you can hear is a soft hum.
+
+> x buttons / x song list / x track list / x records / x list / x music
+You glance at the songs displayed at the top of the jukebox. You don't know any of them, but ~ ~ sounds good to you.
+You glance at the songs displayed at the top of the jukebox. You don't know any of them, but ~ ~ sounds interesting.
+You glance at the songs displayed at the top of the jukebox. You don't know any of them, but ~ ~ catches your eye.
+You glance at the songs displayed at the top of the jukebox. You don't know any of them, but ~ ~ sounds vaguely familiar.
+
+> unplug jukebox
+(only first time and if music hasnt scored?) You go to unplug the jukebox, but stop at the last moment. Wouldn't a little bit of music be nice, first? You're feeling rather alone, and it would be good for your spirits.
+(> unplug jukebox
+You unplug the jukebox, to avoid wasting energy. score+1)
+
+> play music / insert coins-sixpence-shilling in jukebox / turn on jukebox / push button / select music / listen to song
+You insert a sixpence in the coin receiver and look at the song list. You pick ~"; RandomSong(); print ", and {%listen to it|start dancing|sit down to listen to it|sway your hips back and forth} until it's over.";} else {print "You insert your shilling in the slot and pick three songs at random : ~"; RandomSong(); print ", "; RandomSong(); print ", and "; RandomSong(); print ". You kind of forget where you are for the next five minutes; it feels good to lose yourself in the music for a bit.";} "";
+(first time you get 3 points)
+(then you can unplug it for extra points, or keep playing songs until you run out of coins)
+
+> out
+
+! Find a screwdriver
+> sw
+> sw
+Base of tower
+(mettre les flags "on a vu la steel tower", des fois que)
+A steel tower rises overhead, black against the sunny sky. This is an observation tower, {facing southeast, towards a small island you can barely distinguish on the horizon.} The top of the tower has what is quite clearly a radio antenna; you're not sure where the controls for the radio are. The ladder is missing a few rungs, which makes you unable to climb it -- for now.
+
+You can see a sixpence here.
+
+> take sixpence / coin / sixpence bit / six pence
+Taken.
+> x it
+A sixpence coin, minted in 1959.
+
+> x steel tower / watch tower / tall radio mast
+The steel tower is rather tall, about twenty feet tall. It is {facing southeast, towards a small island you can barely distinguish on the horizon.} The tower apparently also doubles as a radio tower, judging by the tall mast at its top. You can climb a ladder to get to the top of the tower(if broken) -- as soon as you have fixed it, that is(end).
+
+> x island
+To the southeast, on the horizon, is a small island. (if posterinpub hasn't seen) You had no idea there was another island nearby!(else) This is probably Tristam Island, that you saw on the map inside the pub. (end) Contrary to the island you're on right now, this seems to be a low-lying island; from here, however, you can only see the edge of the island. You would probably see it better atop the steel tower.
+
+> look through binoculars / x island through binoculars
+You look at (noun) through your binoculars. You can see its shore a bit better; the island seems to be low-lying, with a few bushes and brambles near its beach, but that's about all you can see. You would probably see it better atop the steel tower.
+
+> x ladder (missing a rung)
+The wooden ladder to climb up the tower is missing a few rungs, including the ones closest to the ground. You don't think you could manage to climb without fixing it first.
+
+> climb ladder / u / go up ladder / go up tower
+The wooden ladder to climb up the tower is missing a few rungs, including the ones closest to the ground. You don't think you could manage to climb without fixing it first.
+
+> ne
+> ne
+> n
+> e
+> n
+Scenic view
+
+> take rock
+Taken.
+
+> s
+> e
+> smash window
+(same as for harry's pleasures)
+You lift the rock above your head, then throw it against the window, as hard as you can. The window of the shop shatters in a terrible noise. It makes you feel bad for a second, before you remember how dire your situation is.
+
+> enter
+Inside the woodshop
+It looks like the island had its own woodworker, who was making or fixing furniture and wooden objects for the island. A smart strategy; there is, after all, a pretty extensive forest on the island. There is a sturdy-looking table in the middle of the workshop, a saw on the floor, and a few cylindrical wood pieces, all of the same length. You can go out through the door.
+
+> x table
+This is a pretty nice circular table, and it only needs to be sanded to be done. (if pub has visited) Actually, its shape and its foot remind you of the tables in the pub; either a rowdy drinker broke a table, or there wasn't quite enough room for everyone.
+> take table
+This is far too large.
+> x hand wood saw
+This is a hand saw, useful for cutting wood, and not much else.
+> take saw
+Taken. (C'est un red herring.)
+
+> x cylind(ers/rical) wood|wooden pegs|pieces / ladder rung|rungs
+There are three cylinders of exactly the same shape and length. You wonder what the use for these could be(if ladder hasnt seen).(else), and then it comes to you: these are replacement rungs for the broken ladder at the radio tower!
+
+> take ladder rungs
+Taken.
+
+> w
+> w
+> s
+> sw
+> sw
+> insert rung in ladder / fix ladder / insert rung in hole
+You insert the rungs you found in the woodshop into the ladder holes; you have to find the right angle to get them in, but they fit perfectly. The ladder is not fixed and ready to use.
+(score + 5?)
+
+> climb up ladder
+You climb up the ladder and reach the top of the steel tower.
+Top of the tower
+The platform at the top of the tower is rather small. A low barrier runs around the platform, giving a very wide field of vision. From here, about twenty feet off the ground, you can see the village very well, as well as the white house behind the fence. The view of the sea is incredible; you can see further away, including the small island towards the southeast. You can climb back down the ladder.
+
+Someone dropped a screwdriver here.
+
+> jump
+You would surely break your legs, or worse; you're not that desperate yet.
+> x houses, storehouse, pump, fountain, fence, guard shack, community garden, pub, shop, woodshop, white house
+Yep, you can see that part of the village too, from way up here.
+
+> x screwdriver
+This seems like a standard, slightly rusty flathead screwdriver; its head is rather small.
+> take screwdriver
+Taken.
+
+> x horizon / island
+To the southeast, on the horizon, is a small island. (if posterinpub hasn't seen) You had no idea there was another island nearby!(else) This is probably Tristam Island, that you saw on the map inside the pub. (end) The island is shaped a bit like a horseshoe, with a circular lagoon near its western shore. You can pretty much see the whole island from here, and something looks... off. You can't quite tell what, though; it is difficult to make out the details with the naked eye only.
+
+> look through binoculars / look at island/landmass through binoculars
+You take a look at the island through your binoculars, and your intuition was right. {Tristam|The} island looks rather inhospitable, covered in rocks and rubble, with patchy vegetation that doesn't look more than two feet tall. But near the shore, and on the sand in the lagoon, you spot a few long black trunks, as if the trees had been destroyed, charred, a long time ago, and hadn't manage to grow back since. Something must have happened on that island, but you can't quite figure out why. Your intuition tells you it's important, though.
+(score + 5)
+! TODO: this is a major plot point; we have to make sure it makes sense, not give away the plot twist, and evoke the proper emotions
+
+> d
+
+! Solution 1 : find code in book
+> ne
+> e
+
+> x hinges (c'est un rappel)
+This door looks rather unique, as if it had been hacked together using only the resources of the island; the other doors look like standard doors that must have been made in a factory and imported here. Interestingly, the hinges are positioned on the exterior of the house here.
+> take / remove hinges
+The hinges are small, and you can't quite get at the pin with your fingers; you might need some kind of flat tool for this job.
+
+> unscrew hinges / remove hinges with screwdriver / take door down with screwdriver / remove door with flathead screwdriver / wedge/insert screwdriver under pin/hinges / remove|lift pin out of hinge
+After a few tries, you manage to wedge the screwdriver between the pin and the top hinge; after that, it's only a matter of lifting the pin out. You do the same for the two other hinges; the door then wobbles free. You catch it before it falls to the floor, then prop it up against the side of the house.
+> x hinges / x door
+You succeeded in taking the pin out of the hinges; the door is now out of the way, against the wall.
+> open/unlock/lock/close door
+Since the door is out of the way, you don't need to do this anymore.
+
+> in
+Inside a house
+This is a small house, with only the bare necessities: a bed, a small nighttable, a few chairs, and a bathroom. Life here was decidedly rather Spartan. There is a book on the nighttable.
+
+You can also see a shilling on the floor.
+
+> take shilling
+Taken.
+
+> sleep
+It's still a bit early in the day to sleep.
+> x bed / x chairs / x bathroom / x furniture
+There really isn't much here for furniture; you're guessing life here was pretty regimented, and that food was only cooked and eaten at {some sort of cafeteria|the pub}.
+
+> x nighttable
+A lovely wooden nighttable. {There is a book on it.}
+
+> take book
+Taken.
+> x book
+(if library no)It's the only book you've seen so far on the island; you hope there is more, or you'll be reading this one for years...(else)The only other place where you've seen books on this island is the library in the white house. Perhaps it came from there?(end) Judging by the cover, this looks like a science-fiction book. The title is ~Kensington Gardens~, by Brian Moriarty. Never heard of it.
+
+> read/search book
+You flip through the book; it seems to be about nuclear apocalypse, and one person's quest to prevent it. At the very last page, four digits are written: 5-2-1-8. You wonder what these are for.
+(score++ ? mais il faut le même nombre de points avec la solution 2 et les rendre incompatibles ?)
+> out
+> ne
+> e
+> e
+> type/push/input 5218 on door / keypad
+
+! Solution 2 : find code on keypad
+> ne
+> e
+> ne
+> e
+> e
+> x keypad / x screw
+This is a rather primitive keypad, with buttons arranged in two rows and displaying all numbers from 0 to 10, and an extra button to clear the code. The metal plate has rusted over the years, and so did one of the screws holding the plate. You're guessing that, like all keypads, it requires electricity to work and open the door remotely.
+
+> unscrew screw (with screwdriver) / unscrew keypad (with screwdriver) / open keypad (with screwdriver) / unlock keypad (with screwdriver)
+This is a flathead screwdriver, and the screw is cruciform, but you give it a go anyway. It ends up working rather well, as the screwdriver is small enough to fit in the screw and turn it without stripping it too much. You manage to remove the front plate; a bunch of wires and connections appear behind it.
+
+> x wires / x keypad
+You follow the wires under the buttons to try to see where they go. There's a few pieces in the circuit you're not sure about; one of them is connected to the wires for the numbers, 1, 2, 5 and 8, while the other wires end up somewhere else, deeper in the circuit.
+
+> touch wires
+(if electricity is on)You know better than touching wires when the electricity is on.(else)You know there isn't any electricity on this island, but still, you'd rather not touch these.(end)
+
+> screw screw / screw keypad (back) (with screwdriver) / close keypad  (with screwdriver) / lock keypad (with screwdriver)
+You put the plate back on the keypad and screw the screws holding it while you repeat the numbers to yourself so as not to forget them.
+
+> type 5218 on keypad
+
+
+As soon as you pushed the last number, a door can be heard from the door. You hurry and grab the handle, and the door swings open. You enter the white mansion.
+
+
+As soon as you pushed the last number, a door can be heard from the door. You hurry and grab the handle, and the door swings open.
+
+At last, you enter the white mansion. The tall, white mansion, inside of which there is something so important that it needed to be protected by a fence, a guard, and a keypad. There were two kinds of people on this island: the ones in the village, who fished and canned and mended and kept the island running, and weren't allowed to enter the fence; and the people who were, who knew the combination on the keypad, and who stayed there. You feel like the whole purpose of the island was whatever was going on in this white house; and now, finally, you are able to enter it, and discover its secrets. This has intrigued you so much, at this point it's not just about finding a working radio anymore; it's also about finding out what the purpose of the island was, and why everyone left.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+! Mansion
+
+Lobby of the white house
+The entrance of the white house is a large and rather messy atrium. It is a bit dark in here, since all the windows here have been boarded up, but a few lights are turned on. The walls are covered in all sorts of notices and placard, some official-looking, some less so. A lone U-shaped pipe is hanging from the wall, as well as a rope-and-pulley mechanism to which are attached two buckets. High up next to the pulley, a weight rests on a platform; the rope it's attached to goes inside a hole in the north wall. A tall statue stands in the middle of the room, in front of a wooden staircase leading up; next to the stairs, leading east, is a wide passageway. A hallway leads to the library, south of here; there is a closed door on the north wall, next to an odd tube-like contraption screwed onto a tilted stand.
+
+>x light / windows / openings / outside / switch (found_in: if location ofclass InsideMansion & Lab)
+(if mansion) The windows here are all boarded up; barely any sunlight is shining through, and what you see is mostly thanks to the lights in the lobby.
+(if lab) This complex is underground, deep inside the island, so there isn't any natural light here; only the pale glow of the neons.
+>turn off lights
+You don't know where the switch would be. Besides, you appreciate having the light on.
+
+>x contraption
+Which do you mean, the tube-like contraption or the giant contraption?
+
+>giant
+>x machine / rube goldberg machine / heath robinson contraption
+It all looks purposeful, but it's absolutely mystifying. {The rope-and-pulley mechanism doesn't look like it does anything but make the buckets go up and down.} {The U-shaped pipe is made of several segments; one of its extremities is angled up, and the opening is wider, like a funnel. It is hanging horizontally from the ceiling, above the stairs}. The weight is precariously resting on a platform that's too small for it{; should it fall, it would probably pull on the rope that runs inside a pulley and towards a hole up high in the north wall.} Simply baffling.
+
+>x rope / x pulley / x mechanism / bucket(s)
+{The rope-and-pulley mechanism doesn't look like it does anything but make the buckets go up and down.} The bucket on the left looks like it's under the platform supporting the weight. The bucket on the left is currently down, while the bucket on the right is up, out of reach.
+
+>x platform / x weight / x weight on platform / x l-pieces/brackets/angled metal/steel screwed thin
+The platform supporting the weight is nothing but a couple of thin metal L-shaped brackets screwed in the wall. It looks like it wouldn't take much to knock the weight out of balance{; should it fall, it would probably pull on the rope that runs inside a hole up high in the north wall.}
+
+>x u-shaped pipe / funnel / horizontal / angled / extremities / opening
+{The U-shaped pipe is made of several segments; one of its extremities is angled up, and the opening is wider, like a funnel. It is hanging horizontally from the ceiling, above the stairs}; you might be able to reach it from the top of the stairs.
+
+> x tube-like contraption / stand / valve / handle / cannon / opening / bike / cannon
+(first)This is odd.(end) This is a rather wide tube, screwed on tight onto a tilted stand. The lower extremity is closed, and some sort of valve is attached to it. The other end is open; the diameter is big enough you could put your fist in there. In the middle, the tube shrinks, and a tap has been placed here. (first)You scratch your head and think for a moment. A tilted tube open on one side, with a tap that presumably opens or seals the space between both extremities... It looks like some kind of air cannon, maybe?(else)This looks like some kind of air cannon that was hacked together out of spare parts - for what purpose, though?(end)
+
+> x statue
+(TODO: Infocom reference?? y'a une statue de peter pan dans trinity. Oui mais ça fait pas beaucoup de Trinity? Bah, on se rapproche de la fin quand même.)
+The chalk statue on top of the cylindrical base is that of a little boy wearing a tunic, in a dynamic position, blowing in a sort of pipe or small flute. You've seen this sculpture before, though you can't remember where. Is this child the pied piper? Peter Pan? Anyway, it's actually not a bad sculpture; it is rather aesthetically pleasing, even though some details look a bit crude. Your best guess is that someone with an artistic inclination cut a slab of the cliffs and worked from a model, to pass time perhaps. The statue looks a bit off-kilter; the child is looking towards the northern door instead of towards the entrance, where you would expect it to look.
+
+> x stairs / mezzanine / wood/wooden banister/balustrade/railing/handrail/barrier
+A wide staircase in the lobby leads up to a mezzanine and a hallway. The mezzanine is rather wide, and has wooden banisters around it.
+> x hallway : you decide to go check it out
+
+> x placards / posters / notices / announcements / drawings / graffitis / board / cork / walls
+On both sides of the hall, posters, placards and notices are taped to the wall or pinned to notice boards. You read one of them at random, and it says:
+(the first one is always:)     - "A reminder for everyone: I approved that ridiculous Heath Robinson mechanism to open the door to the laboratory to keep morale up while preserving secure access to it. I could very well replace it with a keypad. Do NOT waste more time making it more complex, and get on with your work. --Major Westwood."
+                        [your score has gone up by one point)
+    - "WARNING: we remind you that any civilians behind the fence are not allowed in here. Details of the project, such as schematics or scientific reports, are extremely valuable to the Crown -- and to its enemies. Do not give out the keypad code, and do not write it anywhere, out of precaution."
+    - "NOTE: the shortages that have plagued us lately will be no more with the arrival of another boat in the next couple of weeks. In the meantime, I expect you strong British boys to put on a brave face. --Major Westwood."
+    - "WARNING: due to the unfortunate incident that happened on the 9th of January, I'm installing a curfew at 10pm for two weeks. Anyone who is still at the pub at that time will be found and disciplined. --Major Westwood."
+    - ~Who currently has ~Kensington Gardens~, by Brian Moriarty? I was going to re-read it but I didn't find it in the library. --Steve~
+    - ~Mr Chad says: ~Wot, no sugar?~~, with a drawing of a bald man with a large nose poking out of a wall.
+    - ... well, some kind of mathematic formula. An... integral sign? E to the x ? Equals f(un). You don't get it.
+    - "Help! I'm trapped on a secret island, kept by the British military to work on a deadly project!"
+    - "Tristam Island. Come enjoy its natural beauty, its peace and quiet, its crater, its absolute man-made desolation."
+    - "Now I am become Death, the destroyer of worlds."
+    - "Petition to remove all the love songs from the pub's jukebox. All they do is make us more lonesome.", with six different marks next to it.
+
+> s
+Library
+You were expecting that wonderful smell of paper, but instead it smells rather musty. {Half a dozen shelves are packed with books of all shapes and sizes. The shelf closest to you reads ~SCI-FI~; these books look well-loved, and their spines are crinkled and slightly faded.} The lobby is back north.
+
+> x books / x shelves
+{Half a dozen shelves are packed with books of all shapes and sizes. The shelf closest to you reads ~SCI-FI~; these books look well-loved, and their spines are crinkled and slightly faded.}
+
+> read books / pick book
+You pick a book at random: {%~Colonial Survey~, by Murray Leinster|~The Stars My Destination~, by Alfred Bester|~Foundation~, by Isaac Asimov|~Starship Troopers~, by Robert Heinlein|~Childhood's End~, by Arthur C. Clarke|~Shadow on the Hearth~ by Judith Merrill|~Last and First Men~, by Olaf Stapledon|~Non-Stop~, by Brian Aldiss}. The {%cover|spine|lower right corner|upper right corner} is {%absolutely destroyed|very faded|still in good shape|pretty worn}.
+
+> n
+> x north door locked closed
+This tall door looks rather heavy. It is closed.
+
+> push door / open door
+You try to push the door open, but it doesn't budge. But it doesn't feel like it's locked; rather, there seems to be something heavy behind it.
+
+> e
+Cafeteria
+This is a rather small cafeteria, with {four tables in total, and wooden benches on each side of the tables. The tables are long and wide, but you're guessing that no more than 20 people would fit here.} The whole room feels deserted and only slightly lit. The door to the kitchen is closed. You can go back to the lobby, to the west.
+
+> x benches/bench / seats/seat / tables/table
+There are {four tables in total, and wooden benches on each side of the tables. The tables are long and wide, but you're guessing that no more than 20 people would fit here.}
+> look under tables / look under chairs
+You look under ",(the) obj", and sure enough, there is a picture of Mr Chad, always with the same ~Wot, no sugar?~ caption.
+> push/turn/pull/take tables/benches
+These are fixed in place.
+
+> x kitchen door
+The door to the kitchen is closed.
+> unlock kitchen door with screwdriver
+This door requires a key, and you don't have it; in fact, you have no idea where to find it.
+
+> n
+> w
+> u / climb stairs
+You climb the stairs and stand on the mezzanine.
+Lobby - on the mezzanine
+(TODO: y'a moyen que ça soit genre un supporter et qu'on puisse rien faire à part toucher le pipe?)
+You lean on the railing, and you can see the whole lobby, with the statue in the middle of the room, the hallway to the library, and the closed door to the north. The ropes, the weight, and the buckets are all out of reach, but the U-shaped pipe is right above your head. A hallway leads further to the east.
+
+> x pipe
+The U-shaped pipe is hanging right above your head; you could easily touch it by climing the mezzanine. The funnel is closer to the south wall, while the other side of the pipe runs over your head and stops right before the buckets.
+
+> x machine etc (les mêmes qu'avant)
+> e
+Hallway
+This is a rather short hallway, lit by a single light bulb, with four different doors. The furthest one, at the very back, is a door saying ~OFFICERS ONLY~. On the north wall is a yellow door with the name of two Ph.Ds on it; on the other wall, a white door has the name of two other people on it, while the last one has a sign saying ~GUARD~ on it. The mezzanine is west.
+
+> x light/bulb/switch
+(same as the lobby but with "light from the hallway" instead of "lobby")
+
+> x door to guard's room
+This door has a sign saying ~GUARD~ on it. It is locked, and it would require a key to be unlocked.
+> open door to guard's room
+This door requires a key, and you don't have it; in fact, you have no idea where to find it.
+
+> x yellow door to phds/docs/doctors in philosophy's quarters / x lock of the yellow door to phds/docs/doctors in philosophy's quarters
+On this yellow door, the names are Dr Jerome Thorpe and ~Doc~ Walt Horvak.{ The door has a lock , but it lock wouldn't be very hard to pick; it's just a privacy lock, the kind you find in bathrooms more often than on bedrooms. Anyone could enter this room by using a flat tool to turn the lock.}{unlocked and open/closed}.
+
+> unlock yellow door/lock with screwdriver
+You take your flathead screwdriver and insert it in the lock, then turn. The door unlocks. [first door we do that = 5 pts]
+
+> open yellow door
+You open the door.
+
+> n / in?
+Yellow room
+The room has been emptied hurriedly, it seems; the beds in the bunk haven't been made, and there's a chest basically in the middle of the room. There is a desk, but all the drawers are open and empty. You can go out by going south.
+
+> make beds
+You don't know if you should worry about this sort of details right now.
+> close drawers/desk
+You don't know if you should worry about this sort of details right now.
+
+> x bed bunks
+Two bed bunks are here; they haven't been made.
+> search bed bunks
+You find nothing of interest.
+> sleep / climb bed / enter bed
+You're way too excited for this right now -- the secrets of the white house await you!
+
+> x chest / trunk
+A rather deep chest, made -- locally, it would seem -- of solid wood. The chest is closed.
+> open it
+You open the chest.
+> search it / x it
+The chest contains a cricket ball.
+
+> x cricket ball
+An old cricket ball, rough under your fingers; one side seems more polished than the other one.
+
+> take ball
+Taken.
+
+> s
+
+> x white door to quarters / x lock of the white door to quarters
+On this white door, the names are Mick Antrim and Marv Siegel. The door is {locked, but the lock wouldn't be very hard to pick; it's just a privacy lock, the kind you find in bathrooms more often than on bedrooms. Anyone could enter this room by using a flat tool to turn the lock.}{unlocked and open/closed}.
+
+> unlock white door / open white door with screwdriver
+You take your flathead screwdriver and insert it in the lock, then turn. The door unlocks. [first door we do that = 5 pts]
+
+> open white door
+You open the white door.
+
+> s
+White door
+The room is rather tidy, with both beds in the bunks made. There is a chest by the foot of the bed. You can go out by going north.
+
+> x bed bunks
+Two bed bunks are here; they have been made.
+> search bed bunks
+You find nothing of interest.
+> sleep / climb bed / enter bed
+You're way too excited for this right now -- the secrets of the white house await you!
+
+> x chest / trunk
+A rather deep chest, made -- locally, it would seem -- of solid wood. The chest is closed.
+> open it
+You open the chest.
+> search it / x it
+The chest contains a bike pump.
+
+>x bike pump
+This bike pump is made of metal, and has rusted over the years. Strange; you don't recall seeing any bikes on the island.
+> take it
+Taken.
+
+>n
+>d
+
+> plug/attach bike pump to valve / connect valve and bike pump / connect bike pump and/to valve
+The valve attached to the slanted tube fits the bike pump perfectly. [2 points the first time]
+> disconnect/unplug
+Ok.
+
+> open/turn/unlock valve/tap
+You open the tap, and nothing happens. You close it again.
+
+> pump/operate pump
+You pump air into the tube until the pressure is too great for you to keep going.
+
+> open/turn/unlock valve/tap / 
+You open the tap, and quite a bit of air is expelled, making a loud noise for a fraction of a second.
+
+> insert ball in hole
+You put the cricket ball in the hole. It fits perfectly, as if the hole had been made for it.
+
+> pump/operate pump
+You pump air into the tube until the pressure is too great for you to keep going.
+
+> open/turn/unlock valve/tap / shoot cannon/ball
+You open the tap, and quite a bit of air is expelled, making a loud noise for a fraction of a second.^^The cricket ball shoots into the air and flies upwards... then unexpectedly hits the hand of the statue, which was on its trajectory, before falling on the floor.
+
+> push/turn/pull statue
+You turn the statue slightly so the little child faces towards the entrance. [score +2]
+
+> take ball
+> put it in hole
+> pump/operate pump
+> open/turn/unlock valve/tap / shoot cannon/ball
+You open the tap, and quite a bit of air is expelled, making a loud noise for a fraction of a second.^^The cricket ball shoots into the air and flies upwards... and lands inside the funnel!^^You hear the ball travel through the pipe... but a screw must have been loose, as the pipe comes undone and the ball drops on the mezzanine.
+
+> u
+> take ball
+> take screw
+Taken.
+> x screw
+A rather large screw that was holding a section of the U-shaped pipe together.
+> put screwdriver in screw
+You check that your flathead screwdriver can fit in that screw; luckily for you, it does.
+> screw screw / fix/mend pipe / climb banister
+You climb the banister so you can reach the pipe more easily. You line up the holes for the screw and screw as tight as you go. It should be good enough.
+
+> TODO: throw ball in bucket/funnel
+You aim at the bucket, and try to give the ball a nice trajectory, but it veers off and you miss the target. You sigh and pick up the ball.
+
+> d
+> put ball in hole
+> pump pump
+> open/turn/unlock valve/tap / shoot cannon/ball
+You open the tap, and quite a bit of air is expelled, making a loud noise for a fraction of a second.^^The cricket ball shoots into the air and flies upwards... and lands inside the funnel!^^You hear the ball travel through the pipe... and lands perfectly in the highest bucket.^^You wait anxiously a couple of seconds, but the bucket doesn't go down. You wonder what could be the problem.
+
+>search buckets
+(if on the mezzanine) The highest bucket looks empty, but there seems to be something in the bucket closer to the floor.
+(if in lobby) You look in the bucket closest to the floor and -- ew, gross! You find the corpse of a rat in the bucket.
+
+>x rat dead corpse
+Ew. No, you don't really want to look at that.
+> cook/eat rat
+This is the most disgusting suggestion I've heard you make so far.
+>insert rat in backpack / turn/push/pull/open rat
+No way you're touching that thing more than you need to.
+>take rat
+You pick up the rat carefully by its tail and drop it on the floor.
+
+As soon as you do this, the bucket
+(if ball notin bucket) goes up; the system of buckets ends up stabilizing with both buckets roughly at the same height.
+(if ball in bucket) flies upwards very fast. The edge of the bucket hits the weight.^^The weight, which wasn't very stable on such a small platform, is out of balance and falls towards the ground. The rope tenses up before the weight hits the ground; the weight is now in mid-air.
+
+> unlock/open door / n
+You open the door inwards very easily and enter the room.
+
+Antechamber
+This small room seems to have for only purpose to serve as a waiting room (initial)before entering the next door, which is made of glass. There is a button on the door frame. Right -- an elevator!^^You step away from the door to the lobby, as a large weight is hanging from the ceiling right above it; this was probably the weight that was keeping the door shut.(else) for the elevator. At this point, there is only one sensible thing to do...
+
+> cut rope
+This feels dangerous and counterproductive.
+> touch weight
+You do not particularly wish to stand under that weight. You never know what might happen.
+
+> out / enter door/lobby
+This elevator is too important. You feel like you're getting closer to knowing the secrets of the island...
+
+> x room / antechamber / glass door
+<Look>
+
+> open elevator / push button
+You push the button, and the elevator door opens.
+
+> enter elevator
+You enter the elevator.
+
+Inside the elevator
+This elevator could probably fit two people, but not more. There are two small mirrors on the wall, presumably to allow you to fix your tie on the way down. Outside the elevator, you can see the break room. There is only one button in this elevator.
+
+> x mirror / elevator / door
+> x button
+<Look>
+
+> push button / go down / close door
+You push the button with some trepidation; the doors close, and the elevator starts its descent.^^You turn and turn the facts in your head, trying to figure out what this place is. An elevator going deep underground. A mansion with a floor for civilians, maybe even scientists, but under military supervision, and another floor for officers. A door with an overly complicated mechanism, with one part moving another in a big chain reaction. A library full of science-fiction books, and barely anything else.^^The elevator is still going deeper.^^Who were the civilians living here, under military supervision, but clearly not jailed? Were they working for the military? On what kind of project? This is getting a bit spooky.^^The elevator finally stops. After what seems like an eternity, it opens, revealing a long hallway lit only by artificial light. At this precise moment, it all comes together, and you understand everything. The shock makes you unable to move for a few minutes, as all the pieces come together perfectly in your head. You know the secret of this island.
+
+
+
+! The lab
+
+! Exploring
+> out
+Lobby
+You stepped out of the elevator, north of you. This looks like an underground complex, with a long hallway, dimly lit by pale neons fixed to a false ceiling, and various rooms to explore, none of which have doors. Well, except one: to the west, you can see a door, with a plaque that reads ~COMMS ROOM~ -- at last, a way to use the radio and send an SOS message! There is a small desk here, facing the elevator; above the desk is a poster of the explosion of an atom bomb.
+
+(> x hallway
+You decide to take a closer look at the hallway and head south.)
+
+> x desk
+If this small and tidy desk wasn't directly facing the elevator, you would have guessed it was used by a secretary; but really, it was probably a soldier who sat here and monitored access. {The most notable thing on the desk is a filing box filled with papers.}
+> search desk
+{The most notable thing on the desk is a filing box filled with papers.}
+
+> x box
+The filing box is nothing but a cardboard box that's filled to the brim with papers; there are 26 dividers, one for each letter of the alphabet.
+> search box
+You search the files and take one at random. It consists in multiple pages stapled together; the front page shows the picture of a {young|beardy|arrogant|moustachioed|bespectacled|blond|square-jawed|redhead} man named {Doctor Alexander Grant, expert in nuclear physics|Doctor Jerome Thorpe, a specialist in nuclear chemistry|Walt Horvak, listed as a medical doctor|Mick Antrim, apparently a nuclear engineer|Marv Siegel, from the US Defense Department, who specialises in sensor technology|Douglas Williamson, a sapper from the Royal Engineers|Private Tom Jolley|Private John Atkinson|Corporal Steven Saunders}. You {insert|squish|put} the file back in the tightly packed box.
+> take box
+The box is very heavy, since it's packed so densely. (if stuff in hands, put it in the backpack) You take it begrudgingly.
+(daemon: you drop the box, to give your arms a rest ; you switch the weight of the box around, because your arms are hurting ; your arms feel like they're burning)
+(You can use this instead of the organic chemistry textbook to climb up on)
+
+> x poster/picture / atom/nuclear/atomic bomb / fat boy
+This is it. The smoking gun. The missing part of the puzzle, that makes everything else makes sense. The people on this island were working on nuclear testing. (if TRISTAM_LOOKED_CLOSELY)That explains the poor state Tristam Island is in: it was their Guinea pig, where they detonated the bomb, so they could destroy it and study the effects of the explosion.(else)(if WE_SAW_TRISTAM)If they did set off a nuclear bomb, it was probably on the neighbouring island, which they could then study.
+
+> x door to the comms/communication room
+This door is locked.
+
+> s
+Hallway
+You are standing in a wide hallway, under the bright white light of a neon. Going north takes you back towards the lobby and the elevator; the hallway turns here and continues east, or you can enter what looks like a lab to the south.
+
+>enter lab
+You decide to take a closer look at the lab and head south.
+>go lobby/elevator
+You decide to take a closer look at the lobby and head north.
+
+> x neon / x suspended/false/fake/dummy ceiling / x light
+You are standing directly under a neon light; you can't really look at it directly without your eyes hurting. But looking beside it, at the tiles of the false ceiling, makes it better.
+
+> s
+Lab
+This is a rather dark lab, lit only by the neon in the hallway; you can't locate a light switch, but there is enough light to see. There is a wide workbench here, with a small sink and a few empty beakers. There are more beakers on the shelves, as well as a small device with a dial. You can go back to the hallway by going north, or go east to explore another part of the lab connected to this one.
+
+> x workbench / worktop / sink
+{There is a wide workbench here, with a small sink and a few empty beakers.} There's not much more to see here.
+> x beakers
+Some beakers, that have been cleaned, then left here to collect dust.
+> break beakers
+Futile.
+> insert X in beaker / fill beaker
+You're not really here to play scientist.
+
+> x small device / radiation detector / geiger tube/counter / x dial/needle
+You are going to go ahead and guess this is a Geiger-Muller counter, that counts the radiation events per minute and displays it on the dial. The device is currently off.
+> turn it on
+You turn on the Geiger counter.
+> take it
+Taken.
+> x it
+You are going to go ahead and guess this is a Geiger-Muller counter, that counts the radiation events per minute and displays it on the dial. The device is currently on; the needle is around {900|1000|1200} counts per minute.
+(if we are in the location by the closed stairs, it shows 2500)
+https://soeks-usa.com/blogs/radiation/blog-what-is-cpm-in-radiation
+
+
+> east
+Lab
+This looks like an area where some serious thinking was happening. A few comfortable-looking chairs and a sofa are all facing a blackboard, which is covered is symbols and esoteric drawings; not too far from the blackboard, a coffee maker is resting on a filing cabinet. There are only two books left on the shelves, a rather thick one and an absolutely massive one. You can go to the hallway by going north, or west to another part of the lab connected to this room.
+
+> x massive/beast/huge fieser book / organic chemistry textbook
+This is ~Organic Chemistry 1~, by Louis and Mary Fieser -- and it's an absolute beast of a book, a couple of inches thick, and weighing several pounds. You wonder if volume 2 is just as big.
+> count pages
+There are 1125 pages in this book. Wow.
+> open organic chemistry textbook
+You open the book at a random page; a drawing of a monstruous structure, full of hexagons and tentacles, with a hyphen-riddled, unpronounceable name, makes you close the book very quickly.
+
+> x nuclear physics textbook
+This is ~Theoretical Nuclear Physics~, by John Blatt and Victor Weisskopf -- a pretty thick book, over one inch thick, and weighing a couple of pounds.
+> count pages
+There are 896 pages in this book. Wow.
+> open nuclear book
+You open the book at a random page; terrible equations, and explanations full of ~quantum~ this and ~wave function~ that, makes you close the book very quickly.
+
+> x blackboard
+The blackboard is covered in diagrams, equations, and other things you know nothing about -- although you're pretty sure one of the diagrams represents a chain reaction. In the top right corner, someone drew a picture of Mr Chad, always with the same ~Wot, no sugar?~ caption.
+
+> x chairs / sofa
+These chairs look pretty comfortable; the scientists here probably spent hours in them, reading, having lively scientific arguments, or staring at the suspended ceiling tiles until an idea comes.
+> sit in chairs
+You sit in a chair for a couple of minutes, trying to figure out what your next move should be.
+
+> x filing cabinet
+The filing cabinet has been emptied, but nobody bothered with taking the coffee maker with them.
+> make coffee
+There isn't any coffee around.
+> take coffee maker
+This doesn't seem like it'd be useful right now.
+
+> n
+Hallway
+This seems to be like a central part of this underground complex. Paths go west along the hallway, east towards some lockers, south to what looks like a research lab, and north to a sort of meeting room.
+
+> n
+Meeting room
+This looks like a meeting room, with several tables put together at the center of the room, and a number of chairs around. There is a pile of papers on the table. You can go back to a hallway to the south or the east.
+
+> x tables / chairs // count x
+There are four wooden tables together put together at the center of the room, and about a dozen chairs around them.
+
+> x papers
+A messy pile of papers is at a corner of the table.
+> take papers
+You don't know if they be all that useful to you.
+> search papers
+You search the pile of papers, and the one that catches your attention is a letter written by Doctor Alexander Grant to the Major Westwood:
+
+    Major,
+    I urgently request that you and your superiors reconsider the test scheduled for the 15th of February 1962. Our estimates for the type of bomb we are working with, and its size, are several hundred kilotons above what we would consider safe considering the distance between our island and Tristam Island.
+    We are not so much worried about the damage the bomb would cause to our island and its structures, but more so about the radioactive fallout that has a high chance of blowing our way. Should this happen, the radiation exposure of our island would be high, and remain high as the ashes deposit on our island. Remaining on the island would not be an option; we calculated with our resident doctor that the risk of cancer of the residents would increase one hundredfold.
+    Please, we urge you to reconsider the size of the blast, if you want our experimentations here to continue; a blast this size would render our island unlivable, and would require us to evacuate it.
+    Sincerely,
+    Doctor Alexander Grant
+    
+Wow. Is this what happened on this island? Is this why everyone left? Did they go ahead with the explosion, and it exposed everybody to so much radiation that the island was inhospitable? Given the state of the village, (flag)the date on the comic book, (flag)the songs in the jukebox, (flag) the fact people stopped signing up to take care of the garden after the 18th of February, it would make sense to guess that this island was indeed abandoned in February 1962...
+
+Either way, you hadn't considered how the fallout might affect this island -- and with it, you. You ate a fish that probably was pretty close to Tristam Island, (flag) drank the water from the fountain, touched a lot of objects... You need to {if not found}find the key to the communications room, and }quickly get out of this island.
+
+> s
+> e
+Hallway by a window
+In this part of the hallway, there is a large window, which goes almost all the way to the false ceiling; the window overlooks (flag) something you can't quite see. A neon is blinking to the north, near a door at the end of the hallway. You can see some lockers to the south.
+
+> look through window
+(flag activated)
+You look through the window, and see a wide open space. Your eyes habituate to the darkness, and you see shimmering water, and what looks like a very large loading dock. There doesn't seem to be a way to enter or exit this sort of grotto, which explains why you didn't see it from the beach. But there still is a loading dock, suggesting some kind of boat, maybe a submarine, was moored here... On the loading dock is a large crate. You have no idea what is in it.
+
+> x geiger
+Wow, 3000 ici?!
+
+> look
+Hallway by a window
+In this hallway, there is a large window overlooking a grotto which serves as a loading bay. A neon is blinking to the north, near a door at the end of the hallway. You can see some lockers to the south.
+
+> x lockers
+You decide to go take a closer look at the lockers and head south.
+
+> s
+Hallway
+The hallway runs north towards a window and a door at the end of the hallway, or west towards a lab. East is a door to a staircase, which is closed. A few lockers are against the south wall; they are all open, except one.
+
+(TODO: énorme problème ici:
+    ils ont besoin d'une porte pour aller au hangar
+    je veux pas qu'ils la cassent
+    mais si c'est unlock et qu'on leur donne un master keyring, ils vont vouloir que ça marche
+    alors, on fait quoi ?
+        boarded from inside?
+        the knob is broken?
+> x door
+Looking through the door's window, you can see a staircase going down. However, the door is locked.
+> break door
+You try to break the window of the door, but you don't even manage to make a dent in it. It looks very thick and reinforced; you doubt you'll manage to open this door at all.
+> unlock door
+This door requires a key, and you do not have it.)
+
+> x lockers
+{A few lockers are against the south wall; they are all open, except one.} It has a combination padlock on it.
+> open locker
+The padlock is locked, and you do not have the combination.
+> turn padlock
+You try turning the padlock, but you're getting nowhere. You stop and try to think of a method that would allow you to guess the combination  of the padlock.
+
+> n
+> n
+By the Major's office
+{This is the door to Major Westwood's office, as the plate indicates.} There's not much else here, and if that blinking neon doesn't stop blinking soon, you're going to get a headache. You can go back south towards the window in the hallway.
+
+> x door / x sign
+{This is the door to Major Westwood's office, as the plate indicates.} The door is locked and closed.
+
+> x blinking neon
+(flag here)
+You look up towards the blinking neon, and notice something interesting. Someone drew a picture of Mr Chad, always with the same ~Wot, no sugar?~ caption. Right next to the picture, one of the tiles of the false ceiling is a bit crooked, which makes a hole in the roof.
+
+> x hole / tile / roof
+(x blinking neon)
+
+! Going in the boss's room
+> s
+> s
+> s
+> w
+
+> take organic chemistry book
+You take the organic chemistry book, letting out a grunt.
+
+> n
+> n
+> n
+
+> take chair
+You put everything in your backpack, and you lift the chair.
+
+> s
+> e
+> n
+
+> put chair down / drop chair
+You put the chair down.
+
+> get on chair / climb chair
+You climb on the chair.
+
+> push ceiling tile / touch ceiling
+You stretch and extend yourself as much as you can, but you're still short by a couple of inches.
+
+> get off chair / exit chair
+You get off the chair.
+
+> put organic chemistry book on chair
+You put the organic chemistry book on the chair.
+
+> climb on chair / climb on book
+You climb on the chair and on the book.
+
+> touch suspended ceiling/roof/ tile  // raise arm?
+You raise your arm, and you manage to touch the roof quite easily.
+
+> push suspended/roof / tile
+You raise your arm, and put your hand against the roof tile; you manage to shove it out of the way.
+
+> climb in roof / jump (you are now at the other side)
+You look up. The space looks quite tight, but your fingers can reach the metal supports of the suspended ceiling. You should be able to do it...
+
+You take a deep breath, and jump! Then using all your strength, you pull yourself up to the roof, grabbing the ceiling's supports with the tip of your fingers. Your arms are burning, your fingers hurt, and you are momentarily exhausted, but you made it!
+
+You crawl a few feet in the space above the false ceiling, then remove one of the tiles: you are indeed above the Major's office! You crawl into the opening, then drop down awkwardly.
+
+[5 points]
+
+Office of Major Westwood
+The office of Major Westwood isn't that big, all things considered. There is a desk facing the door, with a litter bin against it, and three chairs -- the Major's chair looking like the most comfortable one. The only way is out.
+
+> x roof / tile
+There is a big hole in the ceiling, now.
+
+> open door
+The door is locked from the outside.
+
+> x chair
+There are three chairs here; the Major's chair is very comfortable, while the chairs closest to the doors are wooden chairs. That's petty.
+
+> x desk
+The desk is rather well-made, with a careful attention to details on the edges and the drawers. You wonder if the Major got it imported from the land.
+
+> look under desk
+You look under ",(the) obj", and sure enough, there is a picture of Mr Chad, always with the same ~Wot, no sugar?~ caption.
+
+> x garbage/litter bin
+The litter bin has a few crumpled papers.
+
+> search litter/garbage bin / take crumpled papers
+In the litter bin is a crumpled letter written by Doctor Alexander Grant to the Major Westwood:
+
+    Major,
+    I urgently request that you and your superiors reconsider the test scheduled for the 15th of February 1962. Our estimates for the type of bomb we are working with, and its size, are several hundred kilotons above what we would consider safe considering the distance between our island and Tristam Island.
+    We are not so much worried about the damage the bomb would cause to our island and its structures, but more so about the radioactive fallout that has a high chance of blowing our way. Should this happen, the radiation exposure of our island would be high, and remain high as the ashes deposit on our island. Remaining on the island would not be an option; we calculated with our resident doctor that the risk of cancer of the residents would increase one hundredfold.
+    Please, we urge you to reconsider the size of the blast, if you want our experimentations here to continue; a blast this size would render our island unlivable, and would require us to evacuate it.
+    Sincerely,
+    Doctor Alexander Grant
+    
+Wow. Is this what happened on this island? Is this why everyone left? Did they go ahead with the explosion, and it exposed everybody to so much radiation that the island was inhospitable? {BECAUSE GARBAGE}After all, you found this letter in the litter bin -- it doesn't sound like the Major took the waning very seriously. Given the state of the village, (flag)the date on the comic book, (flag)the songs in the jukebox, (flag) the fact people stopped signing up to take care of the garden after the 18th of February, it would make sense to guess that this island was indeed abandoned in February 1962...
+
+Either way, you hadn't considered how the fallout might affect this island -- and with it, you. You ate a fish that probably was pretty close to Tristam Island, (flag) drank the water from the fountain, touched a lot of objects... You need to {if not found}find the key to the communications room, and }quickly get out of this island.
+
+> open drawer
+You open the drawer. (flourish: "revealing a keyring"?)
+
+> x keyring
+This keyring, with dozens of keys on it, {was|is} in the desk drawer of the Major; you're guessing it contains all the keys you need here.
+
+> search keyring (for XX)
+Unfortunately, they are not labeled. You'll just have to try each of them.
+
+> take keyring
+Taken. [5 points]
+
+> unlock door with keys/keyring
+You try half a dozen keys, before finally finding the correct one, that unlocks the door.
+
+> s
+> s
+> w
+> w
+> n
+
+> unlock comms room door with keys/keyring
+You try half a dozen keys, before finally finding the correct one, that unlocks the door.
+
+> open door
+You open the door.
+
+> enter comms room / in / west
+
+Communications room
+At last, you have managed to enter the island's communications room. You just need to figure out how to send an SOS, and you'll be able to be rescued from this island! {Several large radio transmitters are in this room. On a desk are a pair of headphones, and a microphone with a small button on its stand.} The only way is out, to the east.
+
+! Fixing the radio and endgame
+> x radio
+Several large radio transmitters are in this room. On a desk are a pair of headphones, and a microphone with a small button on its stand. The dial of the transmitter on the desk, above a wide flap, is unusually large, which makes it easy to read precisely the frequency currently in use; a large knob below controls the frequency.^^The transmitter is currently set to the frequency of 99.6 MHz.
+
+> talk / say hello / pick up receiver / talk in microphone / call for help / SOS
+You should probably wear the headphones first, to listen for an answer.
+> wear headphones
+You put the headphones on.
+> talk / say hello / pick up receiver / talk in microphone / call for help / SOS
+You call for help repeatedly on the frequency <freq>, but you get no response. In fact, there doesn't seem to be any noise coming in the headphones. Maybe the radio isn't working properly?
+> listen
+T{here doesn't seem to be any noise coming in the headphones. Maybe the radio isn't working properly?}
+> disrobe headphones
+
+> fix radio / open radio / open flap
+You open the flap of the radio, revealing some wires and a melted cable.
+> x radio / x wires
+Several large radio transmitters are in this room. On a desk are a pair of headphones, and a microphone with a small button on its stand. The dial of the transmitter on the desk is unusually large, which makes it easy to read precisely the frequency currently in use; a large knob below controls the frequency. You have opened the flap under the dial; there are some wires, and a cable that appears to have melted, which isn't a good sign.^^The transmitter is currently set to the frequency of 99.6 MHz.
+
+> e
+> s
+> e
+> e
+> touch lock / guess combination / turn knob on lock / pick lock / feel lock / listen to lock
+You try turning the padlock gently while listening closely for any click. Slowly, steadily, you manage to make the lock click three times; you pull on it, and it opens.
+
+> open lock / open locker
+The locker opens, revealing a mess of cables and wires. This must have been the comms guy's locker.
+[5 points]
+
+> take wire
+(if you know there's a problem with the radio) You look closely and find a cable that looks just like the melted one in the comms room.
+(if you don't know) You don't really know which one to pick, so you choose one at random.
+
+> w
+> w
+> n
+> w
+> replace wire / change cable / fix radio
+You carefully remove the melted cable, and replace it with the cable you found in the locker. That should do it.
+[5 points]
+
+>wear headphones
+You put the headphones on. You can hear some static.
+
+> x note
+The note is taped to the radio, and says ~Coast Guards: 101.1 Mhz~.
+
+> turn knob left
+!    freq = freq -13;
+!    if (freq < 871 ) { freq = 871; "You turn the knob to the right, but it gets stuck; this is the end of the frequency band, and you are now at the 87.1 MHz frequency."; }
+!    else { print "The knob is rusty and not very precise anymore. You try your best to keep a light touch, but you land on the "; PrintFreq(); " MHz frequency.";}
+
+> turn knob right
+!    freq = freq + 20;
+!    if (freq > 1090) { freq = 1089; "You turn the knob to the right, but it gets stuck; this is the end of the frequency band, and you are now at the 108.9 MHz frequency."; } ! then you have to turn down 6 times
+!    else { print "The knob is rusty and not very precise anymore. You try your best to keep a light touch, but you land on the "; PrintFreq(); "MHz frequency.";}
+
+(solution: turn right 4 times, turn left 5 times)
+
+> talk / say hello / pick up receiver / talk in microphone / call for help / SOS / push button and talk
+(if frequency isnt the right one) You call for help repeatedly on the frequency <freq>, but you get no response; noting but static.
+(if it is the right one: fin du jeu)
+You call for help repeatedly on the frequency <freq>, but you get no response; noting but static. You're about to take the headphones off, when...
+~Namibian Coast Guards here. SOS, can you hear me?~
+
+You frantically push the button, and establish contact with them -- the first people you have talked to in a long while, and your lifeline here. After a few hours, they are able to confirm your position, and tell you to stand by.
+
+It takes a few more days, but when you see the helicopter approaching, you yelp in delight. The helicopter lands on the field in front of the white house, and a British officer gets off the helicopter. ~How do you do. My name is Colonel Bradley, and I'm here to take you home. Are you ready?~
+
+And as the helicopter gains altitude, you look back down at Tristam Island. The small island is soon nothing more than a speck in the middle of the Atlantic Ocean; but you're taking its secret home with you.

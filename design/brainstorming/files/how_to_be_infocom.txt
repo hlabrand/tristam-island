@@ -1,0 +1,99 @@
+Do fret about :
+* quality of implementation
+* prose length
+* puzzles / setbacks / riddles
+* long games (est-ce qu'on vise une taille de walkthrough similaire à hibernated, ou plus ? ou plus dur ?)
+    seastalker (junior game) peut être fini en une soirée, et c'est bof bof
+
+their classic games had exploring (zork, planetfall) and mapping
+but there was 
+
+
+they had very story-heavy games where you just follow the plot (seastalker - though granted, it was their "junior" line)
+they had games with characters on a schedule (witness, cutthroats)
+they had games where if you didn't get the right thing you were stuck later (cutthroats)
+they had games with alternate paths (seastalker, cutthroats (mais ce dernier feels cheap parce que c'est une décision random))
+
+Y'a des jeux qui ont des histoires qui avancent que après avoir fait les bons trucs
+Y'a (plein) de jeux qui ont des histoires qui avancent sans toi et il faut réesayer
+Y'a des jeux où l'histoire est très secondaire et où on run around solving puzzles just because
+(En général ces derniers sont très freeroaming)
+Mais y'a pas que des freeroaming, y'a aussi des jeux avec des puzzle chains qui ouvrent de nouvelles zones
+Et d'autres où on va de vignette en vignette
+
+Once we solve the next few puzzles to get inside, it becomes clear that the ship is another large, static environment to be explored and gradually conquered
+
+
+
+Enchanter is in the zork universe, and you can cast a "yourself", parodie de toi l'aventurier de zork, qui te dit "hello, sailor" et qui regarde sa carte et qui dit "restore"
+dans planetfall y'a une référence à zork dans un des ordinateurs
+y'a la white house à un moment
+bref c'est self referential parfois hein
+
+
+
+
+feelies : lesquels ?
+
+un manuel (à partir de 1984 il y a un transcript de comment jouer)
+    trouver les bonnes polices
+    
+que dit la commande "info" ? copier le style, pas être trop long si besoin
+
+in-game hints ? (c'était quoi, un menu dans les jeux avec des trucs qui s'affichent progressivement ? ou pas ?)
+
+invisiclues ? (livres d'astuces avec encre sympathique)
+https://www.octopus-office.de/shop/en/printer-ink/invisible-uv-ink/5034/set-of-4x-50ml-uv-fluorescence-invisible-ink-for-epson-and-brother-print-heads-white-cyan-magenta-yellow?c=4305
+
+les ranks
+
+le score
+    pas de last lousy point...
+    
+amusing
+
+
+
+
+
+puzzles (in spellbreaker)
+ intricate pure spatial and mathematical puzzles like those so common in the Phoenix games; clever object-application puzzles; logistical puzzles requiring long-term planning; the best and most satisfying application yet of the spell system invented for Enchanter; the latest and greatest and most intricate in an ongoing series of Infocom time-travel puzzles; even a social-interaction puzzle to keep you on your toes.
+ 
+a sense of place (c'est ce que dit le truc de montréal aussi): des lieux connectés logiquement, des puzzles qui sont bien intégrés au monde, des descriptions cool avec de l'émotion et de la qualité littéraire
+    et maher concorde que l'IF à parser est pas pour les grosses histoires mais pour évoquer a sense of place
+
+very thourough implementation of standard expected responses; lots of testing
+
+floyd, la tortue d'enchanter, robot dans zork 2 : un sidekick lovable qu'on peut order around pour résoudre un puzzle
+    ça sera sans doute mieux qu'un robinson crusoe
+*Infidel* is absolutely devoid of any life beyond your own, the only Infocom game about which that can be said
+    ah, donc il faut un lovable npc
+
+
+longueur du jeu : les jeux infocom sur z3 ont une solution optimale en 210 coups (très consistent) ; il y a environ une dizaine de phases de jeu, et 400 points à obtenir au total ; une vingtaine d'actions donnent du score (donc 20 puzzles ?)
+
+70 à 80 salles (voir les 2-3 cartes sur CASA et celle de trinity chez welbourn) [ou la fact sheet]
+35-55 objets takeable
+
+verbes utilisés : open, close, put X in Y, throw, throw to, wear, turn on, put under, get, move, push, stand on, search, look through, touch, drop, read, wait for, fill, put X on Y, fire/shoot, tie, hit, 
+ + ordres npc + ask X about Y + tell X about Y + talk to + show X to Y
+ 
+ 
+he default house voice of Infocom is a sly tone of gentle humor, an unwillingness to take it all too seriously.
+
+
+http://pdd.if-legends.org/infocom/fact-sheet.txt <- good resource
+
+
+mathbrush :
+    https://intfiction.org/t/infocom-puzzle-design-game-length/11637/5
+        "class 0" games il sait pas comment on les écrit, ah ben on est bien partis
+    https://intfiction.org/t/infocom-games-and-their-followers-or-what-makes-a-good-game/9520
+        infocom-like : "At first I was delighted with the settings and the writing. Each had a clever backstory or game mechanism that was intriguing." but they're lacking something. "So what made the Infocom games more fun for me? For me, I think that the four newer games missed a critical element of the early Zork games: the darker side. The Zork trilogy had a real sense of decay, dread, and wonder, with a lost empire, creepy sounds and animals, someone who locks you in a basement. Zork III especially had it. The enchanter trilogy continued with the dread and decay, with ancient demons and sacrifices and of course the events of Spellbreaker. That same sense of decay is found in two Infocom-followers I really loved, Theater and Building, even though they were less polished than the four I mentioned above. That sense of decay is also found in the Lord of the Rings and in the King Arthur Legends. But the really polished games all seemed to lack that; in each one, you are a sprightly adventurer with a gleam in your eye who helps improve society, makes everyone happy, and goes home safe."
+            -> cool, avec la radioactivité y'a vraiment de quoi faire
+        un autre type dit : "The biggest thing for me in an IF game, post-Infocom, is when the author gives me a big reason to care about either the protagonist or game’s situation before I input my first command. I’ve grown very jaded of games where you’re plopped in a situation and just sort of expected to muck about for a few turns until you (as the player) discover something to “do.”"
+            -> il faut vraiment soigner l'introduction
+        Personally, I think part of what makes the Infocom games so appealing and timeless is their efficiency of words. People have such particular tastes about things like humor and prose that it’s easy to accidentally alienate readers. The humor in games like Zork is presented in such a subtle way that it becomes part of the puzzle of understanding this strange place. Beyond that, I think word efficiency helps add to a feeling of immediacy, and it’s less taxing to keep track of everything that’s going on. The added sense of familiarity the player gets through that makes the experience that much more enjoyable.
+            -> pas être trop verbeux
+        "But the second act had everything I was looking for, including multiple solutions to difficult puzzles, a haunting atmosphere and location, more purpose, and a sense of danger and urgency."
+            -> renforce l'aspect sombreur

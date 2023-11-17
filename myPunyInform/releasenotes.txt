@@ -1,0 +1,286 @@
+1.0: first public release (5 July 2020)
+
+1.1: bug fix release (12 July 2020)
+- Parsing failed for big story files because of bad pointer comparisons
+- A programming error lead to bad parsing results on older interpreters
+- Reimplemented darkness handling as described in DM4
+- Fixed various bugs in conversation code (ask X about Y etc)
+- Changed to 'buffer' and 'parse' for the player input and parsing
+  arrays, since DM4 is describing them and renaming them breaks some
+  existing Inform code and extensions needlessly.
+- Examine now works as in the standard library: containers without a
+  description get a Search action, switchable objects show a message to
+  say if they're on or off, after and react_after are run afterwards.
+  Examining in darkness shows a message that it's dark.
+- The contents of a closed transparent container are now printed in Look.
+- Objects providing light now get "(providing light)" appended in Look.
+- The message "[Actor] has better things to do." is now a regular library
+  message, so it can be customized.
+- Disambiguation bug fixed (only appeared in complex situations)
+- "drop all but x" should now give a reasonable error message. ("but" is
+  not supported.)
+- Reordered the version info to mimic the standard library.
+
+v1.2: bug fix release (18 July 2020)
+- Messages for pushing, pulling and turning scenery objects were missing.
+- You could use action Drop/Insert/PutOn with something worn without taking
+  it off first.
+- "(worn)" was never shown in inventory.
+- Library message for inventory slightly changed.
+- Fixed bugs in handling of low priority scenery/concealed objects in
+  disambiguation
+- Take improved so it's not possible to take things which are part of other
+  things or held by an NPC.
+- TAKE ALL doesn't try to take other people's belongings or things that are
+  part of other things anymore.
+- "(putting x into [sack_object])" now has a newline at the end, and is
+  printed by PrintMsg, so it can be modified by game.
+- ObjectIsUntouchable() now has a flag to check if an object is takable too,
+  like in the standard library.
+- Added TouchCeiling() to help TAKE ALL.
+- Changed so TAKE ALL tries to pick up all things in TouchCeiling plus things
+  in/on normal containers/supporters in the touchceiling.
+- Made game name bold in z5 games.
+- Improved 'all' so that 'take all from/off X' works.
+- Added 'get all from/off X' to grammar.
+- Added a second parameter to LibraryMessages routine, to allow for messages
+  requiring two parameters.
+- Made LoopOverScope safer by having it loop over a copy of the scope array.
+
+v1.2.1: bug fix release (19 July 2020)
+- The library version is now printed correctly at start of game and when player
+  enters VERSION.
+
+v1.3: new feature (and bug fix) release (26 July 2020)
+- Extended 'all' so that 'take all Xs except/but Y [one]' works.
+- Fixed bug in cloak.inf which gave a point even if "hang cloak on hook"
+  failed.
+- Added call to AfterRoutines in PutOnSub.
+- Made parser a little quicker by not checking if an object is visible once
+  per word in player input.
+- Unified some messages, to save space.
+- Fixed error in order of directions. (ne, nw, se, sw came in the wrong order,
+  causing errors when some of these directions were translated to/from fake
+  direction objects.)
+- Changed the role of initial for rooms to match I6 lib.
+- Fixed a bug where an already scored room would be scored again if moved into
+  using PlayerTo().
+- Marked all objects held by the player as moved and not concealed when game
+  starts.
+- Added GetOff action ("get off X").
+- Fixed a noun caching bug that made 'throw X at Y' go wrong
+- added num_words as described in DM4
+- Split up extra verbs in normal verbs and metaverbs. New constant:
+  OPTIONAL_EXTENDED_METAVERBS
+- Fixed so "it" can not refer to Directions.
+- Changed default name of Directions object from "unknown direction" to
+  "direction", since it looks more sensible in most situations.
+- Fixed so PutOn requires the noun to be held.
+- Removed extra error message if the player fails to auto-take noun in
+  InsertSub.
+- Changed so the location's add_to_scope property isn't checked, since this
+  causes aliasing problems, and isn't supported by I6 lib either.
+- Fixed a bug that made PronounNotice calls in before rules go unnoticed.
+- Fixed bug where direction properties came in the wrong order unless
+  OPTIONAL_FULL_DIRECTIONS was defined.
+- The player object was renamed to selfobj to mimic I6 lib, and it got an
+  empty parse_name property, and it got extra synonyms - now it has 'me',
+  'myself' and 'yourself'.
+- Fixed bug with words in "name" property of location.
+- New constant DIRECTION_COUNT holding # of directions (8 or 12).
+- Avoid checking if Directions is visible, since it always should be. Good for
+  parser speed.
+- Check direction matches faster in z3.
+- Moved some action subs in grammar.h to put them in alphabetic order.
+
+=======
+v1.4: new feature (and bug fix) release
+- Optimized to skip parser phase 2 when possible for speed gains
+- Updated Library of Horror to use the new constant DIRECTION_COUNT.
+- Stop checking ObjectIsInvisible() for every object during parsing, since it's
+  slow and shouldn't be necessary.
+- Fixed bug when it/him/her was not in sight, introduced when we started to
+  skip phase 2.
+- Changed synonym 'yourself' for player to 'self', to harmonize with I6 lib,
+  and because it makes sense.
+- Improved parsing of delimiters between direction commands.
+- "take obj" bug when already held has been fixed.
+- Faster direction matches which appeared in v1.3 breaks old Infocom
+  interpreters, due to lack of support for printing to memory. Changed
+  implementation to not break. It is also smaller, but it gets less easy to
+  change direction words.
+- the pattern score was wrong when 'all' was used to match a multi token.
+- Smaller, faster code in PrintVerb.
+- _FindBarrier() was made shorter, and faster when set not to print.
+- Changed grammar of 'get' to match I6 lib. "get on object" and
+  "get out of object" now work.
+- Remove 'embrace' from PrintVerb when optional verbset is not enabled.
+- Fixed that PutOnSub didn't call before- or after-rules for Receiver, and
+  that InsertSub didn't call before-rule for receiver.
+- Added global receive_action to let receiving object know which action is
+  happening.
+- Made _PrintContents() public, thus changing the name to PrintContents().
+  Changed the use of workflag to only print objects which have workflag set,
+  just like WriteListFrom in I6 lib. Changed so initial string can be set to 0.
+- Fixed bug in Search message.
+- Added checks to see if objects can be touched to many action routines.
+- Added call to AfterRoutines in WearSub.
+- Changed a lot of checks in action routines from if(AfterRoutines() == 1) to
+  just if(AfterRoutines()) and from if(keep_silent == 1) to if(keep_silent) to
+  save 30 bytes.
+- Fixed TryToTakeNoun() so it clears concealed attribute when an object is
+  picked up.
+- Changed so the invent property is consulted whenever a list of objects is
+  presented by PrintContents, most notably also affecting object listings in
+  room descriptions.
+- Added calls to object parent's before and after rules (if container or
+  supporter) with LetGo action when taking object.
+- Changed so debug verb 'routines' prints calls to before routines and
+  after routines even if object doesn't provide them.
+- Added printing to calls to before and after rules for fake actions Receiver
+  and LetGo for when debug verb 'routines' has been entered.
+- A game programmer can check the version of PunyInform being used by looking
+  at the values of constants PUNYINFORM_MAJOR_VERSION and
+  PUNYINFORM_MINOR_VERSION.
+
+=======
+v1.5: new feature, optimization and bugfix release
+
+- Before including globals.h, the game can now define the constant
+  INITIAL_LOCATION_VALUE and set it to the object where the player should
+  start. This makes sure location is set right when the game starts, so
+  interpreters that display a statusline immediately (like the Gameboy
+  interpreter) don't run into problems. If the game defines this constant,
+  there is no need to set the location in the Initialise routine.
+- Printing the game banner has been moved to a routine named Banner(), just
+  like in I6 lib.
+- A game can now make the library skip the game banner when the game starts, by
+  returning 2 from Initialise(), just like in I6 lib.
+- An extra newline was printed in Look if the player was in/on an object which
+  didn't provide an inside_description.
+- A newline was missing in Look when a room description was not printed (when
+  brief or superbrief lookmode was enabled).
+- The statusline showed the real location in z3, when the player was in
+  darkness.
+- Run AfterRoutines() after taking inventory and it's not empty, just like
+  I6 lib.
+- Changed so location.after() is printed if debug verb "routines" has been
+  entered, regardless of whether location provides such a routine.
+- with_key can now be a routine. The object which is currently being tested as
+  key is held in second. with_key returns an object id, or false if nothing
+  fits.
+- Fixed bug: Insert and PutOn checked the capacity of the object inserted
+  rather than the container/supporter.
+- Skipped compilation of code to automatically put things in sack object if
+  SACK_OBJECT has not been defined.
+- Made many library messages safer, in that they will work even if adding new
+  grammar which use a different verb word.
+- Optimized check for correct key in Lock and Unlock.
+- Slight optimization in Look.
+
+=======
+v1.6: bugfix release (21 September 2020)
+
+- GET ALL FROM [supporter] could make parser complain that the supporter isn't
+  open.
+- GET ALL FROM [object] would not take anything unless the object was a static
+  or scenery object.
+- Missing full stop in parser error message "I don't understand that sentence."
+- creature_object wasn't properly handled by the parser.
+- Simplifed the parser by making use of the meta attribute of all debug verbs
+- When add_to_scope held a list of objects, each object *and all siblings* were
+  added to scope.
+- Now inp1/inp2 are updated in PerformAction
+- Changed unknown verb response to make reply clearer
+- Removed testlights.inf and nada.inf since they were more confusing than
+  useful.
+- Fixed 'drop X' parsing bug when X present but not held.
+- Fake action ##Going is now sent to destination room's before routine
+  just before the player enters.
+- Look now sets the action to ##Look when calling AfterRoutines, even if Look
+  was called by the Go action or some other action.
+- There was code in scope.h which would not compile if DEBUG_SCOPE was defined
+  but not DEBUG.
+- Fixed so DROP with a single object doesn't print the object name first,
+  unless it's a plural or ALL which happens to yield a single object.
+- Made plurals trigger that object names are printed, so "TAKE BALLS" may print
+  "red ball: Taken."
+- Fixed a noun parsing bug which typically made purloin not work at all if any
+  room provided a sw_to property.
+- Made purloin safer by not allowing you to pick up yourself or something
+  you're in.
+- GET ALL FROM BOX issued a ##Remove action for the first item and then a
+  ##Take action for each of the remaining objects.
+- Changed sw_to / parse_name printing to use a new buffer called printbuffer,
+  not to interfere with parser's use of buffer2.
+- held (GrabIfNotHeld) didn't check implicit take status properly.
+- Fixed an error where "drop books" when not holding any books still referred
+  to the first book in scope
+- Fixed wn offset error in GetNextNoun which caused problems with plurals
+- wrong word order in disambiguation caused parse_name to fail
+- Fixed error where multiinside silently ignored some inputs
+- Fixed: bad combinations of adjectives and nouns messed up disambiguation code
+- Improved disambiguation for plurals to make "get all red" work
+- Now allowing more than one word inputs in disambiguation
+- Changed disambiguation prompt
+- If bag is in box which is on table, and player is on table and types
+  ENTER BAG, (s)he now gets "You have to enter the box first." instead of
+  "You have to leave the table first."
+- Added a "howto" directory, for small games demonstrating how to do implement
+  various clever objects and behaviours.
+- Added a howto-game with an object which has an initial description and shows
+  its own contents both in room descriptions and when being examined.
+- Fixed double error messages when auto-taking objects.
+- Fixed bug in Library of Horror which could give player more than max score.
+- Changed so LibraryMessages can only replace messages which the game has
+  declared constants for, and it *has to* replace them. This also means
+  it doesn't matter what LibraryMessages returns.
+- Improved minimal.inf to be clearer on what goes where.
+
+=======
+v1.7: bug fix and new feature release (4 November 2020)
+- added a test suite for regression checks
+- selfobj (the default player object) now has describe property, but not the
+  unsupported before_implicit.
+- Objects which have scenery or concealed no longer get the chance to be
+  printed by Look, even if they have initial, when_open, describe etc.
+- Added a code example in howto folder for having multiple player characters.
+- Replaced THEN_WORD with THEN1__WD for I6 compatibility
+- Fixed bug in MoveFloatingObjects which caused objects to disappear if one
+  floating object had absent attribute.
+- Made 'unknown word' messages customizable
+- Fixed dropping objects from supporters bug
+- Improved incomplete switch command replies
+- Added OPTIONAL_SHIP_DIRECTIONS which makes PunyInform recognize 'fore', 'f',
+  'aft', 'a', 'port', 'p', 'starboard', 'sb' as synonyms for north, south,
+  west, east.
+- Added globals normal_directions_enabled and ship_directions_enabled to select
+  which directions currently work.
+- Fixed InScope bug and added test files to verify that it is working.
+- The parser can now handle input like 'get all but <object>'
+  getallfrom.inf test added to check this and similar patterns.
+- PunyInform now informs when the score goes down, and well as up.
+
+=======
+v1.8: bug fix and new feature release
+- fixed location test in GoSub for vehicle movements in the dark
+- Fixed that 'a' (character) was used instead of 'a//' (dictionary word) when
+  skipping articles to set noun and second to dictionary words for Ask etc.
+- fixed bad parser message for incomplete sentences in patterns that
+  use routine filters
+- fixed bug in ScopeWithin
+- fixed bug in call to TT_PARSER_ROUTINE
+- improved _GrabIfNotHeld and related unit tests (issue 40)
+- The cheap scenery extension doesn't let through the Search action any more
+  in its before rule, which allows the game author to give a custom response
+  for that action instead.
+- The cheap scenery extension now allows for the SceneryReply routine to check
+  which cheap scenery "object" was matched - it gets the two words specified
+  for the "object" as two parameters. See example in ext_cheap_scenery.h
+- If a switchable object has a string for description, or a routine which
+  returns true, "examine [object]" will no longer add a text saying whether the
+  object is currently switched on or off.
+- Fixed broken "restore failed" message when RestoreSub is called after game has ended.
+- Removed extra space after "You have won/died"
+- Added scoring notifications even on the final turn of the game, just before
+  you win/die/lose.  

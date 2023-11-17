@@ -1,0 +1,575 @@
+! Lower island
+
+! Exploration
+> x beach / sand / sandy beach
+> x forest / trees
+> x hill / island / mountain
+> x boulder (this moves you)
+> w
+> w
+> s
+> x horizon
+> x island / hill / mountain
+> w
+> x cliffs (mmh there seems to be something)
+> sw (ooh a tower)
+> sw (x10, then you see some kind of low-lying island but it cuts off)
+> ne
+> ne
+> x cliffs (can't see much)
+> nw
+> x strait
+> w
+> x fish
+> fish fish (with your bare hands? no)
+> e
+> n
+> ne
+> x pier / dock / pontoon / wooden
+> x boat / case / drawer (?? comment ça s'appelle ça)
+> take fishing rod
+> take fishing line
+> take fishing net
+> take fishing hook
+> take fishing bowie knife
+> look under boat
+> take seaweed / eat seaweed / eat algae
+> x elevator / platform / mechanism / ropes / pulley / pulleys / elevated
+> pull rope
+> get in elevator / get on platform
+> pull rope (it works but you're too weak and you'd rather stop before you're exhausted so you don't plummet to your death)
+> e
+> se
+> s
+> s
+> sw (back to beginning)
+> w
+> n
+> x trees (colorful flowers)
+> x rock
+> n
+> x hill
+> x stone
+> x stairs
+> climb up stairs / climb stairs / u (can't, too muddy and slippery, gotta take mud off)
+> clean stairs / rub earth / clean mud / take mud / remove mud (no tool, no strength)
+
+! Eat (+ albatross)
+> s (edge of the forest)
+> x flowers
+> take flower
+> look under rock
+> take worm
+> put worm on hook
+> put flower on hook
+> put line in rod
+> s
+> w
+> nw
+> w
+> fish fish with line / fish fish with rod / cast line / cast rod / fish / use fishing rod / catch fish with rod / catch fish with line
+> take fish
+> e (l'albatros arrive et vous suit tant que vous l'avez)
+> show fish to albatros
+> drop fish / give fish to albatros / throw fish at albatros
+> x flute / x holey stick / x empty stick
+> blow in flute (l'albatros arrive et shruggue)
+> se
+> e
+> n
+> look under rock
+> take worm
+> take flower
+> put worm on hook
+> put flower on hook
+> s
+> w
+> nw
+> w
+> fish fish with line / fish fish with rod / cast line / cast rod / fish / use fishing rod / catch fish with rod / catch fish with line
+> take fish
+> eat fish (not right now, you should make a campfire to eat)
+
+
+! Drink
+TODO PAS ENCORE DÉCIDÉ MAIS SANS DOUTE UNE FLEUR CONVEXE
+
+! campfire
+> x matches
+> gather wood / break branch / take wood / take branches
+> rub wood / dry wood
+> make fire / light match / light fire (autoeat)
+> eat fish / cut fish / open fish / gut fish / cook fish / burn fish
+
+! Sleep
+> tie net around tree
+> sleep
+
+! Solution 1 : up the elevator
+(from the forest)
+> s
+> w
+> nw
+> n
+> ne
+> get in platform
+> pull rope (cutscene to up)
+
+
+! Solution 2 : escalier
+> n
+> cut earth with knife / scrape earth with knife / clean step / clean stairs / clear stairs / clear step (cutscene to up)
+
+
+! Upper island
+
+! Exploration
+(starting from the top of the stairs)
+> x stairs
+> n
+(house(s))
+> x house
+> open door / open house / enter house (non, fermé)
+> n (central plaza)
+> x fountain
+> search fountain / look in fountain ?
+> take sixpence
+> x pump
+> pump pump / operate pump / drink water from pump (aaah refreshing)
+> w (outside the pub)
+> x pub
+> x door
+> open door (closed)
+> w / go behind pub (garden)
+> x brambles / x bushes / x weeds
+> x trenches / x rows
+> search trenches (find a sixpence)
+> n (oustide the storehouse)
+> x metal bowl
+> smell metal bowl
+> take metal bowl
+> e
+> in (it's dark, your flashlight shows there's not much here)
+> out
+> e
+> in (it's locked)
+> n (scenic view)
+> x fire (it's done)
+> x spam can (it's done)
+> take spam can (no thanks)
+> s
+> e (wood shop)
+> open door (locked)
+> s
+> x diesel generators
+> listen (nothing)
+> switch generators on (nope, no fuel)
+> x fence
+> x bush (a hole in the fence)
+> x hole
+> s
+> x white house / x mansion
+> x fence
+> climb fence (eh no there's barbed wire)
+> x guard shack (can't reach)
+> x door (locked)
+> se
+> x fence (no hole)
+> x tree
+
+! Opening the fence
+! Solution 1:
+> climb tree
+! Solution 2:
+> nw
+> n
+> crawl in hole / go in hole
+(now in the field)
+> search guard shack
+> search grass (ou call albatros)
+> unlock door with key
+> open door
+
+
+! Turning the electricity on
+(outside the storehouse)
+> open door / unlock door
+> enter / in
+(it's a bit dark but you can see batteries and a flashlight?)
+> take flashlight
+> take batteries
+> open flashlight / insert batteries in flashlight / replace batteries / put new batteries in flashlight
+> turn flashlight on (lots of stuff there)
+> take backpack
+> put bowl in backpack
+> eat stuff (no sorry)
+> in (more food)
+> in (canning workbench)
+> out
+> out
+> out
+> s
+> s
+> open door
+> turn on flashlight
+> x posters / x guinness posters / x beer posters
+> x apron
+> wear apron (réf au pub lanlord de murray?)
+> x safe
+> unlock safe / open safe (it's unlocked)
+> take pub key
+> out
+> ne
+> unlock door with key
+> open pub door
+> enter pub
+> turn flashlight on
+> x bulletin board (we need you for the community garden)
+> x jukebox (unplugged)
+> x tables
+> x chairs
+> x pint / x glass / x beer glass
+> x poster (this is XX island, southwest is tristam island)
+> x bar
+> enter kitchen
+> x fridge (unplugged, open, empty)
+> x can opener (take it? for what?)
+> x deep fryer
+> x cooking oil
+> cut cooking oil with fishing knife / carve oil with knife / take oil
+> put it in a backpack if needed
+> out
+> out
+> n (to the houses)
+> look through window / x window / look inside shop (ooh, some cool stuff there)
+> e
+> n
+> take rock
+> put rock in backpack (you'd rather not)
+> s
+> break glass / smash rock in glass / throw rock in glass / break window / break in shop
+> enter shop / in
+(turn on flashlight not needed, il fait beau et y'a une fenêtre)
+> x counter
+> take sixpence
+> x comic books
+> read comic books
+> take (nah)
+> x cigarettes
+> smoke cigarettes / take cigarettes (nah)
+> x binoculars
+> take binoculars
+> take lighter
+> out
+> n
+> burn log / burn remnants of fire / burn campfire logs
+> get bowl
+> get oil
+> put oil in bowl
+> cook oil / put bowl on fire / burn oil / burn bowl
+(you now have a bowl of liquid oil)
+> s
+> e
+> s
+> open diesel generators
+> put oil in generators / pour oil in generators
+> turn on generators (it works! give a few objects light, like the tv and the lamps)
+
+Optional: to get more points
+> n
+> w
+> w
+> enter house
+> turn tv off
+> turn light off
+> out
+> s
+> in
+> in
+> unplug fridge / turn off fridge
+> out
+> out
+> sw
+> enter (landlord's house)
+> turn light off
+
+Optional: listen to music
+> out
+> ne
+> in
+> play music / insert coins in jukebox / turn on jukebox
+> out
+
+! Find a screwdriver
+> sw
+> sw
+> x steel tower
+> x ladder (missing a rung)
+> climb ladder / u / go up ladder / go up tower
+> ne
+> ne
+> n
+> e
+> n
+> take rock
+> s
+> e
+> smash window
+> enter
+> take ladder rung
+> w
+> w
+> s
+> sw
+> sw
+> insert rung in ladder / fix ladder / insert rung in hole
+> climb up ladder
+(at the middle; description is like trinity; or unnecessary)
+(at the top)
+> take screwdriver
+> x horizon (huh a little something to the southwest)
+> look through binoculars / look at landmass through binoculars (huh ? a burned down island ? what happened there??)
+> d
+
+! Solution 1 : find code in book
+> ne
+> e
+> unscrew hinges / remove hinges with screwdriver / take door down with screwdriver / remove door with screwdriver
+> in
+> take shilling
+> take book
+> read book
+> search book (on trouve le code)
+> out
+> ne
+> e
+> e
+> x door
+> x keypad / x buttons
+> type/push/input 1846 (??) on door / keypad (door unlocks)
+> open door
+> enter
+
+! Solution 2 : find code on keypad
+> ne
+> e
+> ne
+> e
+> e
+> x keypad / x screw
+> unscrew screw (with screwdriver) / unscrew keypad (with screwdriver) / open keypad (with screwdriver) / unlock keypad (with screwdriver)
+> x wires / x keypad
+this reveals the four buttons that are connected to something ; we don't know the order but whatever
+> touch wires (nope)
+> screw screw / screw keypad (back) (with screwdriver) / close keypad  (with screwdriver) / lock keypad (with screwdriver)
+> type 1846 on keypad
+
+
+
+! Mansion
+
+> x statue
+> x hole
+> x valve
+> x stairs
+> x placards
+> x posters
+> x tube / x pipe
+> x buckets / x pulleys
+> x weight / x weight on platform
+> x machine / rube goldberg machine
+> s
+> x books / x shelves
+> read books / pick book
+> n
+> x door
+> push door / open door (blocked, something heavy on the other side)
+> e (cafeteria)
+> x chairs
+> x tables
+> look under tables / look under chairs
+> take butter knife
+> take chair / push chair w (can't see why)
+> s
+> (kitchen ? todo? y'a rien là ? fermer la porte à clé ?)
+> n
+> w
+> u
+> x pipe
+> x machine etc (les mêmes qu'avant)
+> e
+> x door to guard's room / x green door
+> open door to guard's room (locked forever)
+> x door to quarters / x red door
+> x lock on door to quarters
+> unlock door/lock with screwdriver
+> open door
+> s
+> x bed bunks
+> x trunk
+> open trunk
+> x cricket ball
+> take ball
+> n
+> e
+> x green door
+> unlock green door
+> n
+> x beds
+> x trunk
+> open trunk
+> x book
+> read book
+> take book (red herring)
+> s
+> x red door
+> unlock red door
+> open red door
+> s
+> x beds
+> open trunk
+> take bike pump
+> take shilling
+> n
+> w
+> w
+> d
+> attach bike pump to valve
+> pump pump (kerchunk empty)
+> put/insert ball in hole
+> pump pump (ball is thrown, hits the statue, falls down)
+> take ball
+> insert ball in hole
+> push statue / turn statue
+> pump pump (ball gets in pipe, pipe breaks
+> take ball
+> take screw
+> e
+> take chair / push chair (we automatically go back)
+> climb on chair
+> screw screw in hole
+> get off chair
+> put ball in hole
+> pump pump (lands in the bucket up, but the bucket doesn't go down)
+> x bucket on the floor
+> take rat/corpse (?)
+(the bucket is suddenly very light, goes up, hits the platform, the weight falls)
+> open door (ça marche)
+> n
+> look under rug (trapdoor)
+> open trapdoor
+> enter / in / go in trapdoor
+(elevator)
+> push button / go down
+
+
+
+
+! The lab
+
+! Exploring
+> out
+> x lobby
+> x desk
+> x poster (atomic bomb)
+> x door to the comms/communication room (locked)
+> s
+> x neon
+> s
+> x workbench
+> x chair
+> e
+> x books
+> x organic chemistry textbook (thicker)
+> x nuclear physics textbook (thinner)
+> n
+> n
+> x books / x shelves
+> n
+> x table
+> x papers
+> search papers (find the technical report warning the boss)
+> x chairs
+> s
+> s
+> e
+> s
+> x coffee maker
+> x chalk
+> x board
+> x picture / x drawing (kilroy was here on the chalkboard)
+> n
+> x lockers (all open and empty except one)
+> open locker (you need the combination)
+> e
+> x door (locked, no key)
+> look through window
+> x loading bay
+> x hangar
+> x warheads / x warhead storage
+> w
+> n
+> n
+> x door / x sign (the boss's room)
+> x neon / x roof (it's a bit blinky and the roof is a bit open)
+
+! Going in the boss's room
+> s
+> s
+> s
+> w
+> take organic chemistry book
+> n
+> n
+> n
+> take chair
+> s
+> e
+> n
+> put chair down / drop chair
+> get on chair / climb chair
+> push roof tile (you're missing a few centimeters)
+> get off chair / exit chair
+> put organic chemistry book on chair
+> climb on chair / climb on book
+> push roof tile
+> climb in roof / jump (you are now at the other side)
+> open door (locked)
+> x chair
+> x desk
+> x garbage bin
+> search garbage bin
+> read report (the same as the conference room, but trashed)
+> open drawer
+> take keyring
+> unlock door with keys/keyring
+> s
+> s
+> w
+> w
+> n
+> unlock comms room door
+> open door
+> enter comms room
+
+! Fixing the radio and endgame
+> x radio
+> turn radio on
+> x wires (they're fucked)
+> e
+> s
+> e
+> e
+> touch lock (yeah you'll be able to tell if you go slow)
+> guess combination / turn knob on lock / pick lock / feel lock / listen to lock
+> open lock / open locker
+> take wire (if you haven't looked at the wires in the comms room you don't know what to pick? or just a power cable?)
+> w
+> w
+> n
+> w
+> replace wire / change cable / fix radio
+> x note (says you should have 101.1 ; you're at 99.6, you can turn left for 1.3 and right for 2.0)
+> turn right 4 times
+> turn left 5 times
+> talk / say hello / pick up receiver / talk in microphone / call for help / SOS

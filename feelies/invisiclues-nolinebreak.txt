@@ -1,0 +1,234 @@
+This file contains clues and hints for the game, and is intended as a backup if the PDF hint sheet doesn't work for you. (The PDF hint sheet is black text on a black background; you can in theory highlight the text with the mouse to reveal it, or highlight then copy-paste the text onto a text file to reveal it. This won't work on all PDF viewers, however. If it didn't, this file is for you!)Here is how this file works: each clue and question are separated by 64 blank lines, thus avoiding unintentional spoilers. Below is an index for the questions the guide is meant to help with. If you want to get a hint related to question number 7, for instance, use the search function of your editor to look for the string "
+#07". This should take you to question number 7 lower down in the file; keep scrolling down to reveal more clues. The last clue will be indicated with "(There are no more clues for this question.)", so you don't need to worry about scrolling too far.List of questions answered in this document:
+
+
+#01 - Is this Tristam Island?
+
+#02 - How do I eat?
+
+#03 - How do I sleep?
+
+#04 - How do I start a fire?
+
+#05 - How do I get up the island?
+
+#06 - I can’t carry very many objects at once!
+
+#07 - What is the tiny flute for?
+
+#08 - Where can I find light?
+
+#09 - How do I get inside the fence?
+
+#10 - Who can I talk to in this game?
+
+#11 - When was this island abandoned?
+
+#12 - How do I start the generators?
+
+#13 - Why are the generators so loud?
+
+#14 - Is there anything interesting in the shop?
+
+#15 - The electricity is gone!
+
+#16 - How do I kill the dragon?
+
+#17 - How do I open the door of the white house?
+
+#18 - Why is that book here?
+
+#19 - Can I open the doors upstairs in the mansion?
+
+#20 - Why is that door mechanism so complex?
+
+#21 - How do I open the massive door at the checkpoint?
+
+#22 - How do I open the Major’s office door?
+
+#23 - How do I get rid of the robot?
+
+#24 - How do I fix the radio?
+
+#25 - How do I set the radio at the right frequency?
+
+
+#01 - Is this Tristam Island?
+ • It is indeed the title of the game.
+ • But this isn't Tristam Island. This is Kingsley Island.
+ • Tristam Island is a small island off the coast of this island. It's visible from the watchtower.
+ • You can also see it from the sandbank.
+(There are no more clues for this question.)
+
+#02 - How do I eat?
+ • The seaweed under the boat won't be enough; you need some proteines.
+ • There are 2 areas in the ocean in which you can fish.
+ • The fishing net is too heavy to fish with; you need to use the rod.
+ • You will need bait and a lure.
+ • You'll find both bait and lure in the forest.
+ • You can use the worm as bait and a flower as a lure.
+(There are no more clues for this question.)
+
+#03 - How do I sleep?
+ • There is a lack of places to sleep in.
+ • You can't sleep anywhere on the floor of the island.
+ • The only way is to sleep above the forest floor.
+ • You'll need to make a hammock and tie it in the trees.
+ • Use the fishing net as a hammock.
+(There are no more clues for this question.)
+
+#04 - How do I start a fire?
+ • You have a few matches; you just need some wood.
+ • You can gather wood in the forest.
+ • The wood has to be dry enough to catch fire.
+ • Exposing it to the sun will dry it.
+ • You can then ARRANGE WOOD, then BURN FIREWOOD.
+(There are no more clues for this question.)
+
+#05 - How do I get up the island?
+ • There are two ways to go up.
+ • One way will lead you to the northern side of the plateau, and the other to the southern side of the plateau.
+ • Use the platform or the hidden stairs.
+ • You need to sleep and eat first.
+(There are no more clues for this question.)
+
+#06 - I can’t carry very many objects at once!
+ • That's on purpose while you're on the lower part of the island. It'll get better!• Once you're at the top, you will be able to find a backpack that can fit pretty much anything.
+• The backpack was left behind after its owners ran out of time to pack more food to bring with them.
+• The backpack is in the island's storehouse, but not visible immediately.• You need to venture at the back of the storehouse; find a source of light first.
+(There are no more clues for this question.)
+
+#07 - What is the tiny flute for?
+ • The albatross gave it to you after you gave it the fish; it owes you a favor.
+ • Blowing the flute will make the albatross fly to you and attempt to help you. It only owes you one favor, though.
+ • The albatross is very good at finding an object you need, or helping you open a door.
+(There are no more clues for this question.)
+
+#08 - Where can I find light?
+• You won't need a light source once you've managed to restore electricity on the island.
+• You will need to find a portable light source to do this, though.
+• There is an electric torch stored somewhere on the island.
+• Check the storehouse.
+• Check the shelves in the storehouse.
+(There are no more clues for this question.)
+#09 - How do I get inside the fence?
+ • There are several ways to get past it.
+ • One is to ask the albatross for help, but that means you won't get his help anywhere else.
+ • You can go under or over the fence.
+ • Try following the fence and see if anything helps.
+ • There's a hole in the fence hiding behind bushes, and a tree that has conveniently grown taller since the last time this island was inhabited.
+(There are no more clues for this question.)
+
+#10 - Who can I talk to in this game?
+ • Contrary to most Infocom games, there are no NPCs in this game. Just an albatross.
+ • But you can talk to me instead.
+(There are no more clues for this question.)
+
+#11 - When was this island abandoned?
+ • Before August 5th 1963, that's for sure.
+ • The jukebox's songs will give you a clue.
+ • The signup sheet will give you another indirect clue.
+ • It was some time in 1962.
+ • Before the United Kingdom signed the Nuclear Test-Ban Treaty prohibiting open-air nuclear testing.
+(There are no more clues for this question.)
+
+#12 - How do I start the generators?
+ • The diesel generators won't start because their tanks are empty. There's no diesel anywhere on the island, though.
+ • You'll have to find an alternative liquid fuel to put in the generators.
+ • You can find biofuel on the island; just melt it and pour it in the tanks.
+ • In 2013, Dutch airline KLM announced a pilot program where they flew planes with 75% kerosene and 25% recycled cooking oil.
+ • The pub has old cooking oil you can melt and pour in the diesel tanks.
+(There are no more clues for this question.)
+
+#13 - Why are the generators so loud?
+ • The generators have to work harder the more electricity is needed.
+ • Have you noticed there are things that don't need to be plugged in anymore?
+ • Turn off the lights and any electric device you don't need; this will make the generators work less hard.
+(There are no more clues for this question.)
+
+#14 - Is there anything interesting in the shop?
+ • Looking through the window reveals interesting objects. The door is locked, though.
+ • There are no keys for the woodshop or the small shop on the island.
+ • You’ll have to break in the shops.
+ • Use one of the large rocks at the scenic area.
+(There are no more clues for this question.)
+
+#15 - The electricity is gone!
+ • Your oil consumption was probably too high; you really should have turned off the lights and unplugged the appliances.
+ • No, I’m just kidding. I thought about making this part of the game, an extra puzzle for the people who just leave the lights and the appliances on even when they don't need them. A “carbon tax", if you will.
+ • But in the end, nagging people to “do their part” and save tiny amounts of electricity isn’t enough. Urgent political action is needed to reduce carbon emissions!
+(There are no more clues for this question.)
+
+#16 - How do I kill the dragon?
+ • There is no dragon in this game.
+ • Oh, do you mean in Adventure?
+ • You can kill it with your bare hands.
+ • Just answer "yes" after "kill dragon".
+(There are no more clues for this question.)
+
+#17 - How do I open the door of the white house?
+ • The lock is a prototype developed in secret by the military, that was rediscovered by civil engineers. It's know as a "keypad".
+ • Keypads dont work without electricity.
+ • The thing with passwords and secret combinations is that someone is bound to write them down somewhere.
+ • Or you could unscrew the panel and try to look at the wiring.
+ • Unless you'd rather try all the combinations. That could work too…
+(There are no more clues for this question.)
+
+#18 - Why is that book here?
+ • That book is from the library inside the white house.
+ • The person who used to live here is the one who made the hole in the fence. He used to sneak inside the white house to borrow the scientists’ science-fiction books.
+ • Contrary to the books in that library, this is a fictional title.
+ • The book is an obvious reference to Trinity, to which this game owes a lot.
+(There are no more clues for this question.)
+
+#19 - Can I open the doors upstairs in the mansion?
+• This is where the scientists slept, under the supervision of the military.
+• The officers and the guard had locks on their door, and the keys are nowhere to be found. Don't worry about these doors, then.
+• The white and the yellow room have privacy locks - the ones that can be open from the outside in case of emergency.
+• You just need to find the right tool to pick the lock.
+• Something with a flat head will do.
+• Use the flathead screwdriver.
+(There are no more clues for this question.)
+#20 - Why is that door mechanism so complex?
+ • The scientists devised this mechanism themselves.
+ • They know a thing or two about chain reactions.
+ • Also, it was their way of rebelling against the strictness of the military overseeing the project.
+ • The Major allowed it in the end, to keep peace, but also because it made it impossible to break in the lab without waking up everyone in the house.
+(There are no more clues for this question.)
+
+#21 - How do I open the massive door at the checkpoint?
+ • There's no checkpoint or massive door in this game.
+ • You must confuse me with Stefan Vogt, the author of the award-winning Hibernated.
+ • You need to put an alien hand on the glass slab.
+ • For this to work, you have to regenerate the alien hand first.
+ • Insert it in the tube in the sick bay.
+ • Check out Hibernated 2 !
+(There are no more clues for this question.)
+
+#22 - How do I open the Major’s office door?
+ • Look at the ceiling.
+ • One of the ceiling tiles can be moved.
+ • You need to climb on a chair to reach the ceiling.
+ • And maybe you'll need a little extra boost.
+ • Standing on a thick book would give you the boost you need.
+(There are no more clues for this question.)
+
+#23 - How do I get rid of the robot?
+ • There's no robot. Are you trying to cheat?
+ • You really shouldn't be reading this. Unless you already solved the game. In that case, congratulations!
+(There are no more clues for this question.)
+
+#24 - How do I fix the radio?
+ • You need to replace the wire that melted.
+ • The radio operator always has a spare wire in his personal stuff.
+ • Try the lockers.
+ • You need to somehow find the combination, even if you can't see the numbers on the dial anymore.
+ • Listen to the lock.
+(There are no more clues for this question.)
+
+#25 - How do I set the radio at the right frequency?
+ • Turning the knob to the right increases the frequency by 0,0020 Mc, turning it left decreases by 0,0013 Mc.
+ • How many Mc differ between your position and the frequency you want? Try to reach that number.
+ • Turning left twice, then right once, will decrease the frequency by 0,0006 Mc. Slow and steady wins the race.
+ • Or if you go all the way to the lowest frequency, it should then be easy to get to your target.
+ (There are no more clues for this question.)

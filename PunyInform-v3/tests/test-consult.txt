@@ -1,0 +1,57 @@
+
+> consult book about ghosts
+special_number = 0
+consult_words = 1
+consult_from = 4
+You discover nothing of interest in the book.
+
+> read about ghosts in book
+special_number = 0
+consult_words = 1
+consult_from = 3
+You discover nothing of interest in the book.
+
+> ask john about ghosts
+???
+special_number = 0
+consult_words = 1
+consult_from = 4
+John ignores your question.
+
+> answer ghosts to john
+???
+special_number = 0
+consult_words = 1
+consult_from = 2
+no answer.
+
+> consult book about apple
+special_number = 0
+consult_words = 1
+consult_from = 4
+You discover nothing of interest in the book.
+
+> read about apple in book
+special_number = 0
+consult_words = 1
+consult_from = 3
+You discover nothing of interest in the book.
+
+> ask john about apple
+apple
+special_number = 0
+consult_words = 1
+consult_from = 4
+John ignores your question.
+
+> answer apple to john
+apple
+special_number = 0
+consult_words = 1
+consult_from = 2
+no answer.
+
+> quit
+Are you sure you want to quit? yes
+
+[Hit any key to exit.]

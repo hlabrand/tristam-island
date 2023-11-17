@@ -1,0 +1,15 @@
+Here's how the development worked!
+
+First, some heavy brainstorming and research: this is all in the "brainstorming" folder.
+
+Then, making some maps in Trizbort, see "1 - maps". The intent is to make the maps as precise as possible and add all sorts of objects that could be interesting.
+
+At the same time (soon after the geography is more or less solidified), making a puzzle dependency chart. (That's "2 - puzzle dependency flowchart.png" and the corresponding Trizbort file.)
+If you don't know what that is, see Ron Gilbert's (Monkey Island) article about it! https://grumpygamer.com/puzzle_dependency_charts. This helps solidify the objects that are in the Trizbort maps.
+(The great thing about these maps is that when you're done, you can click "export" and the code is generated for you - you get a rough outline of the code of your game, with most of the objects in already and the room connections set up!)
+
+The next step to make progress is to transform the puzzle dependency chart into a walkthrough. That's "3 - walkthrough.txt". You look at the puzzles, you look at the geography, and you try to make a walkthrough as precise as possible.
+
+Then, it's time for a fake transcript! I love this technique; it allows you to remain in "writing mode" the whole time and focus on the text and the atmosphere and what you want to convey to the player, without being slowed down by bugs and programming nitty gritty details. Once you have that, you can code and just copy-paste the text, which is much easier. I've learned the technique from J. Robinson Wheeler's "Make IF Fast!", which is a foundational text for my practice. (Read it here: http://raddial.com/if/theory/make_if_fast.html)
+
+Then, well, you code, you debug, etc, etc!

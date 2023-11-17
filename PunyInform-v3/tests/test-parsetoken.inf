@@ -1,0 +1,238 @@
+#Iftrue (#version_number == 8);
+Constant USEINFORM;
+#Endif;
+
+Constant Story      "Parser test";
+Constant Headline   "^A parser test suite for PunyInform.^";
+Serial "200827";
+
+
+Constant INITIAL_LOCATION_VALUE = Library;
+
+#Ifndef USEINFORM;
+! Uncomment to show time instead of score/turns
+!Statusline time;
+
+Constant DEBUG;
+!Constant DEBUG_PARSEANDPERFORM;
+!Constant DEBUG_PARSEPATTERN;
+!Constant DEBUG_PARSETOKEN;
+!Constant DEBUG_CHECKNOUN;
+!Constant DEBUG_GETNEXTNOUN;
+!Constant DEBUG_SCOPE;
+
+! Uncomment to add optional features to PunyLib
+!Constant DEBUG;
+!Constant CUSTOM_ABBREVIATIONS;
+!Constant OPTIONAL_ALLOW_WRITTEN_NUMBERS;
+Constant OPTIONAL_EXTENDED_METAVERBS;
+Constant OPTIONAL_EXTENDED_VERBSET;
+!Constant OPTIONAL_NO_DARKNESS;
+!Constant OPTIONAL_FULL_SCORE;
+!Constant OPTIONAL_FULL_DIRECTIONS;
+Constant OPTIONAL_GUESS_MISSING_NOUN;
+!Constant OPTIONAL_MANUAL_SCOPE;
+!Constant RUNTIME_ERRORS = 0;
+#EndIf;
+
+#Ifdef USEINFORM;
+Include "Parser";
+Include "VerbLib";
+#IfNot;
+Include "globals.h";
+#EndIf;
+
+[ParseNoun obj w;
+	switch(obj) {
+	apple:
+		w = NextWord();
+		wn--;
+		if(w == 'apricot') return 1;
+	egg:
+		w = NextWord();
+		if(w ~= 'yummy') wn--;
+	John:
+		w = NextWord();
+		if(w ~= 'beautiful') wn--;
+    }
+    return -1;
+];
+
+[BangParse;
+#Ifdef USEINFORM;
+    return ParseToken(ELEMENTARY_TT, NUMBER_TOKEN);
+#Ifnot;
+    return ParseToken(TT_OBJECT, NUMBER_OBJECT);
+#Endif;
+];
+
+Verb 'bang'
+    * BangParse -> Bang;
+
+[BangSub;
+    "Noun is ", parsed_number, ".";
+];
+
+[WowScope;
+    switch(scope_stage) {
+        1: rfalse;
+        2: ScopeWithin(CarPark); rtrue;
+        3: "You can't wow that, you crazy person!";
+    }
+];
+
+[WowParse x;
+#Ifdef USEINFORM;
+    x = ParseToken(SCOPE_TT, WowScope);
+#Ifnot;
+    x = ParseToken(TT_SCOPE, WowScope);
+#Endif;
+    print "ParseToken returned ", x, "^";
+    return x;
+];
+
+Verb 'wow'
+    * WowParse -> Wow;
+
+[WowSub;
+    print (The) noun, " is in scope!^";
+!   LoopOverScope(WowLoop);
+];
+
+[ YeahParse;
+    return -1;
+];
+
+Verb 'yeah'
+    * YeahParse -> Yeah;
+
+[ YeahSub;
+    print "yeah^";
+];
+
+#Ifndef USEINFORM;
+Include "puny.h";
+#EndIf;
+
+! Uncomment to add PunyLib extensions
+!Include "ext_menu.h";
+!Include "ext_flags.h";
+!Include "ext_quote_box.h";
+!Include "ext_cheap_scenery.h";
+
+
+#Ifdef USEINFORM;
+Include "Grammar";
+#Endif;
+
+[Scan1Scope;
+    switch(scope_stage) {
+        1: rtrue;
+        !2: PlaceInScope(RiverBank);
+        2: ScopeWithin(RiverBank);
+        3: "You're crazy!";
+    }
+];
+
+[Scan2Scope;
+    switch(scope_stage) {
+        1: rfalse;
+        2: ScopeWithin(RiverBank); rtrue;
+        3: "You're crazy!";
+    }
+];
+
+Verb 'scan1'
+    * scope=Scan1Scope -> Scan
+    * scope=Scan1Scope 'with' noun -> Scan;
+
+Verb 'scan2'
+    * scope=Scan2Scope -> Scan;
+
+Verb 'scan3'
+    * scope=Scan2Scope -> Scan
+    * noun 'here' -> Scan;
+
+Verb 'scan4'
+    * noun 'here' -> Scan
+    * scope=Scan2Scope -> Scan;
+
+[ _ScopeHelper p_obj;
+    !print (a) p_obj, " (", p_obj, ")";
+    !@new_line;
+    p_obj = 0;
+];
+
+[ScanSub;
+    if(second == 0) {
+        print "Scanning ", (the) noun, "... Clear!^";
+    } else {
+        print "Scanning ", (the) noun, " with ", (the) second, "^";
+    }
+    LoopOverScope(_ScopeHelper, noun);
+];
+
+Object Library "The Library"
+	with
+	    description "You are in a library.",
+	    s_to CarPark,
+	has light;
+
+Object -> John "John"
+	with name 'john',
+	description "He is beautiful and he knows it.",
+	life [;
+	Answer:  print "answer words ", consult_words, " from ", consult_from, "^";
+	Ask: print "ask^";
+	],
+	before [;
+	Consult: print "consult^";
+	],
+	grammar [;
+	    print "grammar^";
+    ],
+	has animate proper;
+
+Object CarPark "Car Park"
+	with
+	    description "You are in a car park.",
+	    n_to Library,
+	    e_to RiverBank,
+	has light;
+
+Object -> apple "apple"
+	with name 'apple',
+	has edible;
+
+Object -> egg "egg"
+	! Can be referred to as "egg" or "yolk" or "yummy" or "yummy egg" or "yummy yolk"
+	with
+		name 'yolk',
+		parse_name [;
+			if(NextWord() == 'egg') return 1;
+			return -1;
+		],
+	has edible;
+
+Object RiverBank "River Bank"
+  with
+        description "The river is quite wide here. The sun reflects in the blue water, the birds are
+      flying high up above.",
+        w_to CarPark,
+    has light;
+
+Object -> paper "paper"
+    with
+        name 'paper',
+        describe "^There is a paper here.";
+
+Object -> paperclip "paperclip"
+    with
+        name 'paperclip' 'clip',
+        describe "^There is a paperclip here.";
+
+[ Initialise;
+#IfDef USEINFORM;
+    location=INITIAL_LOCATION_VALUE;
+#EndIf;
+];

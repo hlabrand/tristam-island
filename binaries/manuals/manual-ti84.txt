@@ -1,0 +1,45 @@
+TRISTAM ISLAND
+By Hugo Labrande
+
+Manual for : TI-84+ CE version
+
+=================================
+
+After crashing your plane at sea, you end up drifting to a small island, with not much to survive. You explore, and find out the island was inhabited, years ago. But why did the people leave? And why is there a fence around that big building at the top of the hill?
+
+=================================
+
+WARNING
+
+This version of the game was almost compatible with TI-83+ calculators. However, due to a tricky bug we are currently investigating, the TI-83+ version only works on an emulator, but not on actual hardware. This package will hopefully be updated soon with a bugfix!
+
+=================================
+
+HOW TO PLAY
+
+- On a TI-84+CE, use the TI-84+ CE <-> USB cable and the TI Connect software to transfer zemu.8xp and the contents of the "vars" directory onto the calculator.
+- On a TI-83+, use the TI-83+ <-> USB cable and the TI Connect software to transfer zemu.8xp and the contents of the "vars" directory onto the calculator. Another possible way is to use the TI <-> TI cable to transfer it from a TI-84+CE.
+- Open the Catalog (2nd + Catalog) and choose the "Asm(" command.
+- Hit the "PRGM" button and select "ZEMU".
+- At the prompt, type "TRIS".
+- The game then starts.
+
+Example of inputs recognized by the game are: go east, examine sky, inventory, enter ocean, take pebble, open matchbook. Around 100 verbs are recognized by the game.
+
+There are no built-in hints in the game (there just isn't the space!), so I encourage you to ask other players for help!
+
+If you encounter a bug, or if a sensible command wasn't recognized, or if you want to give me any sort of feedback, don't hesitate to send me an email : hugo at hlabrande dot fr.
+
+==================================
+
+MANY THANKS TO
+- Infocom, creators of the Z-Machine and of so many awesome adventure games that we're still using their tools 40 years later;
+- Graham Nelson, creator of Inform 6;
+- Andrew Plotkin, for his hard work and dedication to fixing the Inform 6 compiler's bugs that had prevented z3 releases for years;
+- Fredrik Ramsberg and Johan Berntsson, for the amazing PunyInform library, and many optimizations;
+- My testers: Manon Burz-Labrande, CrocMiam, Steve Flintham, Grimmnebulin, Brennen Kinch, Juhana Leinonen, Samuel Verschelde, Mark Walker, Jack Welch;
+- The players who reported bugs in the initial release: Davide Bucci, Chris Carter, Wade Clarke, Denk, Richard Hawkins, Christopher Merrimer, Brian Rushton, Tiffany Zhao;
+- Stefan Vogt, for his help setting up many ports of this game, and his detailed answers to my technical questions.
+
+For this TI-84+CE port more specifically:
+- Nicholas Hunter Mosier, for developing ZEMU, the interpreter for TI-83+ and TI-84+ CE calculators.

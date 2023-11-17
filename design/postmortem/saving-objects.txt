@@ -1,0 +1,168 @@
+(This was originally published as an article in French on fiction-interactive.fr : https://www.fiction-interactive.fr/economiser-des-objets-en-inform-6/
+
+I have edited it lightly so it's more to the point. --H)
+
+Tristam Island's design was targeted at retro computers via the Z-Machine's z3 format, which is pretty restrictive but runs on the most computers. One of the biggest restrictions is that you cannot have more than 255 objects declared in the game file.
+
+After making my map using Trizbort, including the list of objects that would be involved in the puzzle-solving, I hit the "Export to Inform 6" button and... saw that I had 254 objects. Not much wiggle room... So I had to get clever!
+
+This article is about a few solutions I implemented in Tristam Island to save a few objects so I could implement my full vision. Hopefully these techniques will be interesting to some of you!
+
+
+
+*** Scenic5sens and cheap_scenery ***
+
+Both of these Inform 6 extensions are basically the same idea: giving the ability to add replies to a player who wants to take a look at some scenery objects, but without having to dedicate a full object to a wall. How sophisticated the answers are depends on the extension but this is nonetheless very useful.
+
+Scenic5sens is an extension written in 2007 by Stormi (see https://forum.fiction-interactive.fr/t/nouvelle-extension-scenic5sens-h/225), based on an idea by Roger Firth. This extension allows you to define an object and specify the answers to verbs involving all 5 senses (examine, touch, listen, smell, and taste) applied to specific words. You can be in a fair and have answers for "smell hot dogs", "listen to music", "lick lollipop" without defining these as individual objects. 
+
+Another similar extension is PunyInform's cheap_scenery. It's a similar idea: just one object to declare and a property allows you to specify nouns which the parser should react to and give a specific answer. This also allows to inject routines with reactions to any verb, for any noun specified in the object (the SceneryReply functionality). This makes it a much more powerful extension than scenic5sens!
+
+
+*** My own style ***
+
+When I wrote Tristam Island, I wanted to save on objects but I also wanted to take into account a lot of sensible commands (and it was before SceneryReply existed). So I wrote my own system, aka dirty spaghetti code, which saves on objects but adds several kilobytes of code (and there is a limit of 128kb...). The concept is a big parse_name routine that does what it's supposed to do (report to the parser how many consecutive words correspond to the object), but keeping track for several objects at once, and raising a flag for the object that was recognized so the rest of the object's code (the displayed name, the description, etc.) can react to that. That's the concept, and here's what it looks like:
+
+
+Object  FarAwayElements
+  with  found_in [; rtrue; ],
+        parse_name [ w n ;
+            WE_PARSED_A_WORD = 0;
+
+            n = 0; w = NextWord();
+            while(w) {
+                if (w == 'sea' or 'ocean' or 'atlantic' or 'waves' or 'seawater' or 'surface' or 'salt' || (location ~= Narrowstrait && location ~= Centralplaza && w == 'water')) {
+                        if (PARSED_SEA == false) {
+                            if (WE_PARSED_A_WORD) { return n; } else { ClearParsingFlags(); WE_PARSED_A_WORD = true; PARSED_SEA = true; }
+                        } jump parsedaword1;
+                    }
+                if (w == 'sun' or 'sky' or 'blue') {
+                        if (PARSED_SKY == false) {
+                            if (WE_PARSED_A_WORD) { return n; } else { ClearParsingFlags(); WE_PARSED_A_WORD = true; PARSED_SKY = true; }
+                        } jump parsedaword1;
+                    }
+                if (w == 'ridge' or 'plateau' || (w == 'hill' && location ~= Deepinthewoods) || (w == 'island' or 'this' && location ~= Inpub && ~~TestScope(TristamIsland) )) {
+                        if (PARSED_ISLAND == false) {
+                            if (WE_PARSED_A_WORD) { return n; } else { ClearParsingFlags(); WE_PARSED_A_WORD = true; PARSED_ISLAND = true; }
+                        } jump parsedaword1;
+                    }
+                ! Si on est là, c’est qu’on n’a pas matché : stop.
+                return n;
+    .parsedaword1;
+                ! Si on est là, c’est qu’on a matché : continuons.
+                n++; w = NextWord();
+            }
+            return n;
+],
+        short_name [;
+            if (PARSED_SEA) { print "the Atlantic Ocean"; rtrue; }
+            if (PARSED_SKY) { print "the sun"; rtrue; }
+            if (PARSED_ISLAND) { print "this island"; rtrue; }
+],
+
+(And that's not even the full version, with 7 different objects, and there's more objects with the other structure...)
+
+Basically the algorithm is: "if you see a word you like, look if you were parsing another word ("x beach cliff"); if you weren't, it's all good, continue to count and parse more words". But as you can see, the conditions this allows me to specify can be complex, and it affords a lot of control (and perfectionnism) so that smarty pants don't email me saying "we can't see the ocean through a forest". The algorithm took a while to figure out and there are subtleties (like what to do with a phrase with two objects, etc.) but it seems robust enough. Marrying parse_name and spaghetti code is a bit of an abomination, but it allows me to hide snarky answers to "count trees" or "look under island", just like I wanted it all along :)
+
+
+
+*** One door, two doors ***
+
+Another object looks normal but actually contains an object-reducing optimization: the lockable door. Yep, in Tristam Island, the 4 lockable doors are actually 1 object - and the same goes for the 8 non-lockable doors. Yum!
+
+It's not very complicated: we make it so that there's only one lockable door at the most in any location, and we store its attributes (open/closed, locked/unlocked) in global variables. When the game is looking for whether the door is here, we rise to attention, we update our attributes from the global variables, and we say "yes, I'm here; and if the player does something with the door, we modify the global variables so we can keep track. Which gives:
+
+[ FlagToHas ob flagunlocked flagopen ;
+    if (flagunlocked) { give ob ~locked; } else { give ob locked;}
+    if (flagopen) { give ob open; } else { give ob ~open; }
+];
+
+Object OneBigLockableDoor "door"
+  with  found_in [; switch(real_location) { ! On met aussi à jour l’état.
+                        Fencedarea: FlagToHas(self, F_GUARDDOOR_UNLOCKED, F_GUARDDOOR_OPEN); rtrue;
+                        Field: FlagToHas(self, F_GUARDDOOR_UNLOCKED, F_GUARDDOOR_OPEN); rtrue;
+                        
+                        Inpub: FlagToHas(self, F_PUBDOOR_UNLOCKED, F_PUBDOOR_OPEN); rtrue;
+                        Outsidethepub: FlagToHas(self, F_PUBDOOR_UNLOCKED, F_PUBDOOR_OPEN); rtrue;
+            } rfalse;
+        ],
+        door_to [; switch(real_location) {
+                    Field: return Fencedarea;
+                    Fencedarea: return Field;
+                    Inpub: return Outsidethepub;
+                    Outsidethepub: return Inpub;
+                    }
+        ],
+        door_dir [; if (real_location == Field) return w_to;
+                    if (real_location == Fencedarea) return e_to;
+                    if (real_location == Inpub) return out_to;
+                    else return in_to;
+        ],
+        with_key [; switch(real_location) {
+                        InPub, Outsidethepub: return Sparekeyforthepub;
+                        Field, Fencedarea: return Guardkey;
+                    } rfalse;
+        ],
+        after [; ! Mettons à jour les flags.
+            Open, Close, Lock, Unlock: switch(real_location) {
+                        Field, Fencedarea:      if (OneBigLockableDoor has open) { F_GUARDDOOR_OPEN =1; } else { F_GUARDDOOR_OPEN=0; }
+                                                if (OneBigLockableDoor hasnt locked) { F_GUARDDOOR_UNLOCKED = 1; } else { F_GUARDDOOR_UNLOCKED=0; }
+                        Inpub, Outsidethepub:   if (OneBigLockableDoor has open) { F_PUBDOOR_OPEN =1; } else { F_PUBDOOR_OPEN=0; }
+                                                if (OneBigLockableDoor hasnt locked) { F_PUBDOOR_UNLOCKED = 1; } else { F_PUBDOOR_UNLOCKED=0; }
+                        }
+        ],
+
+
+*** The ocean! ***
+
+In Tristam Island, one can go in the ocean, wade a bit, go fish, or look at the island from afar and note interesting details. This would mean essentially that for every location by the shore in Act I of the game, there should be a coreesponding location in the water... Ouch, 9 almost identical objects - there's got to be a way. 
+
+(Drawing it will certainly help making things clearer in case the explanations below don't click! But also please keep in mind that I'm a former math teacher, so thinking about normal vectors and modular arithmetic might be fun only for me, which I understand!)
+
+My solution was to use the island's shape, essentially an octogon with a longer south side. Or a compass with 2 arrows pointing south, really. So the only thing you need is to create a single location for the sea, and keep track of where you are on the compass. I called that the "normal vector" in the code, i.e. the vector (the arrow) that intersects the beach (the octogon's side) perpendicularly. (Or said another way, the direction you'd be looking towards if you look to the ocean from the beach.) I also keep track of which location the player is in front of, and everything is updated with each movement.
+
+From then on, you can define the directions the player is allowed to go. For instance, if you follow that perpendicular line, you want to go back to the beach. What about following along the coast? I cheated: my code checks the corresponding location on the beach, and if you can go along that direction on the beach, you can on the beach too. Add a small kindness to the player (if you go a slanted direction that would bring you towards the beach, assume you mean to follow the beach) and that's a complicated system that works really smoothly in practice. 
+
+Here's an exerpt of the code:
+
+Object OnlyRoomWaistDeep "In the ocean"
+    n_to MoveInSea,
+    nw_to MoveInSea,
+    w_to MoveInSea,
+(etc.)
+
+[ EnterOcean ;
+    vecteur_normal = location.vec_norm; ! Each beachside location has this information, i.e. the direction one would look towards if looking towards the sea.
+    room_shore = location;
+    return OnlyRoomWaistDeep;
+];
+
+! Note that there are two "to the north"; that's for the 2 southern locations on the beach, instead of one for the other locations
+Array clockwise_dir_array static ->  n_to ne_to e_to se_to s_to sw_to w_to nw_to n_to ;
+
+[ MoveInSea  v; 
+    v = (vecteur_normal + 6) % 8;
+    ! Are we going towards the beach?
+    if (selected_direction == clockwise_dir_array->vecteur_normal) { return room_shore; }
+    ! Are we almost going towards the beach? If so pretend we meant to follow the coast
+    if (selected_direction == clockwise_dir_array->((vecteur_normal + 7) % 8)) { selected_direction = clockwise_dir_array->v; }
+    !  Does the direction exist on land (for travelling parallel to the beach); careful, going towards the sea doesn't count
+    if (room_shore provides selected_direction && selected_direction ~= clockwise_dir_array->((vecteur_normal + 4) % 8) ) {
+        ! Let's change the normal vector except for the top or bottom of the octogon (longer sides)
+        if (selected_direction == clockwise_dir_array->v) { ! Clockwise
+            if (room_shore ~= Immaculatebeach) { vecteur_normal = (vecteur_normal + 1) % 8; }
+        } else { 
+            if (room_shore ~= Beachnearforest) { vecteur_normal = (vecteur_normal + 7) % 8; }
+        }
+        ! This is not longer the same shoreside location
+        room_shore = room_shore.selected_direction;
+        print "You walk a little in this direction, following the coast.^";
+        MoveFloatingObjects(); ! Update objects, for instance making the fish appear
+        <Look>; rtrue;
+    } else { print_ret "You walk a little in this direction, but you don't want to go too far from the shore."; }
+];
+
+
+*** Et voilà ! ***
+
+These tricks, altogether, add maybe 8k to the code, but save 35 objects! That's 35 more objects to increase immersion, have a more detailed world, and make a really polished experience So yes, maybe I'll claim that I have a z3 game with 280 objects :)

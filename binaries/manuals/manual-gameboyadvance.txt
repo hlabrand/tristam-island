@@ -1,0 +1,48 @@
+TRISTAM ISLAND
+By Hugo Labrande
+
+Manual for : GameBoy Advance version
+
+=================================
+
+After crashing your plane at sea, you end up drifting to a small island, with not much to survive. You explore, and find out the island was inhabited, years ago. But why did the people leave? And why is there a fence around that big building at the top of the hill?
+
+=================================
+
+HOW TO PLAY
+
+- Put the "tristam.gba" on your GameBoy Advance adapter (or your emulator).
+- Turn on the system; the game then starts.
+
+You can enter commands by using the virtual keyboard, which you can show and hide using the Select button. Once on the keyboard, you can change the group of 10 letters currently in focus by pressing Left, Right, Left+Right or Right+Left. To select one of the 10 letters currently in focus, use one of the 8 directions or the A and B buttons.
+
+Pressing the Start button sends the input to the parser; Right + Start is a backspace, Left + Start is a space ; Right + Select completes the word.
+
+If you aren't in keyboard mode, you are in SmartKey mode, and get the following mappings:
+- Pad: left and right to move the cursor in the input field, up and down to show command history;
+- Shoulder buttons: press Left and Right simultaneously to enter "screen grab" mode, allowing you to grab a word from the text by moving the cursor and pressing A.
+- Dictionary: some combinations of keys allow you to insert a common word in the command line. Combinations are:
+    - pressing Left + a direction or A or B: "in", "north", "up", "west", "east", "out", "south", "down", "restore", "save"
+    - pressing Right + a direction or A or B: "open ", "get ", "close ", "inventory", "look", "open ", "drop ", "read ", "examine ", "enter "
+    - pressing A + a direction: "climb ", "eat ", "attack ", "move ", "unlock ", "push ", "jump ", "pull "
+    - pressing B + a direction: "load", "score", "save", "wait", "again", "help ", "talk to ", "exit " 
+
+Example of inputs recognized by the game are: go east, examine sky, inventory, enter ocean, take pebble, open matchbook. Around 100 verbs are recognized by the game.
+
+There are no built-in hints in the game (there just isn't the space!), so I encourage you to ask other players for help!
+
+If you encounter a bug, or if a sensible command wasn't recognized, or if you want to give me any sort of feedback, don't hesitate to send me an email : hugo at hlabrande dot fr.
+
+==================================
+
+MANY THANKS TO
+- Infocom, creators of the Z-Machine and of so many awesome adventure games that we're still using their tools 40 years later;
+- Graham Nelson, creator of Inform 6;
+- Andrew Plotkin, for his hard work and dedication to fixing the Inform 6 compiler's bugs that had prevented z3 releases for years;
+- Fredrik Ramsberg and Johan Berntsson, for the amazing PunyInform library, and many optimizations;
+- My testers: Manon Burz-Labrande, CrocMiam, Steve Flintham, Grimmnebulin, Brennen Kinch, Juhana Leinonen, Samuel Verschelde, Mark Walker, Jack Welch;
+- The players who reported bugs in the initial release: Davide Bucci, Chris Carter, Wade Clarke, Denk, Richard Hawkins, Christopher Merrimer, Brian Rushton, Tiffany Zhao;
+- Stefan Vogt, for his help setting up many ports of this game, and his detailed answers to my technical questions.
+
+For the GameBoy Advance port more specifically:
+- Jonas Minnberg, for developing GBAFrotz for the GameBoy Advance.

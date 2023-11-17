@@ -1,0 +1,46 @@
+TRISTAM ISLAND
+By Hugo Labrande
+
+Manual for : Oric Atmos & Telestrat version
+
+=================================
+
+After crashing your plane at sea, you end up drifting to a small island, with not much to survive. You explore, and find out the island was inhabited, years ago. But why did the people leave? And why is there a fence around that big building at the top of the hill?
+
+=================================
+
+HOW TO PLAY
+
+There are three disks:
+- pinforic.dsk and tristam.dsk;
+- tristam-auto.dsk
+
+The disk "tristam-auto.dsk" is a single 720kb disk containing the interpreter (Pinforic) and the game. It works on real hardware, but some emulators (like Oricutron) do not support it.
+
+Should you want to use the more traditional Pinforic setup, with two disks, here are the steps:
+- Insert the interpreter disk in the Microdisk drive of your Oric Atmos or Telestrat computer (or emulator).
+- Start the system.
+- Type LOAD "INFOCOM.COM".
+- The splash screen for Pinforic is displayed; replace the interpreter disk by the game disk in the disk drive.
+- Press any key; the game then starts.
+
+Example of inputs recognized by the game are: go east, examine sky, inventory, enter ocean, take pebble, open matchbook. Around 100 verbs are recognized by the game.
+
+There are no built-in hints in the game (there just isn't the space!), so I encourage you to ask other players for help!
+
+If you encounter a bug, or if a sensible command wasn't recognized, or if you want to give me any sort of feedback, don't hesitate to send me an email : hugo at hlabrande dot fr.
+
+==================================
+
+MANY THANKS TO
+- Infocom, creators of the Z-Machine and of so many awesome adventure games that we're still using their tools 40 years later;
+- Graham Nelson, creator of Inform 6;
+- Andrew Plotkin, for his hard work and dedication to fixing the Inform 6 compiler's bugs that had prevented z3 releases for years;
+- Fredrik Ramsberg and Johan Berntsson, for the amazing PunyInform library, and many optimizations;
+- My testers: Manon Burz-Labrande, CrocMiam, Steve Flintham, Grimmnebulin, Brennen Kinch, Juhana Leinonen, Samuel Verschelde, Mark Walker, Jack Welch;
+- The players who reported bugs in the initial release: Davide Bucci, Chris Carter, Wade Clarke, Denk, Richard Hawkins, Christopher Merrimer, Brian Rushton, Tiffany Zhao;
+- Stefan Vogt, for his help setting up many ports of this game, and his detailed answers to my technical questions.
+
+For the Oric port more specifically:
+- Chema Enguita and Fabrice Frances, for developing the Pinforic interpreter for the Oric Atmos and Telestrat, and for making a brand-new one-disk version;
+- Paul D. Smith, for developing the Pinfocom interpreter, on which Pinforic relies.

@@ -1,0 +1,515 @@
+du coup, prenons une décision : une île déserte, mais avec un centre de recherches abandonné qu'on explore, jusqu'à trouver un moyen de s'échapper
+    centre de recherches sur quelque chose d'ominous : ça peut pas être des aliens ; ptet une pandémie, ou des animaux avec des pouvoirs horribles, ou la télépathie
+    non, des tests de bombe atomique c'est bien aussi
+
+
+
+TODO: géographie
+        un labo souterrain pour quoi ?
+            entreposer les têtes nucléaires ? faire des expériences ? discuter ?
+            qu'est-ce qu'on mesure ? les millisievert en haut et sur l'île ? bref que des observations in situ non ?
+        si y'a une explosion atomique dans l'océan, ça fait un tsunami, non ?
+            ça tue les poissons et les oiseaux aussi
+            à quelle distance être pour être safe ish ? pas se faire cuire mais quand même prendre des radiations ?
+        si t'as des têtes nucléaires quelque part, t'as un entrepôt, mais où ?
+            transporté par sous-marin peut-être ?
+        où est-ce que les gens accostaient ?
+            il faut un pier, non ? ou un truc qui s'est effondré, ou qui a été détruit par le souffle de l'explosion ?
+            
+
+=========== Structure
+
+What climate? Pacific islands? Off the coast of africa? There shouldnt be any natives
+où est cette île ? pas en polynésie parce que c'est pas montagneux ; plutôt le costa rica mais bof ; tristan da cunha c'est bien
+    ou alors les falklands ; c'était énorme dans les 80s pour les britanniques et pourquoi voulaient-ils s'accrocher aux falklands autant que ça ? ptet qu'ils faisaient des expériences...
+    ouais mais non, ta cible principale c'est les vieux schnoks british, tu vas pas leur parler des falklands
+bref climat atlantique, tristan da cunha
+
+
+Part 1 the lower island
+    Pour accéder à la upper island il faut arriver à grimper une coulée de boue ou une falaise
+    lower island : un tour en une petite dizaine de salles + 1 entrée de caverne derrière une waterfall + 1 cove + 2 forêt (avec au bout une coulée de boue qui a enlevé ce qui était peut-être un escalier)
+        note: euh non waterfall c'est que quand y'a une rivière, donc une montagne, donc ça marche pas sur une île en forme de flamby
+    
+    si on trouve des traces humaines (une marche d'escalier, un toit, etc) ça motive encore plus d'aller en haut
+        - si on gratte la boue on découvre une marche d'escalier, mais on peut pas tout déblayer et il faut faire du rappel ? je sais pas
+        - à un moment l'eau est shallow et on peut s'aventurer un peu plus loin, et si on regarde l'île à ce moment-là on voit le promontoire (envahi d'arbres ? pas trop non plus) ; sinon on voit que la falaise en général
+    
+    y'a une salle de "in the water" par salle sur la plage
+        
+    ptet que derrière la waterfall on trouve une sorte de labyrinthe aux parois étrangement lisses et en fait c'était un chemin vers le labo ; mais juste aller derrière la waterfall et trouver que le sol est étonamment lisse pour une caverne, ça peut donner un indice de main humaine
+        est-ce que derrière la waterfall c'est en face de l'île et c'était un point de vue de la bombe nucléaire, ce qui explique que certains ont eu des radiation fallout et sont tombés malades et ont fui ?
+    (pas de waterfall)
+    
+    et le sous-marin / gros bateau qui va transporter la tête nucléaire à l'île suivante ?
+        il faut bien un pier pour les bateaux ? pour aller explorer l'île après l'explosion ?
+        mais dans ce cas c'est une trace humaine visible non ? [oui, on la trouve sur l'autre côté de l'île]
+        
+    est-ce qu'on peut récupérer un masque de plongée et plonger dans la cove et voir une porte de sous marin ?
+
+Part 2 the upper island
+    on trouve un sac à dos et les difficultés d'inventaire disparaissent ; on peut aussi trouver des cans of beans mais elles doivent être pourries depuis le temps...
+    There's 3-4 houses and cottages, empty. There is a burned down fishery/canning station (like in Tristan da Cunha). A few graves.
+    A calendar for 1963? somewhere
+        Careful with the date, it limits the technology available in the lab? Or we can always say they stayed a while, or the military was technologically advanced
+    Picture frames? Or burned pictures?
+    c'était vraiment que pour le militaire, pour les scientifiques ; pas de femmes, pas d'école, rien
+        les scientifiques dans la maison (reclus, prennent l'ascenseur, etc), les militaires dans les barracks et un peu dans la maison aussi mais bon
+    une tour promontoire pour voir l'île
+        elle aurait pu servir de tour de lancement si ils voulaient faire exploser cette île-là et effacer leurs traces mais finalement ils l'ont pas fait ?
+        en tout cas une référence visuelle subtile à infocom (reprendre des éléments de la description)
+        dans trinity ils disent "50 feet high", 15 mètres ; c'est pas mal pour un promontoire
+        en tout cas quand on arrive en haut, on voit quelque chose au loin ; on a trouvé des jumelles ailleurs et on voit une île absolument calcinée
+    on trouve une image de l'île et d'une autre île à côté (dans le pub ?) ; hé, elle est où cette île montagneuse dites donc ? (elle a disparu parce que nuclear testing)
+
+Part 2b la white house / maison des chercheurs
+    Dans la upper island y'a genre la maison du gouverneur (a white house in a field huhu), what a waste of resources, why is there so many beds, ah en fait c'est au dessus d'un laboratoire
+    
+    On voit des trucs scientifiques, la bibliothèque est remplie de livres de science-fiction des années 50 genre heinlein et tout, mais pas de livres techniques (ils sont au labo)
+        mais on renforce quand même un thème de fin du monde et d'énergie nucléaire ; on sait qu'il y a eu des militaires, là c'est des civils avec de la SF -> des scientifiques, et a priori pas des biologistes ; on se doute qu'il y a un labo quelque part
+    
+    y'a des access controls assez draconiens pour aller dans les barracks et l'ascenseur (puzzles difficiles)
+        euh ouais lesquels
+        
+    pour ouvrir la break room, une rube golberg machine avec plein de bruit et de temps
+        re the babel fish thing: it should be announced on a placard first thing ; and the odd objects should be obvious ; and it should be fun and not too many steps (but it's an obvious reference to an infocom puzzle, yay for me)
+
+    if that's their security system, the whole mansion should be one big frat house of nerds, the military tries to control them but there's graffiti and lame physics jokes and shit, and their dorms are so nerdy and fratty; there should be an infections sense of "the scientists are having fun in this house after doing their work for the military, they're unsufferably nerdy, the military lets it happen to get on their good side"
+        that's how you justify the babel fish puzzle ; and creates connection with the player, because they're also old geeky nerds who like to have weird fun
+
+
+
+Part 3 the lab
+    les puzzles sont plus durs ici, les access control aussi ; c'était super classifié quoi
+    peut-être qu'on est coincés et dans le endgame à ce moment-là, ça rajoute de la tension
+        oui mais si t'as pas les bons objets c'est cruel
+
+    We got tools in the first part (we can always recover them later but it's awkward) and we use it to break stuff. Claim back the island
+    We find a radio and send an SOS?
+        The military will come and get us... and jail us ? Maybe they ask us questions and we have to answer wrong ? ("A sismograph to observe the mariana trench?" instead of a nuclear testing facility)
+    sidekick : Un ham radio guy qui te donne des hints et qui t'aide ? Ouais mais si on peut faire ca on peut appeler les militaires, ca vaut pas grand chose
+    
+    si y'a un labo nucléaire souterrain, à la los alamos ou juste des techniciens ?
+        y'a des salles pour manipuler le nucléaire
+        des salles où stocker la ferraille
+    et le sous-marin / gros bateau qui va transporter la tête nucléaire à l'île suivante ?
+        il faut bien un pier pour les bateaux ? pour aller explorer l'île après l'explosion ?
+        mais dans ce cas c'est une trace humaine visible non ?
+
+    dans la conference room on trouve une présentation, des articles, etc ; dans la bibliothèque y'en a encore plus
+        c'est là qu'on comprend que c'est une nuclear testing facility
+        
+    y'a des scientifiques qui pensaient que l'île nearby sur laquelle ils faisaient les tests était trop proche, et que ça exposait les gens (dont eux) à trop de radiations. Les militaires ne voulaient pas écouter parce que ça compromettait la mission
+    
+    puis un jour y'a eu une erreur de paramétrage, et là c'est sûr que la dose à laquelle tout le monde a été exposé était trop forte donc ils ont vite évacué pour pas absorber plus de radiations
+    
+    vu que les tests se passent en 61-62, y'a ptet des PDP-1 (enfin ça c'est américain... jsais plus comment il s'appelle l'ordi de manchester mais bon)
+    
+    Frame l'opposition scientifiques/militaires via 1 gros perso scientifique et 1 gros perso militaire. Le scientifique écrit un memo, tu retrouves une copie crumbled dans la poubelle dans le bureau du chef
+
+    La comms room donne les derniers éléments donc à découvrir en dernier
+    
+    Dernier truc: trouver un comprimé d'iode pour se protéger le temps que le bateau arrive ? Puis on sit back et relax
+
+
+
+
+
+2h de gameplay chacun (fastoche, avec beaucoup d'exploration et quelques puzzles)
+
+longueur du jeu : les jeux infocom sur z3 ont une solution optimale en 210 coups (très consistent) ; il y a environ une dizaine de phases de jeu, et 400 points à obtenir au total ; une vingtaine d'actions donnent du score (donc 20 puzzles ?)
+
+70 à 80 salles (voir les 2-3 cartes sur CASA et celle de trinity chez welbourn) [ou la fact sheet http://pdd.if-legends.org/infocom/fact-sheet.txt]
+
+35-55 objets takeable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=========== Thèmes
+
+quelle date ?
+    je dirais les 50s parce qu'on savait pas l'impact des radiations ? ou on s'en fichait ?
+    dans les années 60 y'avait de l'opposition et un traité banissant le testing à l'air libre
+        mais du coup ça veut dire pas de mini-ordinateur
+    
+se renseigner sur les radiations : qu'est-ce qui disparaît du sol en 30 ans ? pas grand chose ?
+    "radioactive contamination", "nuclear fallout", "testing in bikini island"
+    50 ans après c'est plutôt vivable si t'enlèves le topsoil (ils disent "ah en fait bikini ça va, bientôt")
+
+en 61-63 y'a eu des tests sur les niveaux de strontium dans les dents des enfants et ça a poussé les grandes nations à signer un traité
+    si jamais c'était en 1960, que le test se passe plutôt mal et qu'ils s'aperçoivent qu'ils ont tous reçu une dose plus grande que ce qu'ils pensaient, ils évacuent l'île ?
+    ou alors ils évacuent l'île en 63 avec le traité signé rapidement
+    
+bon alors l'histoire :
+    ils ont fait quelques tests sur une île à la con nearby en 1961
+    certains scientifiques ont testé les millisievert et ils se sont aperçus qu'ils pouvaient pas vivre là, c'était toxique (végétation, etc)
+        en 1962 erreur de calcul, explosion encore plus grosse que ce qu'ils pensaient
+        merde, bon on évacue, on rapatrie tout le monde aux UK et ils peuvent jamais plus être exposés à une quelconque radiation parce que cancer
+    et c'est ça qui a poussé le pays à signer le traité de 1963
+
+
+quelle date c'est de nos jours ?
+    Les 80s pour faire des références à thatcher et pour rester dans le moule infocom, non ?
+    ça va faire bizarre si on fait un jeu à la infocom et qu'on parle d'emails et de tiktok
+
+    
+y'a-t-il des déformités à attendre chez les animaux ?
+
+
+
+Is it the american military? The british? NATO?
+    les british (vu que c'est le public cible de stefan)
+    
+Argent: système pré 68, 1 pound = 20 shilling = 240 pence (1 penny)
+https://www.bullionbypost.co.uk/index/collectible-coins/pre-decimal-currency/?fbclid=IwAR1515XI14L8X-LZaHPf05kyiz13cPESLxdUlIpxOfm36fc75zDNGQyzuOc
+Des pièces quelque part (par terre dans le community garden), de la musique d'époque dans le jukebox, des points pour ça
+   Prix d'un jukebox en 60 ? 1 sixpence pour 1 chanson, 1 shilling (12p) pour 3 me paraît être le mieux (une pièce = une chanson)
+    
+
+Fishery -> conserverie
+Stocks de spam, de poissons (pas de chambre froide), de sauces, de confitures, de biscottes, de café
+Un community garden pour occuper les gens et manger des fruits et légumes frais (saisons et tours de jardinage dans le pub, c'est le lieu le plus fréquenté)
+Petites annonces dans le pub    
+
+esprit de l'époque (50s-60s), radiations, iodine : https://www.filfre.net/2015/01/t-plus-4-bombing-nevada/
+
+se renseigner sur les tests nucléaires français en polynésie ; si y'a des photos de l'île après l'explosion, ça peut aider à décrire au loin l'île. Mais cette île là on la voit que depuis une sorte de promontoire dans le upper level ; pas vraiment moyen de la deviner depuis le lower level
+
+Nuclear testing, they kicked everyone out of the island so they could blow it up? (Look into nuclear testing in tahiti)
+    there's a folder with horrible pictures of radiation burns on the skin of the people who cleaned up the island after
+
+pas trop proche quand même, veut-on avoir des irradiations et tout ? je sais pas si c'est une super idée d'avoir un personnage principal qui est irradié sans qu'on le sache. Mais ça peut justifier pourquoi l'île a été abandonnée (ou juste parce que le test était fini)
+    si on part sur irradiaion, ptet qu'il y a des créatures bizarres qui font des bruits bizarres et qui ont 5 jambes ? genre on passe le jeu à croiser des trucs zarb façon île sauvage cheloue mais en fait c'est de l'irradiation ?
+
+Quel impact à la fin ? Tu as trouvé un ancien site nucléaire secret, et ?
+Si c'est dans les 80s, guerre froid et opposition aux nuc qui grandit, ok c'est momentous. Dans ce cas les militaires lui diront "faut absolument garder le secret, sinon on te tue", ou le tuent sur place, c'est un peu dark
+Si c'est en 2020, pff, ca finira dans Atlas Obscura et c'est tout
+
+un truc sur l'iode ? Prendre des comprimés ? boire de l'eau ?
+    est-ce qu'on est affecté par la radioactivité ? ou est-ce que ça fait 30 ans et il y a bien moins de trucs ?
+    
+quelles traces de l'explosion niveau souffle ? aucun ?
+    
+https://www.science-et-vie.com/archives/mururoa-la-vie-doit-beaucoup-au-hasard-14973
+    
+oh intéressant : https://en.wikipedia.org/wiki/Partial_Nuclear_Test_Ban_Treaty
+    interdiction de faire des tests nucléaires à l'air libre, que sous la terre
+    signé en 1963
+    la france et la chine ne l'ont pas signé ; la france a commencé ses tests nucléaires en 1960 donc bon
+        oui mais on peut pas vraiment faire un jeu avec tout écrit en français, si ? (c'est pas une énigme valide de traduire un truc en français, c'est trop simple, et ça rajoute de la friction plus qu'autre chose, et infocom l'aurait jamais fait)
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+=========== Puzzles
+
+faire un jeu où c'est bien dur de faire 100%, et tu vends le hint book en pdf séparément (tu l'inclus dans la version physique qui coûte plus cher, quand même)
+    mais toujours une autre solution, plus facile mais qui rajoute plus de points ? bof, dur d'avoir des solutions mutuellement exclusives dans un free-roaming
+        euh pas forcément possible avec les limitations de la zmachine v3
+    note: infocom faisait les invisiclues, et c'est possible d'avoir des cartouches d'imprimante avec de l'encre invisible, donc peut-être que c'est fabriquable
+    
+Quand tu donnes à manger à l'albatros, il te donne une sorte de jonc et tu dois souffler dedans et il te trouve la clé de la porte devant laquelle tu es. Si c'est une shop il crash la vitre, il trouve sous le paillasson, il trouve dans l'herbe pour la guitoune, il est confused par le digicode, etc. Un joker quoi
+    juste pour les clés ou tous les puzzles ? juste pour les clés hein ?
+
+    
+
+    Use the environment.
+    Provide working non-solutions.
+    Provide ample context and warning. 
+    Err on the side of easy.
+do my puzzles have enough urgency? are we really motivated to solve them?
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+Part 1
+    possible que les puzzles ici soient pas super compliqués, en tout cas pas super intricate? je sais pas, à voir ; pas forcément très grave d'avoir une aventure qui commence doucement et qui se complique au fur et à mesure
+
+    tu étais en train d'explorer pour trouver euh un trésor je sais pas [todo: quoi]
+    ton avion a eu une avarie, tu as essayé de te rapprocher d'une île (celle-là), t'as sauté et nagé, épuisé, tu te réveilles
+        comment c'est présenté ? séquence de rêve ? séquence narrative pour ouvrir le jeu ?
+        séquence de forced input c'est pas possible (pas de notion de temps dans la z3, il me semble) mais faire apparaître des commandes dans le texte c'est possible (plundered hearts s'ouvre sur >shoot machin)
+
+    il faut enlever tes vêtements pour les laisser sécher et les utiliser pour résoudre des puzzles
+        on portait quoi dans les années 80 en faisant de l'aviation ?
+        on a un gilet de sauvetage ? sans doute ? comment on nage avec un tel gilet ?
+    une carrying limit harsh parce que t'es tout nu
+    
+    y'a un bateau de pêche et un pier de l'autre côté de l'île (wow une trace humaine)
+        dedans on trouve des trucs de pêche
+        dessous y'a des barnacles et des big clumps of green seaweed ; les prendre et les manger cru bof, mais les laisser sécher au soleil ou les cuire sur le feu = très cool
+        et on peut pas aller plus loin parce qu'il y a pas de rame (faut être clairs qu'on trouvera pas de rame, et même si on en trouvait, oh làlà)
+
+    pêche : une canne, un fil (on trouve les deux dans la barque), un ver (qu'on trouve sous un rocher dans la forêt), un lure (une fleur exotique en haut d'un arbre pas facile à grimper ; utiliser tes vêtements)
+    
+    hamac : un filet de pêche quelque part ? (dans un fond ? il faut nager sous l'eau quelque part du coup ? un équipement nécessaire ?)
+
+    Quand tu reviens de la pêche t'as un oiseau qui arrive et qui te suit partout partout. Quand tu poses ton poisson pour faire autre chose (inventory carrying limit), il bouffe ton poisson. Il faut couper / partager. Repêches-en un autre pour te faire un ami. (1 poisson ou 2 demi poissons = albatros ami)
+    Puis l'albatros t'aide à attraper qqch dans un arbre. Ou te file un truc humain dans son nid. C'est un jeu d'aventure, tu mets un peu de whimsy et light humour et ça passe (et c'est dans le style infocom)
+        il te donne un appeau: si tu souffles dedans il arrive pour essayer d'ouvrir la porte qui te résiste (clé magique, ou autre) ; ça ne marche qu'une fois
+    L'albatros reviendra dans la 3e partie du jeu pour te sauver ?
+    
+    Y'a un sleep daemon mais ca te conduit à une section de 5 tours de rêve. C'est un puzzle pour débloquer un truc mais c'est pas resoluble avant d'avoir aidé l'albatros et découvert 1/2 traces humaines ; ton inconscient mixe ces éléments et le rêve est résoluble
+        enchanter faisait tous les 150 tours
+      [bof, le besoin de dormir c'est relou, et la séquence de rêve, pour quoi faire ? c'est pas comme si mes puzzles étaient difficiles]
+        
+    bon mais on met des hunger, sleep et drink daemons ? c'est relou, enchanter est le seul jeu à l'avoir fait, et tout le monde trouve que c'est une pain in the ass, même infocom
+        pas un daemon, mais tu viens de t'écraser sur une île déserte, donc il faut sans doute
+        tu peux faire : première partie "ça serait bien de manger et dormir", puis une fois que t'es en haut y'a des rations et des lits alors osef
+
+    faut trouver de quoi faire du feu
+        il peut avoir des alumettes dans sa poche, après il faut les sécher (dans tes cheveux, entre tes mains, contre un arbre - ou les allumer avec une loupe)
+        on dit que le processus est long et chiant mais tu vas y arriver à la dernière, ouf !
+
+    If you go sw 10000 times (langue de sable) you see something in the distance, but the water gets too deep to get anywhere close
+
+Poulies:
+    Si c'est un système avec 1 poulie tu portes ton poids, chaud
+    Avec 2 poulies : block and tackle ; 2:1 advantage, tu portes la moitié de ton poids
+    Avec 4 cordes ou 4 poulies ou quoi c'est encore plus facile
+
+    https://en.wikipedia.org/wiki/Block_and_tackle
+
+    Du coup on peut dire : tu vois la plateforme, y'a une corde, tu essaies de tirer mais franchement t'es épuisé, faut manger et dormir d'abord ; le lendemain t'essaies et tu mégagruntes mais t'y arrives
+
+Et deuxième solution : essayer de grimper un escalier à grandes marches avec une pelle, en déblayant
+   tu trouves la pelle où ? et surtout pourquoi elle est dispo que après avoir mangé et dormi ?
+   ptet que ça coule tellement que tu vois des marches dans la coulée de boue, mais bon dans ce cas pourquoi est-ce que c'était couvert de boue in the first place
+       Ok : y'a 200 marches (penser escalier de polytechnique) et tu commences mais t'es trop crevé et t'as faim et pfouh là faut vraiment que tu te reposes et tu recommenceras demain
+
+    On peut inventer un état de fatigue généralisé mais bon
+
+    un outil de pêcheur qui ressemble à une pelle, une bèche, voire un rateau ?
+    une hache c'est weird
+    une pelle c'est super mais pour quoi faire dans un bateau ? sinon, discarded quelque part dans l'eau, ils ont dû en utiliser une pour creuser le pier quoi...
+    une ancre ?
+    
+    
+    
+    
+
+Part 2 : dans le village :
+    là vu qu'on est dans des maisons et tout on peut faire des puzzles plus compliqués
+
+    entrer dans le pub
+    monter dans le promontoire ; il faut trouver une échelle, une machette, je sais pas ; on y trouve des indices et plus d'items
+        genre si t'as des jumelles tu peux voir l'île au loin et elle est un peu dévastée
+            mais attention à la description de la dévastation si tu veux vraiment garder la surprise nucléaire ?
+            en même temps est-ce que ça doit être gardé secret
+    entrer dans la maison
+
+super important : électricité
+    on peut penser que, avec des ingénieurs nucléaires et des sous-marins dans le coin, ils avaient un petit générateur nucléaire
+    ok, mais comment est-ce qu'on met de l'électricité dans l'ascenseur ou dans la radio ?
+        il faudrait activer un générateur de secours quelque part, du coup
+        un générateur diesel ?
+        à activer avant le sous sol ? ou pendant la maison
+            non, avant la maison c'est bien
+        on y met l'huile des frites du pub qu'on réchauffe avec un briquet trouvé dans une des maisons ? ou un truc trouvé dans la shop ?
+	    tu utilises le briquet ou une allumette pour brûler un papier quelconque (poster, calendrier, calepin, etc) et le jeter dans les bûches, qui s'embrasent, puis tu mets l'huile dans un bol en métal et tu la fait fondre
+    mais en partant ils ont pris le gaz et le générateur nucléaire je pense : le gaz marche nulle part
+    
+    https://en.wikipedia.org/wiki/Energy_content_of_biofuel : sunflower oil does 20% less energy content than diesel
+    dans le design doc de tipelau j'ai que l'efficiency d'un diesel generator sur une île c'est 0.2L per kWh
+        on peut sans doute récupérer 5 L d'huile de friture dans le pub et pareil dans la cuisine de la maison => 50kwh en tout ; c'est pas énorme mais assez pour la radio, l'ascenseur et tout
+    il faut que ça dure un certain nombre de tours
+        si ils ont la télé toujours allumée, et des lumières aussi, ça consomme des trucs ; tu obtiens un new lease on life quand tu éteins les lumières que tu rencontres
+        du coup si tu dilly-dally trop tu es bloqué dans le jeu ; ouais mais c'est cohérent avec les jeux infocom, parfois c'était cruel quoi
+            roh c'est quand même super chaud de bloquer les gens non ?
+        un tour = quel intervalle de temps ? détermine ça peut-être... (dans enchanter il faut se reposer tous les 150 tours à peu près mais bons)
+        => ptet, pour éviter d'être trop bâtard, un truc du genre "si tu ne réduis pas la consommation de 150, à n'importe quel moment (ça peut être n'importe quand avant de descendre), tu te retrouves bloqué" ; le blocage arrive quand ? une fois en bas (et du coup trapped forever car l'ascenseur ne remonte jamais), soit dans une scène au moment où tu prends l'ascenseur (il tombe en rade et tu restes coincé et tu meurs ; du coup c'est undo et va dans la ville tout éteindre)
+            demander à stefan le niveau de cruauté, y'a moyen de faire ça en mode fair ou en mode cruel, ça dépend
+    => non, ça durera toujours jusqu'à la fin ; par contre si tu éteins des trucs t'as un message différent à la fin, un message différent quand tu t'approches des générateurs diesel (low hum au lieu de big noise), et 10 points (plus de points si t'éteins les trucs dans le pub que les lumières ?)
+    
+    lister diesel generators, c'est british, en horsepower, y'a plein de vidéos de start sur internet
+        http://www.centralmainediesel.com/order/09912.asp?page=L09912
+        https://www.flickr.com/photos/aussiefordadverts/8558433451
+        https://www.otherpower.com/fuking.html
+        https://www.walkerland.ca/lister-type-diesel-engines-off-grid-generator/
+    
+    ok c'est cool mais pourquoi est-ce qu'on veut rétablir le courant ?
+        ben ptet qu'il faut un keypad pour ouvrir la mansion, ce qui est un peu anachronistique pour 1960...
+        les sliding doors sont été inventées dans les années 50, mais est-ce que c'est une bonne idée d'avoir un truc si complexe pour une île comme ça (ouais enfin c'est un jeu d'aventure quoi)
+            un système avec une clé à tourner et ça ouvre une sliding door ?
+            note: en 1930 on avait inventé un système avec un poteau dans lequel tu mets ta clé pour ouvrir ou fermer la porte du garage automatiquement (mais pas des key fobs, faut pas déconner)
+            mais pourquoi pas genre une porte, alors ?
+        mais bon, un moyen d'authentifier l'accès à la base sans avoir un garde nécessairement posté ça serait pas mal
+    ok... ou alors ? autres applications de l'électricité ?
+        une desalination pump, t'as super soif et t'as plus de noix de coco ?
+        une maison très très sombre et pas de source de lumière à part l'interrupteur
+        une sliding door dans une des shops
+    on peut avoir un faisceau de trucs qui font qu'on priorise le rétablissement de l'électricité pour pouvoir avancer...
+Bon un keypad reconfigurable c'est non mais un système avec des pins qui
+s'enfoncent pk pas
+Genre t'as une matrice 4x4 et tu dois enfoncer 4 pins différentes
+(Solutions: enfoncer toutes les pins, trouver un tournevis pour examiner
+lesquelles sont reliées / le circuit imprimé, trouver le code dans un
+marque page d'un livre de SF (volé par un ado dans la bibli des
+scientifiques))
+
+Y'a un grillage avec une porte fermée à clé et un barbelé, mais c'est pas
+dur de contourner (y'a un trou dans le grillage derrière les générateurs,
+que l'ado utilise ; ou y'a un arbre qui a grandi et on peut escalader et
+sauter ; dans tous les cas la clé est dans la guitoune du garde (bof?), ou
+tombée dans les herbes hautes un jour et search la fait apparaître - ah non, tiens, ton ami l'albatros la sort de l'herbe)
+
+note : le grillage est-il électrique ? non, ça fait pas sens (tout le monde sait pourquoi ils sont là, et y'a plein de couches de sécurité, pas besoin de tuer les gens parce qu'ils s'approchent quoi... et ça fait pas sens de trouver le code de la porte dans un livre de SF)
+
+la tour:
+      pour y monter:
+        fix the ladder? Find something that looks like a rung or two and sand it down and fix it? Maybe that something is in the shop you gotta break into
+    find something up the tower to make it worth our while
+    il faut des jumelles pour voir l'île brûlée au loin
+    
+les puzzles sont plutôt bons À PART QU'ON SAIT TOUJOURS PAS QUOI FAIRE DE LA FISHERY
+TROUVER QUOI FAIRE
+
+j'ai rajouté une pompe d'eau dessalinée au milieu du village
+    idée de puzzle: qqch au fond d'un arrosoir où tu peux pas passer la main / un récipient où tu peux pas monter dedans : remplir d'eau et récupérer le petit objet
+        une clé ? pas une clé de maison ? un ouvre boîte ? une vis ?
+
+    
+    
+Part 2b : dans la maison blanche :
+
+Dans le lobby, un panneau de petites annonces, et une affiche "attention
+aux indiscrets! Si vous parlez trop au pub, si on vous vole votre
+portefeuille, etc on (les civils) saura le code de la porte d'entrée !
+Faites gaffe !
+
+    trouver la porte de l'ascenseur
+    y'en a une dans la break room mais genre cachée derrière la bibliothèque qui pivote si on touche quelque chose avec quelque chose ou quoi
+        on remarque des éraflures sur le mur, là où la bibliothèque swing open
+        on peut faire une sorte de technologie avec des motion sensors, le prisonnier y pensait en 68 donc bon...
+    est-ce qu'il y a moyen de faire un puzzle avec une réaction en chaîne, quelle qu'elle soit ? ça serait assez rigolo thématiquement (ceux qui ont compris rient, ceux qui ont pas compris ont un indice de plus)
+
+la break room est fermée à clé (c'est là qu'il y a l'entrée secrète)
+    une clé dans les quarters
+les quarters sont fermés à clé ?
+pfff c'est nul d'avoir plein de clés partout
+
+y'a aussi une cuisine, une bibliothèque, une statue ; trouve un truc à faire ici
+
+
+pour ouvrir la break room, une rube golberg machine avec plein de bruit et de temps
+        re the babel fish thing: it should be announced on a placard first thing ; and the odd objects should be obvious ; and it should be fun and not too many steps (but it's an obvious reference to an infocom puzzle, yay for me)
+pump the air in (bike pump?)
+release valve / button
+compressed air cannon fires the ball
+ball flies by statue
+ball enters funnel
+ball travels down angled pipe
+ball gets in bucket with pulleys
+other bucket goes up
+hits the side of a platform with a weight on it
+the weight pulls the rope that removes the obstacle behind the door
+
+étapes :
+- mettre de l'air dans la valve
+- appuyer sur le bouton : kerchunk dans le vide
+- mettre la balle de cricket
+- tourner la statue
+- réparer le tuyau coudé
+- enlever le rat dans le seau
+
+
+
+Part 3
+    les digicodes ça existait pas à l'époque (50-60s) mais c'est bizarre de faire un lab sécurisé sans électronique ou informatique dis donc
+    
+    si une porte est latched de l'intérieur (?! comment ?!) tu peux passer un magnet contre la porte et faire bouger le loquet peut-être
+    
+    aller dans le toit si c'est un truc en polystyrène (comme dans les histoires de physical pentesting)
+        utiliser les histoires de physical pentesting en général...
+    
+    un lockpicking puzzle ? ouais mais je sais pas comment ça marche alors pour retranscrire en parser...
+
+    la conference room / la library peuvent avoir des papiers importants dans la corbeille, des articles de recherche, etc
+        mais aussi des mots de passe, des internal memos (hé cette porte ferme plus, faites gaffe), etc
+    
+    Idée de puzzle : il faut se connecter à la bonne station, mais le dial est rouillé ; si on le tourne à gauche il va de 3 en 3, a droite il va de 5 en 5. La fréquence que tu veux est a 16 de celle où tu es. Faut faire un pgcd étendu (l'équivalent des seaux, sans doute...)
+
+    Pour accéder au lab, soit un passage secret dans la caverne accessible uniquement avec un objet de la upper, soit ouvrir une trappe dans la grande maison qui descend via un ascenseur de mine shaft dans le labo
+    
+    ordinateur, potentiellement, vu qu'ils évacuent l'île en 62
+    
+    Il faut remplacer un câble / une partie de truc pour faire marcher la radio (peut-être aller chercher un truc électronique quelque part ailleurs, dans les barracks ou quoi)
+        un peu chiant, non ? C'est vraiment le last lousy puzzle...
+
+on retient l'idée de passer par le faux plafond
+
+il faut se tenir sur une chaise de la confererence room et sur un livre de chimie organique
+
+il faut trouver de quoi réparer la radio (un wire dans un casier, écoute le casier pour trouver la combinaison)
+    ptet éteindre une source de bruit avant ça ? la ventilation ? je sais pas
+    
+    
+    
+    
+    
+    
+    
+    
+===========================
+
+
+
+
+
+Brainstormer les classiques: une colossal caverne derrière une cascade, faire du feu, pécher un poisson
+références à infocom :
+  une not so colossal cave
+  une maison dans un champ
+  le nucléaire (trinity)
+  un laboratoire (lurking horror?)
+  cutthroats et tout
+    
+ne pas oublier les rangs, c'était important chez les infocom
+feelies:
+  une carte postale de cette vieille maison/laboratoire, ça serait chouette
+  un caillou noir on dit que c'est de l'uranium ou un reste de l'île brûlée (ouais c'est mauvais goût ça)
+amusing ? c'est dans metrocenter ou ça a été enlevé ? (ça doit être super simple à faire quand même)

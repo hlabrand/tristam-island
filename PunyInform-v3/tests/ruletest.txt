@@ -1,0 +1,106 @@
+
+> n
+ *** Room 1.before: action is Go/23 noun=the north
+     consult 0/0 (going 4102, notustood 4100)
+ *** Room 2.before: action is <fake action 6>/4102 noun=the north
+     consult 0/0 (going 4102, notustood 4100)
+ *** Room 1.after: action is <fake action 6>/4102 noun=the north
+     consult 0/0 (going 4102, notustood 4100)
+ *** Room 2.after: action is Go/23 noun=the north
+     consult 0/0 (going 4102, notustood 4100)
+Darkness
+It is pitch dark here!
+ *** Room 2.after: action is Look/29 noun=the north
+     consult 0/0 (going 4102, notustood 4100)
+
+> jhn, hello
+I can't see who you are referring to.
+
+> john, hello
+I can't see who you are referring to.
+
+> s
+ *** Room 2.before: action is Go/23 noun=the south
+     consult 0/0 (going 4102, notustood 4100)
+ *** Room 1.before: action is <fake action 6>/4102 noun=the south
+     consult 0/0 (going 4102, notustood 4100)
+ *** Room 1.after: action is <fake action 6>/4102 noun=the south
+     consult 0/0 (going 4102, notustood 4100)
+ *** Room 1.after: action is Go/23 noun=the south
+     consult 0/0 (going 4102, notustood 4100)
+Room 1
+
+You can see a red cube, a black cube and John here.
+ *** Room 1.after: action is Look/29 noun=the south
+     consult 0/0 (going 4102, notustood 4100)
+
+> jhn, hello
+I can't see who you are referring to.
+
+> john, hello
+ *** John.orders: action is <fake action 4>/4100
+     consult 3/1 (going 4102, notustood 4100)
+ *** Room 1.before: action is Answer/2 second=John
+     consult 3/1 (going 4102, notustood 4100)
+ *** John.life: action is Answer/2 second=John
+     consult 3/1 (going 4102, notustood 4100)
+There is no reply.
+
+> john, open xyzzy
+ *** John.orders: action is <fake action 4>/4100
+     consult 3/2 (going 4102, notustood 4100)
+ *** Room 1.before: action is Answer/2 second=John
+     consult 3/2 (going 4102, notustood 4100)
+ *** John.life: action is Answer/2 second=John
+     consult 3/2 (going 4102, notustood 4100)
+There is no reply.
+
+> john, open in on
+ *** John.orders: action is <fake action 4>/4100 noun=the in
+     consult 3/3 (going 4102, notustood 4100)
+ *** Room 1.before: action is Answer/2 noun=the in second=John
+     consult 3/3 (going 4102, notustood 4100)
+ *** John.life: action is Answer/2 noun=the in second=John
+     consult 3/3 (going 4102, notustood 4100)
+There is no reply.
+
+> john, get cube
+You need to be more specific.
+
+> john, get red cube
+ *** John.orders: action is Take/19 noun=the red cube
+     consult 0/0 (going 4102, notustood 4100)
+ *** John.life: action is Take/19 noun=the red cube
+     consult 0/0 (going 4102, notustood 4100)
+John has better things to do.
+
+> john, examine gun
+ *** John.orders: action is Examine/17 noun=the gun
+     consult 0/0 (going 4102, notustood 4100)
+ *** John.life: action is Examine/17 noun=the gun
+     consult 0/0 (going 4102, notustood 4100)
+John has better things to do.
+
+> john, help me
+ *** John.orders: action is <fake action 4>/4100
+     consult 3/2 (going 4102, notustood 4100)
+ *** Room 1.before: action is Answer/2 second=John
+     consult 3/2 (going 4102, notustood 4100)
+ *** John.life: action is Answer/2 second=John
+     consult 3/2 (going 4102, notustood 4100)
+There is no reply.
+
+> john, say dragon master to me
+ *** John.orders: action is Answer/2 second=yourself
+     consult 4/2 (going 4102, notustood 4100)
+ *** John.life: action is Answer/2 second=yourself
+     consult 4/2 (going 4102, notustood 4100)
+John has better things to do.
+
+> examine gun
+You can't see any such thing.
+
+> quit
+Are you sure you want to quit? yes
+
+[Hit any key to exit.]

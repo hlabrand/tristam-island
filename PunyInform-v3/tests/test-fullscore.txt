@@ -1,0 +1,91 @@
+
+> take point
+Taken.
+
+[The score has just gone up by 1 point.]
+
+> drop point
+Dropped.
+
+> take all
+one point: Taken.
+poison: Taken.
+toy: Taken.
+torch: Taken.
+
+> open box
+You open the box, revealing nothing.
+
+[The score has just gone up by 3 points.]
+
+> put all in box
+torch: You put the torch into the box.
+toy: You put the toy into the box.
+poison: You put the poison into the box.
+one point: You put the one point into the box.
+
+[The score has just gone up by 4 points.]
+
+
+  *** You have won ***
+
+In that game you scored 8 out of a possible 7, in 5 turns.
+
+Would you like to RESTART, RESTORE, give the FULL score for that game or QUIT? 
+restart
+
+
+The testsuite is open for business!
+
+
+Parser test
+
+Lit Room
+You are in a brightly lit room.
+
+You can see a box (which is closed), a poison, a one point, a toy and a torch
+here.
+
+> yes
+That is not a verb I recognize.
+
+> take point
+Taken.
+
+[The score has just gone up by 1 point.]
+
+> open box
+You open the box, revealing nothing.
+
+[The score has just gone up by 3 points.]
+
+> score
+You have so far scored 4 out of a possible 7, in 2 turns.
+
+> full score
+
+The score is made up as follows:
+     3 opening the box
+     1 finding sundry items
+
+     4 total (out of 7)
+
+> put point in box
+You put the one point into the box.
+
+[The score has just gone up by 1 point.]
+
+> take poison
+Taken.
+
+> eat poison
+AAAargh!
+
+
+  *** You have died ***
+
+In that game you scored 5 out of a possible 7, in 5 turns.
+
+Would you like to RESTART, RESTORE, give the FULL score for that game or QUIT? 
+quit
+[Hit any key to exit.]

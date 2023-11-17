@@ -1,0 +1,49 @@
+TRISTAM ISLAND
+By Hugo Labrande
+
+Manual for : Nintendo DS version
+
+=================================
+
+After crashing your plane at sea, you end up drifting to a small island, with not much to survive. You explore, and find out the island was inhabited, years ago. But why did the people leave? And why is there a fence around that big building at the top of the hill?
+
+=================================
+
+HOW TO PLAY
+
+- Put the "frotz.nds" and the DATA folder on your SD card for your NDS DLDI linker (or your emulator).
+- Turn on the system.
+- Start "frotz.nds".
+- Select the "game.dat" file.
+- The game then starts.
+
+You can enter commands by using the virtual keyboard on the lower screen of the DS.
+
+The directional pad will allow you to move left / right in the input, or to see the command history (using the up / down buttons).
+
+You can also use the blank space below the keyboard to perform gestures such as : draw a letter to add to the input, swipe left (backspace), swipe right (space), up (enter), and directions (for instance, to go north, move your stylus down then up again; to go east, move it left then right).
+
+Pressing the Select button will swap screens; the keyboard is then inactive, but you can perform gestures over the whole screen. You can also grab a word from the text: put your stylus at the very top of the touch screen, then drag down until the word you want is selected, then release to add it to the input.
+
+Example of inputs recognized by the game are: go east, examine sky, inventory, enter ocean, take pebble, open matchbook. Around 100 verbs are recognized by the game.
+
+There are no built-in hints in the game (there just isn't the space!), so I encourage you to ask other players for help!
+
+If you encounter a bug, or if a sensible command wasn't recognized, or if you want to give me any sort of feedback, don't hesitate to send me an email : hugo at hlabrande dot fr.
+
+==================================
+
+MANY THANKS TO
+- Infocom, creators of the Z-Machine and of so many awesome adventure games that we're still using their tools 40 years later;
+- Graham Nelson, creator of Inform 6;
+- Andrew Plotkin, for his hard work and dedication to fixing the Inform 6 compiler's bugs that had prevented z3 releases for years;
+- Fredrik Ramsberg and Johan Berntsson, for the amazing PunyInform library, and many optimizations;
+- My testers: Manon Burz-Labrande, CrocMiam, Steve Flintham, Grimmnebulin, Brennen Kinch, Juhana Leinonen, Samuel Verschelde, Mark Walker, Jack Welch;
+- The players who reported bugs in the initial release: Davide Bucci, Chris Carter, Wade Clarke, Denk, Richard Hawkins, Christopher Merrimer, Brian Rushton, Tiffany Zhao;
+- Stefan Vogt, for his help setting up many ports of this game, and his detailed answers to my technical questions.
+
+For the Nintendo DS port more specifically:
+- Errabes, for developing glkpogo, the Nintendo DS interpreter;
+- Jonas Minnberg, for developing the libpogo library upon which glkpogo is based;
+- Andrew Plotkin, for developing GLK;
+- Stefan Jokisch, for developing Frotz, which is used by glkpogo.

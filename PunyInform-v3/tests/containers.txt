@@ -1,0 +1,33 @@
+> wait sasfas
+I didn't understand that number.
+
+> wait until 12:05
+Time passes.
+The time is: 0:0
+The time is: 0:1
+The time is: 0:2
+The time is: 0:3
+The time is: 0:4
+Let's go!
+
+> wait until xyzzy
+You can't see any such thing.
+The time is: 0:5
+
+> wait xyzzy
+I didn't understand that number.
+
+> wait two
+Time passes.
+The time is: 0:6
+The time is: 0:7
+Let's go!
+
+> wait
+Let's go!
+The time is: 0:8
+
+> quit
+Are you sure you want to quit? yes
+
+[Hit any key to exit.]

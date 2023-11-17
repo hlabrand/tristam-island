@@ -1,0 +1,140 @@
+
+> x john
+He is beautiful and he knows it.
+
+> x beautiful
+He is beautiful and he knows it.
+
+> x the beautiful john
+He is beautiful and he knows it.
+
+> scan1 paper
+Scanning the paper... Clear!
+
+> scan1 paper and paperclip
+paper: Scanning the paper... Clear!
+paperclip: Scanning the paperclip... Clear!
+
+> scan1 paper with me
+Scanning the paper with yourself
+
+> scan1 all
+paper: Scanning the paper... Clear!
+paperclip: Scanning the paperclip... Clear!
+
+> scan2 paper
+Scanning the paper... Clear!
+
+> scan2 paper and paperclip
+You can't use multiple objects with that verb.
+
+> scan2 all
+You can't use multiple objects with that verb.
+
+> scan3 paper
+Scanning the paper... Clear!
+
+> scan3 paper here
+I don't understand that sentence.
+
+> scan3 john here
+Scanning John... Clear!
+
+> scan3 john
+I think you wanted to say "scan3 John here". Please try again.
+
+> scan4 paper
+Scanning the paper... Clear!
+
+> scan4 paper here
+You're crazy!
+
+> scan4 john here
+Scanning John... Clear!
+
+> scan4 john
+I think you wanted to say "scan4 John here". Please try again.
+
+> bang 100
+Noun is 100.
+
+> wow asdsadas
+ParseToken returned -1
+ParseToken returned -1
+You can't wow that, you crazy person!
+
+> wow john
+ParseToken returned -1
+ParseToken returned -1
+You can't wow that, you crazy person!
+
+> wow apple
+ParseToken returned 11
+ParseToken returned 11
+The apple is in scope!
+
+> bang xyzzy
+I didn't understand that number.
+
+> yeah
+I don't understand that sentence.
+
+> s
+Car Park
+You are in a car park.
+
+You can see a apple and a egg here.
+> x egg
+There is nothing special about the egg.
+
+> x yolk
+There is nothing special about the egg.
+
+> x yummy
+There is nothing special about the egg.
+
+> x yummy egg
+There is nothing special about the egg.
+
+> x yummy yolk
+There is nothing special about the egg.
+
+> x the egg
+There is nothing special about the egg.
+
+> x the yummy egg
+There is nothing special about the egg.
+
+> x apple
+There is nothing special about the apple.
+
+> x apricot
+There is nothing special about the apple.
+
+> x banana
+Sorry, I don't understand what "banana" means.
+
+> take apricot and egg
+apple: Taken.
+egg: Taken.
+
+> take banana and egg
+Sorry, I don't understand what "banana" means.
+
+> take apple. go north
+You already have it.
+
+The Library
+
+You can see John here.
+
+> s
+Car Park
+
+> take banana. go north
+Sorry, I don't understand what "banana" means.
+
+> quit
+Are you sure you want to quit? yes
+
+[Hit any key to exit.]

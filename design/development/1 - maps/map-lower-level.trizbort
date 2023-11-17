@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trizbort version="1.7.2.0">
+	<info />
+	<map>
+		<room id="1" name="Immaculate beach" subtitle="" x="-32" y="32" w="96" h="64" region="Shore" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" isStartRoom="yes" description="This is the south side of the island you are now stuck on. The immensity of the Atlantic Ocean makes you feel minuscule, a needle in a haystack, with no chance of being rescued. A steep hill covered by a dense forest stands to the north; climbing it would likely take hours, and you don't really know what you could find there, but you might as well explore your new home. The beach extends to the east, where you can see a large boulder, and to the west." roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Forest|Hill|Beach|Boulder|Water</objects>
+		</room>
+		<room id="2" name="Beach near forest" subtitle="" x="-192" y="32" w="96" h="64" region="Shore" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<room id="3" name="Edge of the woods" subtitle="" x="-192" y="-96" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Trees for your hammock|A big rock|Worms under the rock</objects>
+		</room>
+		<room id="4" name="Deep in the woods" subtitle="" x="-192" y="-224" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>A colorful tree [s]|Mudslide|</objects>
+		</room>
+		<line id="5" name="" description="">
+			<dock index="0" id="4" port="s" />
+			<dock index="1" id="3" port="n" />
+		</line>
+		<line id="6" name="" description="">
+			<dock index="0" id="3" port="s" />
+			<dock index="1" id="2" port="n" />
+		</line>
+		<line id="7" name="" description="">
+			<dock index="0" id="1" port="w" />
+			<dock index="1" id="2" port="e" />
+		</line>
+		<room id="8" name="Southwestern cliffs" subtitle="" x="-416" y="32" w="96" h="64" region="Shore" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Cliff to look up</objects>
+		</room>
+		<room id="9" name="Knee-deep in the ocean" subtitle="" x="-576" y="160" w="96" h="64" region="At Sea" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="A submerged sandbank extending southwest makes it so you can walk further into the ocean without getting too wet." roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Top of the tower among the trees if depth &gt; 1</objects>
+		</room>
+		<line id="12" name="" description="">
+			<dock index="0" id="9" port="ne" />
+			<dock index="1" id="8" port="sw" />
+		</line>
+		<line id="13" name="" description="">
+			<dock index="0" id="8" port="e" />
+			<dock index="1" id="2" port="w" />
+		</line>
+		<room id="14" name="Narrow strait" subtitle="" x="-576" y="-128" w="96" h="64" region="Shore" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="15" name="" description="">
+			<dock index="0" id="8" port="nw" />
+			<dock index="1" id="14" port="se" />
+		</line>
+		<room id="18" name="Waist-deep in the ocean" subtitle="" x="-800" y="-128" w="96" h="64" region="At Sea" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="  You trudge uncomfortably into the cold water, and try to look around you. The horizon is bare, and the island looms behind you. You take a closer look at the sea; after a minute or so, you spot some movement below the surface a few feet away from you. It looks like this is a good area for fishing." roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Fish</objects>
+		</room>
+		<line id="19" name="" description="">
+			<dock index="0" id="18" port="e" />
+			<dock index="1" id="14" port="w" />
+		</line>
+		<room id="20" name="Waist-deep in the ocean" subtitle="" x="-192" y="192" w="96" h="64" region="At Sea" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<room id="21" name="Waist-deep in the ocean" subtitle="" x="-32" y="192" w="96" h="64" region="At Sea" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="  You trudge uncomfortably into the cold water, and try to look around you. The horizon is bare, and there aren't any fish, or anything floating at the surface. The island looms behind you." roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Island|Horizon|Surface of the water / ocean / atlantic ocean|Sun / sky|Cliffs|Trees|Ridge</objects>
+		</room>
+		<line id="22" name="" description="">
+			<dock index="0" id="21" port="w" />
+			<dock index="1" id="20" port="e" />
+		</line>
+		<line id="23" name="" description="">
+			<dock index="0" id="9" port="e" />
+			<dock index="1" id="20" port="w" />
+		</line>
+		<line id="24" name="" description="">
+			<dock index="0" id="9" port="nw" />
+			<dock index="1" id="18" port="se" />
+		</line>
+		<room id="25" name="Northwestern cliffs" subtitle="" x="-544" y="-288" w="96" h="64" region="Shore" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<room id="26" name="Waist-deep in the ocean" subtitle="" x="-800" y="-448" w="96" h="64" region="At Sea" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="27" name="" description="">
+			<dock index="0" id="26" port="s" />
+			<dock index="1" id="18" port="n" />
+		</line>
+		<line id="28" name="" description="">
+			<dock index="0" id="25" port="nw" />
+			<dock index="1" id="26" port="se" />
+		</line>
+		<line id="29" name="" description="">
+			<dock index="0" id="14" port="n" />
+			<dock index="1" id="25" port="s" />
+		</line>
+		<room id="30" name="Northern cliffs" subtitle="" x="-320" y="-416" w="96" h="64" region="Shore" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="A tall cliff made of chalk runs along the northern edge of the island; down below, where you are standing, is a small beach littered with rocks and pebbles. You're surprised to see a small fishing boat, moored to a long wooden pier; this is the first trace of human life you have spotted on this island! There is also a rickety-looking platform on the beach, right against the side of the cliff; it looks like it can rise all the way up to the top of the cliff with a rope and pulley mechanism." roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Fish elevator (up the cliff)|Pier|Boat|Fishing line|Fishing net</objects>
+		</room>
+		<room id="31" name="Waist-deep in the ocean" subtitle="" x="-320" y="-608" w="96" h="64" region="At Sea" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="32" name="" description="">
+			<dock index="0" id="31" port="s" />
+			<dock index="1" id="30" port="n" />
+		</line>
+		<line id="33" name="" description="">
+			<dock index="0" id="25" port="ne" />
+			<dock index="1" id="30" port="sw" />
+		</line>
+		<room id="34" name="Northeastern tip" subtitle="" x="32" y="-416" w="96" h="64" region="Shore" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="35" name="" description="">
+			<dock index="0" id="34" port="w" />
+			<dock index="1" id="30" port="e" />
+		</line>
+		<room id="36" name="Waist-deep in the ocean" subtitle="" x="224" y="-608" w="96" h="64" region="At Sea" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="37" name="" description="">
+			<dock index="0" id="36" port="sw" />
+			<dock index="1" id="34" port="ne" />
+		</line>
+		<room id="38" name="End of the beach" subtitle="" x="192" y="-96" w="96" h="64" region="Shore" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="You decide to go take a closer look at the boulder, and head east.&#xD;&#xA;&#xD;&#xA;End of the beach&#xD;&#xA;You reached what seems to be the end of the beach; behind the boulder, it seems to taper off quickly, and the coast turns into steep rocks that form a small cove to the northeast. The rest of the beach extends west." roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Boulder [s]</objects>
+		</room>
+		<line id="39" name="" description="">
+			<dock index="0" id="38" port="sw" />
+			<dock index="1" id="1" port="ne" />
+		</line>
+		<room id="40" name="Cove" subtitle="" x="352" y="-256" w="96" h="64" region="Shore" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="41" name="" description="">
+			<dock index="0" id="34" port="se" />
+			<dock index="1" id="40" port="nw" />
+		</line>
+		<line id="42" name="" description="">
+			<dock index="0" id="40" port="s" />
+			<dock index="1" id="38" port="n" />
+		</line>
+		<room id="43" name="Waist-deep in the ocean" subtitle="" x="640" y="-256" w="96" h="64" region="At Sea" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="44" name="" description="">
+			<dock index="0" id="31" port="e" />
+			<dock index="1" id="36" port="w" />
+		</line>
+		<line id="45" name="" description="">
+			<dock index="0" id="36" port="se" />
+			<dock index="1" id="43" port="nw" />
+		</line>
+		<line id="46" name="" description="">
+			<dock index="0" id="26" port="ne" />
+			<dock index="1" id="31" port="sw" />
+		</line>
+		<room id="47" name="Waist-deep in the ocean" subtitle="" x="352" y="32" w="96" h="64" region="At Sea" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="48" name="" description="">
+			<dock index="0" id="21" port="ne" />
+			<dock index="1" id="47" port="sw" />
+		</line>
+		<line id="49" name="" description="">
+			<dock index="0" id="43" port="s" />
+			<dock index="1" id="47" port="n" />
+		</line>
+		<line id="50" name="" description="">
+			<dock index="0" id="38" port="se" />
+			<dock index="1" id="47" port="nw" />
+		</line>
+		<line id="52" name="" description="">
+			<dock index="0" id="2" port="s" />
+			<dock index="1" id="20" port="n" />
+		</line>
+		<line id="53" name="" description="">
+			<dock index="0" id="1" port="s" />
+			<dock index="1" id="21" port="n" />
+		</line>
+		<room id="10" name="Knee-deep in the ocean" subtitle="" x="-704" y="256" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="#80FFFF" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<room id="11" name="Knee-deep in the ocean" subtitle="" x="-832" y="352" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="#80FFFF" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="16" name="" description="">
+			<dock index="0" id="9" port="sw" />
+			<dock index="1" id="10" port="ne" />
+		</line>
+		<line id="17" name="" description="">
+			<dock index="0" id="11" port="ne" />
+			<dock index="1" id="10" port="sw" />
+		</line>
+		<line id="51" name="" description="" flow="oneWay">
+			<dock index="0" id="1" port="n" />
+			<dock index="1" id="4" port="e" />
+		</line>
+		<line id="55" name="" description="">
+			<dock index="0" id="40" port="e" />
+			<dock index="1" id="43" port="w" />
+		</line>
+	</map>
+	<settings>
+		<colors>
+			<canvas>White</canvas>
+			<border>MidnightBlue</border>
+			<line>MidnightBlue</line>
+			<selectedLine>Gold</selectedLine>
+			<hoverLine>DarkOrange</hoverLine>
+			<subTitle>MidnightBlue</subTitle>
+			<smallText>MidnightBlue</smallText>
+			<lineText>MidnightBlue</lineText>
+			<grid>#F5F5F5</grid>
+			<startRoom>GreenYellow</startRoom>
+			<endRoom>Red</endRoom>
+		</colors>
+		<regions>
+			<At____Sea Name="At Sea" TextColor="MidnightBlue">#80FFFF</At____Sea>
+			<NoRegion Name="NoRegion" TextColor="Blue">White</NoRegion>
+			<Shore Name="Shore" TextColor="MidnightBlue">#FFFF80</Shore>
+		</regions>
+		<fonts>
+			<room size="13">Arial</room>
+			<object size="11">Arial</object>
+			<subTitle size="9">Arial</subTitle>
+			<line size="9">Arial</line>
+		</fonts>
+		<grid>
+			<snapTo>yes</snapTo>
+			<visible>yes</visible>
+			<showOrigin>yes</showOrigin>
+			<size>32</size>
+		</grid>
+		<lines>
+			<width>2</width>
+			<arrowSize>12</arrowSize>
+			<textOffset>4</textOffset>
+		</lines>
+		<rooms>
+			<darknessStripeSize>24</darknessStripeSize>
+			<objectListOffset>4</objectListOffset>
+			<connectionStalkLength>32</connectionStalkLength>
+			<preferredDistanceBetweenRooms>64</preferredDistanceBetweenRooms>
+			<defaultRoomName>Cave</defaultRoomName>
+			<defaultRoomShape>0</defaultRoomShape>
+		</rooms>
+		<ui>
+			<handleSize>12</handleSize>
+			<snapToElementSize>16</snapToElementSize>
+		</ui>
+		<margins>
+			<documentSpecific>no</documentSpecific>
+			<horizontal>0</horizontal>
+			<vertical>0</vertical>
+			<wrapDashes>no</wrapDashes>
+		</margins>
+		<keypadNavigation>
+			<creationModifier>control</creationModifier>
+			<unexploredModifier>alt</unexploredModifier>
+		</keypadNavigation>
+	</settings>
+</trizbort>

@@ -1,0 +1,42 @@
+TRISTAM ISLAND
+By Hugo Labrande
+
+Manual for : TRS-80 Model III version
+
+=================================
+
+After crashing your plane at sea, you end up drifting to a small island, with not much to survive. You explore, and find out the island was inhabited, years ago. But why did the people leave? And why is there a fence around that big building at the top of the hill?
+
+=================================
+
+HOW TO PLAY
+
+There is no specific TRS-80 Model III release for this game. The reason is simple: the only TRS-80 Model III Z-Machine interpreter there is is Infocom's (and thus presumably still under Activision's copyright), and that interpreter was discontinued in 1984 (meaning use at your own risks - it has never been tested on a game that's more than 110kb).
+
+Should you still wish to try it, here is a step-by-step walkthrough:
+- Acquire an Infocom release for the TRS-80 Model III; the disk should have two files, a /cmd and a /dat;
+- Get the story file (*.z3 or *.DAT) for "Tristam Island" from your physical release or on itch.io (hlabrande.itch.io/tristam-island);
+- Create a (possibly virtual) blank disk, and copy the /cmd file, renaming it "tristam/cmd";
+- Copy the story file onto the disk, renaming it "tristam/dat";
+- Boot the TRS-80 into DOS with the new disk as a second drive;
+- You can then run the game by typing "TRISTAM".
+
+Example of inputs recognized by the game are: go east, examine sky, inventory, enter ocean, take pebble, open matchbook. Around 100 verbs are recognized by the game.
+
+There are no built-in hints in the game (there just isn't the space!), so I encourage you to ask other players for help!
+
+If you encounter a bug, or if a sensible command wasn't recognized, or if you want to give me any sort of feedback, don't hesitate to send me an email : hugo at hlabrande dot fr.
+
+==================================
+
+MANY THANKS TO
+- Infocom, creators of the Z-Machine and of so many awesome adventure games that we're still using their tools 40 years later;
+- Graham Nelson, creator of Inform 6;
+- Andrew Plotkin, for his hard work and dedication to fixing the Inform 6 compiler's bugs that had prevented z3 releases for years;
+- Fredrik Ramsberg and Johan Berntsson, for the amazing PunyInform library, and many optimizations;
+- My testers: Manon Burz-Labrande, CrocMiam, Steve Flintham, Grimmnebulin, Brennen Kinch, Juhana Leinonen, Samuel Verschelde, Mark Walker, Jack Welch;
+- The players who reported bugs in the initial release: Davide Bucci, Chris Carter, Wade Clarke, Denk, Richard Hawkins, Christopher Merrimer, Brian Rushton, Tiffany Zhao;
+- Stefan Vogt, for his help setting up many ports of this game, and his detailed answers to my technical questions.
+
+For this version in particular:
+- Hugh Steers, for figuring out how to make it run on a TRS-80 Model III (https://intfiction.org/t/new-retro-game-tristam-island/47194/12)

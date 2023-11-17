@@ -1,0 +1,164 @@
+> i.i
+You are empty handed.
+
+You are empty handed.
+
+> take red
+Do you mean the small red ball or the red cube?
+
+> i
+You are empty handed.
+
+> take red
+Do you mean the small red ball or the red cube?
+
+> red
+I still don't understand what you are referring to.
+
+> take red
+Do you mean the small red ball or the red cube?
+
+> ball
+Taken.
+
+> drop all
+small red ball: Dropped.
+
+> take all red
+small red ball: Taken.
+red cube: Taken.
+
+> take blue ball
+Taken.
+
+> take blue cube
+You can't see any such thing.
+
+> take blue ball and blue cube
+You can't see any such thing.
+
+> drop all
+small blue ball: Dropped.
+red cube: Dropped.
+small red ball: Dropped.
+
+> get ball
+Do you mean the small red ball, the small blue ball or the small green ball?
+
+> red
+Taken.
+
+> get all balls
+small blue ball: Taken.
+small green ball: Taken.
+
+> get cubes
+red cube: Taken.
+black cube: Taken.
+
+> drop black cube
+Dropped.
+
+> drop cubes
+red cube: Dropped.
+
+> drop cubes
+There is nothing to drop.
+
+> get black ball
+Taken.
+
+> s
+
+White Room
+It's all white. The ball room lies to the north.
+
+You can see a red box (which is empty) and a transparent box (which is empty)
+here.
+
+> put all balls but the red one in the red box
+small black ball: You put the small black ball into the red box.
+small green ball: You put the small green ball into the red box.
+small blue ball: You put the small blue ball into the red box.
+
+> put all in transparent
+small red ball: You put the small red ball into the transparent box.
+
+> get all balls from transparent
+small red ball: Removed.
+
+> get all from transparent
+There is nothing to get.
+
+> drop red ball
+Dropped.
+
+> get it
+Taken.
+
+> get all from red box
+small blue ball: Removed.
+small green ball: Removed.
+small black ball: Removed.
+
+> drop all
+small black ball: Dropped.
+small green ball: Dropped.
+small blue ball: Dropped.
+small red ball: Dropped.
+
+> get all boxes
+red box: Taken.
+transparent box: Taken.
+
+> n
+
+Ball Room
+
+There is a blue table in the middle of the room.
+
+You can also see a red cube and a black cube here.
+
+> put all on the table
+transparent box: You put the transparent box on the table.
+red box: You put the red box on the table.
+
+> put transparent box in red box
+(first taking the transparent box)
+You put the transparent box into the red box.
+
+> enter transparent box
+You have to enter the red box first.
+
+> enter red box
+You have to enter the table first.
+
+> enter table
+You enter the table.
+
+> enter transparent box
+You have to enter the red box first.
+
+> enter red box
+You enter the red box.
+
+> enter transparent box
+You enter the transparent box.
+
+> enter table
+You have to leave the transparent box first.
+
+> exit
+You leave the transparent box.
+
+> exit
+You leave the red box.
+
+> exit
+You leave the table.
+
+> quit
+Are you sure you want to quit? yes
+
+
+  *** [Hit any key to exit.]

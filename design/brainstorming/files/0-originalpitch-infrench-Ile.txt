@@ -1,0 +1,15 @@
+Un jeu qui se passe sur une île déserte, bien sûr !
+
+Suite à un naufrage ou un avion qui se plante, le gars est seul sur une île déserte. Survie, ramassage de poires. On met un Hermann Toothrot ? (oui ! le boulet qui fera bien rire et qui servira parfois)
+
+Finalement, ça va dégénérer : un complexe ultra-secret est sous l'île, le joueur le découvre, espionnage, action, high-tech... Il finit par s'enfuir de l'île en hélico.
+
+Au tout début, on découvre la situation, et on doit résoudre des énigmes de survie, faim, bêtes, égratignures ? Puis on se balade, on décrit la forêt. Petit suspense éventuellement pour savoir si vous êtes seul sur l'île - traces de pas... Finalement, la nuit tombe, et il est l'heure de se coucher.
+Deuxième jour, et traces encore plus.
+Troisième jour, on découvre Hermann, dans l'après-midi. Il est un peu foufou, mais quand même à peu près normal. Il a des jumelles, ou autre, un peu de matos, quoi.
+Quatrième jour, un truc, un problème, une incohérence, montre que vous n'êtes pas seuls sur l'île. Un peu d'exploration, des indices bizarres...
+Cinquième jour, on part à l'aventure ; du haut d'un rocher (point culminant de l'île) on regarde aux jumelles, et on découvre un truc en béton bizarre. Petit (tout mini) labyrinthe, et finalement on finit par atteindre le truc en béton. Il y a une ouverture, mais elle est fermée, irrémédiablement. Vous dormez ici.
+Sixième jour, le joueur est réveillé par des bruits : des soldats sont sortis. Pas bouger. Attendre trois tours (attention ! si le joueur ne le fait pas, le tank arrive et voit les corps, et l'alerte est donnée) : quelqu'un d'autre arrive, un autre soldat, un petit véhicule silencieux, quelque chose. Ils parlent, notamment de vous. Attendre. Puis ils repartent, et vous avez cinq tours pour trouver un moyen de vous faufiler à l'intérieur (plusieurs façons possibles). Séquence sneak, histoire à l'intérieur du complexe. Finalement, vous vous échappez en hélico après avoir détruit un truc ou volé des plans ou quelque chose dans le genre. Ou alors vous allez direct à l'hélico et vous vous mêlez de vos affaires.
+Septième jour : Vous vous reposez, que diable ! Sur une terrasse déserte, ou sur une plage surpeuplée, bref trouver quelque chose qui soit marrant pour la fin.
+
+On découpe le jeu en plusieurs parties ; elles seront autant que possible indépendantes, notamment au niveau de l'inventaire. On mettra des boîtes "PREMIER JOUR" entre chaque partie.

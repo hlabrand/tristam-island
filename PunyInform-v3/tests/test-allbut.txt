@@ -1,0 +1,75 @@
+
+> put me in box
+Not a good idea
+
+> take battery
+Taken.
+
+> put all in sack
+battery: You put the battery into the sack.
+
+> take battery
+Taken.
+
+> put me and battery in sack
+yourself: You enter the sack.
+battery: You put the battery into the sack.
+
+> take battery
+Taken.
+
+> put me in sack
+But you are already there!
+
+> look
+Lit Room (in the sack)
+You are in a brightly lit room.
+
+You can see some trousers and a box (which is empty) here.
+
+> get out
+You leave the sack.
+
+> take battery
+You already have it.
+
+> drop battery
+Dropped.
+
+> remove all but battery
+trousers: Taken.
+
+> wear trousers
+You are now wearing the trousers.
+
+> x them
+There is nothing special about the trousers.
+
+> remove all but trousers
+battery: Taken.
+
+> drop all
+battery: Dropped.
+
+> take battery.s.n
+Taken.
+
+Another Room
+You are the other room.
+
+Lit Room
+
+You can see a box (which is empty) and a sack (which is empty) here.
+
+> drop all
+battery: Dropped.
+
+> take battery.s
+Taken.
+
+Another Room
+
+> quit
+Are you sure you want to quit? yes
+
+[Hit any key to exit.]

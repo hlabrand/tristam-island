@@ -1,0 +1,55 @@
+TRISTAM ISLAND
+By Hugo Labrande
+
+Manual for : GameBoy / GameBoy Color version
+
+=================================
+
+After crashing your plane at sea, you end up drifting to a small island, with not much to survive. You explore, and find out the island was inhabited, years ago. But why did the people leave? And why is there a fence around that big building at the top of the hill?
+
+=================================
+WARNING
+
+For space reasons, and to avoid a bug specific to this version, I had to remove the intro text. Here it is:
+
+You lift your eyes up to the island and sigh.
+
+It was just supposed to be a trip like so many you've flown, taking your small airplane to a remote island in the south Atlantic Ocean to deliver medicine and spare parts. You thought you'd be back by sunset, but a storm like you've never seen before whipped up out of nowhere and battered your airplane. You were losing altitude so fast, you had no choice but to take your parachute and ditch the plane in the drink. You're extremely lucky to have spotted this small island, a tall chunk of rock in the middle of the ocean. It saved you from certain death; but you can't stay on this island forever. You'll have to explore and see what you're working with.
+
+You look back down and sigh.
+
+=================================
+
+HOW TO PLAY
+
+- Put the "tristam.gb" on your GameBoy adapter (or your emulator).
+- Turn on the system; the game then starts.
+
+You can play by moving the cursor on the virtual keyboard and selecting A for each letter. There are, however, shortcuts:
+- Move the cursor up to grab a word from the main screen (add it to the input by pressing A)
+- Use Select + Pad to Walk Around
+- Use Button B + Left for Backspace, and Button B + Right for Space
+- Use Button B + Down for a predefined command
+- Use Button B + Up to show previous inputs
+- Use Start to signal the end of the input
+- Use Select during startup for GBC Functions Setup
+
+Example of inputs recognized by the game are: go east, examine sky, inventory, enter ocean, take pebble, open matchbook. Around 100 verbs are recognized by the game.
+
+There are no built-in hints in the game (there just isn't the space!), so I encourage you to ask other players for help!
+
+If you encounter a bug, or if a sensible command wasn't recognized, or if you want to give me any sort of feedback, don't hesitate to send me an email : hugo at hlabrande dot fr.
+
+==================================
+
+MANY THANKS TO
+- Infocom, creators of the Z-Machine and of so many awesome adventure games that we're still using their tools 40 years later;
+- Graham Nelson, creator of Inform 6;
+- Andrew Plotkin, for his hard work and dedication to fixing the Inform 6 compiler's bugs that had prevented z3 releases for years;
+- Fredrik Ramsberg and Johan Berntsson, for the amazing PunyInform library, and many optimizations;
+- My testers: Manon Burz-Labrande, CrocMiam, Steve Flintham, Grimmnebulin, Brennen Kinch, Juhana Leinonen, Samuel Verschelde, Mark Walker, Jack Welch;
+- The players who reported bugs in the initial release: Davide Bucci, Chris Carter, Wade Clarke, Denk, Richard Hawkins, Christopher Merrimer, Brian Rushton, Tiffany Zhao;
+- Stefan Vogt, for his help setting up many ports of this game, and his detailed answers to my technical questions.
+
+For the GameBoy port more specifically:
+- Martin Korth ("nocash"), for developing INFGMB for the GameBoy / GameBoy Color.

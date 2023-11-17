@@ -1,0 +1,9 @@
+> put weight under table
+(first taking the lead weight)
+The lead weight is too heavy to lift.
+
+> quit
+Are you sure you want to quit? yes
+
+
+  *** [Hit any key to exit.]

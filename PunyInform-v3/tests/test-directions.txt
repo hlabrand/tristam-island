@@ -1,0 +1,44 @@
+
+> x north statue
+There is nothing special about the north statue.
+
+> x statue
+Do you mean the north statue or the south statue?
+
+> north
+There is nothing special about the north statue.
+
+> scan north statue
+Action ##Scan.
+No direction is set.
+Noun is 10 (north statue) 
+Second is 0 (not a proper object) 
+
+> scan east of north statue
+Action ##ScanDirOf.
+Direction is 3 (east)
+Noun is 5 (east) 
+Second is 10 (north statue) 
+
+> scan north on
+Action ##ScanNorthOn.
+No direction is set.
+Noun is 0 (not a proper object) 
+Second is 0 (not a proper object) 
+
+> take all but e
+There are no things available that match "take all but e".
+
+> take s and e
+You can't see any such thing.
+
+> push e w
+You can't use multiple directions.
+
+> unlock west with up
+You can't use multiple directions.
+
+> quit
+Are you sure you want to quit? yes
+
+[Hit any key to exit.]

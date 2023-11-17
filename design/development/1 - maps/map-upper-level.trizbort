@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trizbort version="1.7.2.0">
+	<info />
+	<map>
+		<room id="1" name="In nerdy house" subtitle="" x="-320" y="-256" w="96" h="64" region="Inside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>SF book with the code|Shilling</objects>
+		</room>
+		<room id="2" name="Inside the pub landlord's house" subtitle="" x="-320" y="-160" w="96" h="64" region="Inside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Spare key for the pub|Guinness posters|Apron|Safe (open)</objects>
+		</room>
+		<room id="3" name="In shop" subtitle="" x="-320" y="-64" w="96" h="64" region="Inside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="Bits and bobs for the soldiers to spend allowance on" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Light on|Binoculars|Lighter|Cigarettes|Comic books|Sixpence|Counter</objects>
+		</room>
+		<room id="4" name="Inside the wood shop" subtitle="" x="-320" y="32" w="96" h="64" region="Inside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="Shop for the handyman of the island" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Piece of wood|Ladder rung|Saw?|Wires|Shilling</objects>
+		</room>
+		<room id="5" name="In pub" subtitle="" x="-320" y="128" w="96" h="64" region="Inside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="Petites annonces dans le pub&#xD;&#xA;Jukebox : 1 sixpence for a song, 3 songs for 1 shilling" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Jukebox|Bulletin board|Tables|Chairs|Pint|Poster of tristam &amp; this island</objects>
+		</room>
+		<room id="6" name="Storehouse - Back" subtitle="" x="-288" y="-576" w="96" h="64" region="Inside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Cans of fish|Cans of spam|Worcestershire sauce|Marmite|</objects>
+		</room>
+		<room id="7" name="Storehouse - Front" subtitle="" x="-128" y="-576" w="96" h="64" region="Inside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="Stocks de spam, de poissons (pas de chambre froide), de sauces, de confitures, de biscottes, de café" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Jam|Coffee|Margarine ? (à brûler ?)|Biscottes|Flashlights|Batteries|Fire extinguishers|Light bulbs</objects>
+		</room>
+		<room id="8" name="Canning workbench" subtitle="" x="-288" y="-480" w="96" h="64" region="Inside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Apparatus to can fish (?)</objects>
+		</room>
+		<line id="9" name="" description="">
+			<dock index="0" id="6" port="s" />
+			<dock index="1" id="8" port="n" />
+		</line>
+		<line id="10" name="" description="">
+			<dock index="0" id="7" port="w" />
+			<dock index="1" id="6" port="e" />
+		</line>
+		<room id="12" name="Outside the storehouse" subtitle="" x="64" y="-320" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Fish elevator (up)|Metal bowl lying outside (to gut fish)</objects>
+		</room>
+		<line id="14" name="" description="" startText="in" endText="out">
+			<dock index="0" id="12" port="nw" />
+			<dock index="1" id="7" port="e" />
+		</line>
+		<room id="15" name="Outside the pub" subtitle="" x="256" y="-128" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="16" name="" description="">
+			<dock index="0" id="15" port="nw" />
+			<dock index="1" id="12" port="se" />
+		</line>
+		<room id="17" name="Pub landlord's house (and more)" subtitle="" x="64" y="64" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="18" name="" description="">
+			<dock index="0" id="17" port="ne" />
+			<dock index="1" id="15" port="sw" />
+		</line>
+		<room id="19" name="Bottom of the steel tower" subtitle="" x="-96" y="224" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Ladder|Sixpence</objects>
+		</room>
+		<room id="20" name="Top of the tower" subtitle="" x="-96" y="96" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Flathead screwdriver|</objects>
+		</room>
+		<line id="21" name="" description="" startText="down" endText="up">
+			<dock index="0" id="20" port="s" />
+			<dock index="1" id="19" port="n" />
+		</line>
+		<line id="24" name="" description="">
+			<dock index="0" id="19" port="ne" />
+			<dock index="1" id="17" port="sw" />
+		</line>
+		<room id="25" name="Central plaza" subtitle="" x="512" y="-96" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Fountain|Sixpence|Pump of freshwater (desalinated)</objects>
+		</room>
+		<room id="26" name="House (s)" subtitle="" x="512" y="64" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="House of the diesel generator repairman, who sneaks in the hole only he knows about to go steal sci-fi books&#xD;&#xA;Odd, the hinges are outside on this door&#xD;&#xA;Need a screwdriver to open the door" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Door|Hinges</objects>
+		</room>
+		<room id="27" name="Top of the stairs" subtitle="" x="512" y="224" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="28" name="" description="">
+			<dock index="0" id="15" port="e" />
+			<dock index="1" id="25" port="w" />
+		</line>
+		<line id="29" name="" description="">
+			<dock index="0" id="25" port="s" />
+			<dock index="1" id="26" port="n" />
+		</line>
+		<line id="30" name="" description="">
+			<dock index="0" id="26" port="s" />
+			<dock index="1" id="27" port="n" />
+		</line>
+		<room id="31" name="Shops" subtitle="" x="512" y="-352" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="Bits and bobs for soldiers to spend allowance on" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<room id="32" name="Houses" subtitle="" x="352" y="-352" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="3 bungalows (fisherman, 2 shopkeepers) ; one of them is open but doesn't have much in" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<room id="33" name="Wood shop" subtitle="" x="736" y="-352" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="Shop for the handyman of the island" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="34" name="" description="">
+			<dock index="0" id="33" port="w" />
+			<dock index="1" id="31" port="e" />
+		</line>
+		<line id="35" name="" description="">
+			<dock index="0" id="32" port="e" />
+			<dock index="1" id="31" port="w" />
+		</line>
+		<line id="36" name="" description="">
+			<dock index="0" id="31" port="s" />
+			<dock index="1" id="25" port="n" />
+		</line>
+		<room id="39" name="Field" subtitle="" x="1056" y="-96" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="? You are standing by an open field, behind a fence, west of a white mansion with a closed front door. The fence isn't electrified, but there is barbed wire at the top. A sign by the guardhouse right behind the fence reads ~Authorised Personnel Only~." roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Guard key|Grass|Sign|Guardhouse</objects>
+		</room>
+		<room id="40" name="East of field - White house (mansion)" subtitle="" x="1248" y="-96" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="42" name="" description="">
+			<dock index="0" id="40" port="w" />
+			<dock index="1" id="39" port="e" />
+		</line>
+		<room id="43" name="Diesel generators" subtitle="" x="832" y="-224" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Fence|Bush|Hole in the fence</objects>
+		</room>
+		<room id="45" name="Scenic view" subtitle="" x="512" y="-480" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Camping area|Remnants of a fire|Rocks in a circle|Empty spam can</objects>
+		</room>
+		<line id="46" name="" description="">
+			<dock index="0" id="31" port="n" />
+			<dock index="1" id="45" port="s" />
+		</line>
+		<line id="11" name="" description="">
+			<dock index="0" id="17" port="e" />
+			<dock index="1" id="26" port="w" />
+		</line>
+		<line id="13" name="" description="">
+			<dock index="0" id="12" port="e" />
+			<dock index="1" id="32" port="w" />
+		</line>
+		<room id="41" name="Fenced area" subtitle="" x="832" y="-96" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="(?) You are standing by an open field, behind a fence, west of a white mansion with a closed front door. The fence isn't electrified, but there is barbed wire at the top. A sign by the guardhouse right behind the fence reads ~Authorised Personnel Only~." roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Guardhouse|Sign|Door|Fence|Barbed wire</objects>
+		</room>
+		<line id="47" name="" description="">
+			<dock index="0" id="25" port="e" />
+			<dock index="1" id="41" port="w" />
+		</line>
+		<line id="48" name="" description="">
+			<dock index="0" id="41" port="e" />
+			<dock index="1" id="39" port="w" />
+		</line>
+		<room id="49" name="Around the fence" subtitle="" x="992" y="64" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Fence (no hole)|Large tree</objects>
+		</room>
+		<line id="50" name="" description="">
+			<dock index="0" id="41" port="se" />
+			<dock index="1" id="49" port="nw" />
+		</line>
+		<line id="37" name="" description="">
+			<dock index="0" id="33" port="s" />
+			<dock index="1" id="43" port="n" />
+		</line>
+		<line id="38" name="" description="">
+			<dock index="0" id="25" port="ne" />
+			<dock index="1" id="43" port="sw" />
+		</line>
+		<room id="44" name="Community garden" subtitle="" x="32" y="-160" w="96" h="64" region="Outside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="Un community garden pour occuper les gens et manger des fruits et légumes frais (saisons et tours de jardinage dans le pub, c'est le lieu le plus fréquenté)" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Brambles|Bushes|Trenches in a row|Sixpence|Some kind of tool</objects>
+		</room>
+		<line id="51" name="" description="">
+			<dock index="0" id="17" port="n" />
+			<dock index="1" id="44" port="s" />
+		</line>
+		<line id="52" name="" description="">
+			<dock index="0" id="44" port="n" />
+			<dock index="1" id="12" port="s" />
+		</line>
+		<line id="53" name="" description="">
+			<dock index="0" id="44" port="e" />
+			<dock index="1" id="15" port="w" />
+		</line>
+		<line id="54" name="" description="">
+			<dock index="0" id="26" port="ne" />
+			<dock index="1" id="41" port="sw" />
+		</line>
+		<line id="55" name="" description="">
+			<dock index="0" id="41" port="n" />
+			<dock index="1" id="43" port="s" />
+		</line>
+		<line id="56" name="" description="">
+			<dock index="0" id="26" port="e" />
+			<dock index="1" id="49" port="w" />
+		</line>
+		<line id="57" name="" description="" startText="in" endText="out">
+			<dock index="0" id="15" port="se" />
+			<dock index="1" id="5" port="ssw" />
+		</line>
+		<line id="58" name="" description="" startText="out" endText="in">
+			<dock index="0" id="4" port="s" />
+			<dock index="1" id="33" port="sw" />
+		</line>
+		<line id="59" name="" description="" startText="out" endText="in">
+			<dock index="0" id="3" port="s" />
+			<dock index="1" id="31" port="sw" />
+		</line>
+		<line id="60" name="" description="" startText="out" endText="in">
+			<dock index="0" id="2" port="s" />
+			<dock index="1" id="17" port="nw" />
+		</line>
+		<line id="61" name="" description="" startText="out" endText="in">
+			<dock index="0" id="1" port="s" />
+			<dock index="1" id="26" port="nw" />
+		</line>
+		<room id="62" name="Inside houses" subtitle="" x="-320" y="-352" w="96" h="64" region="Inside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Light on|TV on</objects>
+		</room>
+		<line id="63" name="" description="" startText="out" endText="in">
+			<dock index="0" id="62" port="s" />
+			<dock index="1" id="32" port="sw" />
+		</line>
+		<room id="64" name="Pub kitchen" subtitle="" x="-448" y="128" w="96" h="64" region="Inside" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>Cooking oil|Can opener|Ice machine ?|Fridge ?</objects>
+		</room>
+		<line id="65" name="" description="">
+			<dock index="0" id="64" port="e" />
+			<dock index="1" id="64" port="e" />
+		</line>
+		<line id="66" name="" description="">
+			<dock index="0" id="15" port="n" />
+			<dock index="1" id="32" port="s" />
+		</line>
+	</map>
+	<settings>
+		<colors>
+			<canvas>White</canvas>
+			<border>MidnightBlue</border>
+			<line>MidnightBlue</line>
+			<selectedLine>Gold</selectedLine>
+			<hoverLine>DarkOrange</hoverLine>
+			<subTitle>MidnightBlue</subTitle>
+			<smallText>MidnightBlue</smallText>
+			<lineText>MidnightBlue</lineText>
+			<grid>#F5F5F5</grid>
+			<startRoom>GreenYellow</startRoom>
+			<endRoom>Red</endRoom>
+		</colors>
+		<regions>
+			<Inside Name="Inside" TextColor="MidnightBlue">#C0E0FF</Inside>
+			<NoRegion Name="NoRegion" TextColor="Blue">White</NoRegion>
+			<Outside Name="Outside" TextColor="MidnightBlue">#80FF80</Outside>
+		</regions>
+		<fonts>
+			<room size="13">Arial</room>
+			<object size="11">Arial</object>
+			<subTitle size="9">Arial</subTitle>
+			<line size="9">Arial</line>
+		</fonts>
+		<grid>
+			<snapTo>yes</snapTo>
+			<visible>yes</visible>
+			<showOrigin>yes</showOrigin>
+			<size>32</size>
+		</grid>
+		<lines>
+			<width>2</width>
+			<arrowSize>12</arrowSize>
+			<textOffset>4</textOffset>
+		</lines>
+		<rooms>
+			<darknessStripeSize>24</darknessStripeSize>
+			<objectListOffset>4</objectListOffset>
+			<connectionStalkLength>32</connectionStalkLength>
+			<preferredDistanceBetweenRooms>64</preferredDistanceBetweenRooms>
+			<defaultRoomName>Cave</defaultRoomName>
+			<defaultRoomShape>0</defaultRoomShape>
+		</rooms>
+		<ui>
+			<handleSize>12</handleSize>
+			<snapToElementSize>16</snapToElementSize>
+		</ui>
+		<margins>
+			<documentSpecific>no</documentSpecific>
+			<horizontal>0</horizontal>
+			<vertical>0</vertical>
+			<wrapDashes>no</wrapDashes>
+		</margins>
+		<keypadNavigation>
+			<creationModifier>control</creationModifier>
+			<unexploredModifier>alt</unexploredModifier>
+		</keypadNavigation>
+	</settings>
+</trizbort>

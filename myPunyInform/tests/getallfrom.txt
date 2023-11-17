@@ -1,0 +1,52 @@
+> get all but box
+There is nothing to get.
+
+> get all from bag
+rock: Removed.
+
+> drop all
+rock: Dropped.
+
+> get all rock
+Taken.
+
+> drop all
+rock: Dropped.
+
+> s
+
+Static box
+The room with the static box and static bag. Exits n
+
+There's a box here. In the box is a bag (which contains a rock).
+
+> get all but box
+There is nothing to get.
+
+> get all from bag
+rock: Removed.
+
+> drop all
+rock: Dropped.
+
+> n
+
+Normal box
+
+There's a box here. In the box is a bag (which is empty).
+
+You can also see a rock here.
+
+> n
+
+Concealed box
+The room with the concealed box. Exits s
+
+> get all from bag
+rock: Removed.
+
+> quit
+Are you sure you want to quit? yes
+
+
+  *** [Hit any key to exit.]

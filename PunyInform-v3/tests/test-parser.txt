@@ -1,0 +1,269 @@
+
+> again me
+I only understood you as far as "again" but then you lost me.
+
+> n
+You can't go that way.
+
+> again
+You can't go that way.
+
+> again me
+I only understood you as far as "again" but then you lost me.
+
+> put sweater in s
+The south can't contain things.
+
+> drop sweater
+You aren't holding it.
+
+> put ladder on ladder
+You can't put something on itself.
+
+> put ladder in ladder
+You can't put something inside itself.
+
+> go n
+You can't go that way.
+
+> go sweater
+That doesn't seem to be something you can enter.
+
+> go
+I think you wanted to say "go (some direction)". Please try again.
+
+> get
+I think you wanted to say "get out of something". Please try again.
+
+> x orb
+There is nothing special about the Orb.
+
+> frob it
+*Frobbing Orb as requested.
+> x ladder
+It's very sturdy. On the ladder is a sticker.
+
+> frob ladder
+********************You can't frob that!
+> frob it
+*You can't frob that!
+> pronouns
+It: ladder
+Him: nothing
+Her: nothing
+Them: nothing
+
+> get ladder and
+I only understood you as far as "get ladder" but then you lost me.
+
+> kiss ladder
+You can only do that to something animate.
+
+> open it
+How would you go about opening a ladder?
+
+> type abc on ladder
+2
+> type abc into ladder
+2
+> close close door
+You can't see any such thing.
+
+> open close door
+You can't see any such thing.
+
+> i.i
+You are empty handed.
+
+You are empty handed.
+
+> open torch and ladder
+You can't use multiple objects with that verb.
+
+> i blue
+I only understood you as far as "i" but then you lost me.
+
+> open all
+You can't use multiple objects with that verb.
+
+> put all
+You are not carrying anything.
+
+> take torch.
+Taken.
+
+> put all
+I think you wanted to say "put all in something". Please try again.
+
+> take torch and john
+electric torch: You already have it.
+John: I don't suppose John would care for that.
+
+> open box
+You open the box, revealing a red book.
+
+[The score has just gone up by 3 points.]
+
+> get all from box
+red book: Yay, got rid of the red book!
+
+[The score has just gone down by 1 point.]
+
+> i
+You're carrying a red book and an electric torch (Ugly as sin).
+
+> put all
+I think you wanted to say "put all in something". Please try again.
+
+> put all except
+I don't understand that sentence.
+
+> put all except in box
+You can't see any such thing.
+
+> put all except book in box
+electric torch: You put the electric torch into the box.
+
+[The score has just gone up by 1 point.]
+
+> take all from box
+electric torch: Yay, got rid of the electric torch!
+
+[The score has just gone down by 1 point.]
+
+> put all except red book in box
+electric torch: You put the electric torch into the box.
+
+[The score has just gone up by 1 point.]
+
+> i
+You're carrying a red book.
+
+> drop all
+red book: Dropped.
+
+> get red book, xyzzy and torch
+Sorry, I don't understand what "xyzzy" means.
+
+> get xyzzy and torch
+Sorry, I don't understand what "xyzzy" means.
+
+> get xyzzy
+Sorry, I don't understand what "xyzzy" means.
+
+> x green
+You can't see any such thing.
+
+> get green
+You can't see any such thing.
+
+> read green
+You can't see any such thing.
+
+> purloin pink book
+Purloined.
+
+> i
+You're carrying that stupid old pink book.
+
+> take book
+Taken.
+
+> drop pink
+Dropped.
+
+> take all
+pink book: You dared taking the pink book. Bravo!
+Orb: Taken.
+sweater: You are carrying too many things already.
+electric torch: You are carrying too many things already.
+ladder: You are carrying too many things already.
+infinite bag: You are carrying too many things already.
+
+> push dsdasdsa
+Sorry, I don't understand what "dsdasdsa" means.
+
+> oops john
+"Hey, don't push!", John yells. 
+
+> g
+"I'm gonna make you regret that!", John mutters. 
+
+> push john
+"This is your final warning!", John says. 
+
+> s
+Wow, this is a huge car park!
+
+Car Park
+You are in a car park in front of the library. You can enter to the north. There
+is a river off to the east.
+
+A little red car is parked here.
+
+A blue book is standing on a shelf. Looking at the blue book makes you dizzy.
+
+An old and torn green book is here.
+
+You can also see a key and a lead weight here.
+
+[The score has just gone up by 5 points.]
+
+> drop all
+Orb: Dropped.
+pink book: Dropped.
+red book: Dropped.
+
+> take books
+pink book: You dared taking the pink book. Bravo!
+red book: Taken.
+green book: Taken.
+blue book: You are carrying too many things already.
+
+> drop all
+pink book: Dropped.
+red book: Dropped.
+green book: Dropped.
+
+> take pinkish
+pink book: You dared taking the pink book. Bravo!
+green book: Taken.
+
+> drop all
+pink book: Dropped.
+green book: Dropped.
+
+> get blue and blue and blue
+The blue box starts ticking...
+
+The blue book glows annoyingly.
+
+> get blue and blue
+You already have it.
+
+The blue book glows annoyingly.
+
+> get blue
+You already have it.
+
+The blue book glows annoyingly.
+
+> take book
+Do you mean the pink book, the red book or the green book?
+
+> n
+
+The box goes BOOM.
+
+The blue book glows annoyingly.
+Huge library
+
+You can also see a light switch, a sweater, an aquarium (which is empty), a box
+(which contains an electric torch (Ugly as sin)), a ladder (on which is a
+sticker), John and an infinite bag (which is empty) here.
+
+The blue book glows annoyingly.
+> quit
+You ain't no quitter eh? yes
+
+[Hit any key to exit.]

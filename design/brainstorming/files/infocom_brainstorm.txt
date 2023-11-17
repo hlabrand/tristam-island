@@ -1,0 +1,140 @@
+
+scott adams:
+  adventure
+  pirates
+  espions
+  voodoo
+  vampire
+  odyssée
+  foire
+  egypte
+  ghost town
+  île
+  sorcier
+  comics
+
+
+infocom settings:
+
+underground facilities with zany world and puzzles
+medieval spells and zaniness
+space station
+space station and space travel
+detective
+robots scifi
+egyptian treasure hunting
+diving for treasures and sunken gallions
+submarine exploration
+zany scifi
+detective
+political shit
+magic fantasy
+cirque
+manor maze treasures
+zany scifi
+ghosts in cornwall
+political shit
+berlin wall
+zany bureaucracy
+scary campus exploration
+puns
+pirates
+sherlock
+arthur
+shogun
+tolkien
+
+
+île déserte où il faut s'enfuir: untold riches (un reviewer note que c'est un peu infocom style)
+
+https://ifdb.tads.org/poll?id=c3dx7edfwbqct31s
+    enchanter-style
+    medieval zany (aug fourth)
+    explore a facility (the plant)
+    zorkian
+    zorkian
+    spells
+    detective
+    spaceship adventure
+    spaceship
+    detective
+    lovecraft
+    world fair
+    charming fantasy spells
+    humorous, mischievious, chock full of puzzles (berrost's challenge)
+    humorous treasure hunt
+    mansion & shit
+    
+    english university? (christminster)
+
+stefan fait space shit
+
+du coup si on veut évoquer infocom :
+(oui mais j'ai jamais joué à des jeux infocom de ma vie)
+  * zany medieval alchemy spells and shit
+  * explore a facility, like a university or a research centre
+  * some kind of exotic setting like islands and stuff (en plus ceux-là ils étaient pas durs) [oui mais fais gaffe à untold riches]
+        ah, un abandoned research center sur une île déserte, donc...
+  * un jeu de détective où t'interroges des gens et y'a des évènements qui se passent à intervalles donnés (enfin ça c'est que deadline, et c'est chaud à jouer)
+
+jamais fait :
+  * une montagne
+  * une prison (enfin, colditz quoi)
+  * un monastère (détective genre nom de la rose ?)
+  * un parc d'attractions abandonné
+  * les marécages de la floride
+  * le bayou de la louisiane
+  * un hôtel (Fairmont ?) abandonné
+  * un hôtel en bord de mer, genre miss maisel (ouais mais enjeu ? ah, ptet un jeu genre détective alors)
+  
+à éviter ?
+  * trucs dans le passé (à part plundered hearts ils ont jamais fait historique)
+  * un sidekick qui est une souris qui parle ? genre, les gens qui achètent ça ont 50 ans quoi, ils ont pas de gamins de 9 ans
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+du coup, prenons une décision : une île déserte, mais avec un centre de recherches abandonné qu'on explore, jusqu'à trouver un moyen de s'échapper
+    centre de recherches sur quelque chose d'ominous : ça peut pas être des aliens ; ptet une pandémie, ou des animaux avec des pouvoirs horribles, ou la télépathie
+    
+si ils veulent je peux leur faire un jeu d'enquête, un petit peu à la deadline avec les npc qui ont leur propre schedule
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1st part gathering and discovering the island
+    There's 3-4 houses and cottages, empty. There is a burned down fishery/canning station (like in Tristan da Cunha). A few graves.
+        The fishery burned down, they asked the military for rations, there werent much, civil unrest, fights with military, everyone forcefully evacuated, the military never came back? What forced off the military?
+
+A calendar for 1963? somewhere
+   Careful with the date, it limits the technology available in the lab? Or we can always say they stayed a while, or the military was technologically advanced
+Picture frames? Or burned pictures?
+Is it the american military? The british? NATO?
+What climate? Pacific islands? Off the coast of africa? There shouldnt be any natives
+
+2nd part in an underground complex
+   We got tools in the first part (we can always recover them later but it's awkward) and we use it to break stuff. Claim back the island
+   We find a radio and send an SOS?
+   The military will come and get us... and jail us ? Maybe they ask us questions and we have to answer wrong ? ("A sismograph to observe the mariana trench?" instead of a nuclear testing facility)
+
+Nuclear testing, they kicked everyone out of the island so they could blow it up? (Look into nuclear testing in tahiti)

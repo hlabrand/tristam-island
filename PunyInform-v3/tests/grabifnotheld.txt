@@ -1,0 +1,112 @@
+
+> pry box with gizmo
+(first taking gizmo)
+That doesn't seem to be something you can unlock.
+
+> i
+You're carrying gizmo.
+
+> drop all
+gizmo: Dropped.
+
+> throw gizmo at box
+(first taking gizmo)
+Futile.
+
+> i
+You're carrying gizmo.
+
+> drop all
+gizmo: Dropped.
+
+> insert gizmo in box
+(first taking gizmo)
+You put gizmo into box.
+
+> i
+You are empty handed.
+
+> drop all
+You are not carrying anything.
+
+> transfer gizmo to box
+Already there.
+
+> i
+You are empty handed.
+
+> drop all
+You are not carrying anything.
+
+> put on gizmo
+(first taking gizmo)
+That doesn't seem to be something you can wear.
+
+> i
+You're carrying gizmo.
+
+> drop all
+gizmo: Dropped.
+
+> empty box
+dust: Dropped.
+
+> i
+You are empty handed.
+
+> look
+Lit Room
+You are in a brightly lit room.
+
+You can see a dust, gizmo and box (which is empty) here.
+
+> s
+Another Room
+You are in a brightly lit room.
+
+You can see a green book, a blue book and Sally here.
+
+> what is samarkand
+Samarkand is a city in south-eastern Uzbekistan.
+
+> what is book
+At the moment, even the simplest questions confuse you.
+
+> what is green book
+At the moment, even the simplest questions confuse you.
+
+> what is green
+At the moment, even the simplest questions confuse you.
+
+> what is sdasfafaf
+At the moment, even the simplest questions confuse you.
+
+> take green
+Taken.
+
+> what is green
+At the moment, even the simplest questions confuse you.
+
+> what is green book
+At the moment, even the simplest questions confuse you.
+
+> show green
+(assuming to Sally)
+Sally doesn't seem interested.
+
+> show green to sally
+Sally doesn't seem interested.
+
+> show sally green
+Sally doesn't seem interested.
+
+> show green to blue
+You can only do that to something animate.
+
+> show green blue
+You can't see any such thing.
+
+> quit
+Are you sure you want to quit? yes
+
+[Hit any key to exit.]

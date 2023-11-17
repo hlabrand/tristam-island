@@ -1,0 +1,46 @@
+! This test checks issue 21. "held" grammar
+! https://github.com/johanberntsson/PunyInform/issues/21
+
+Constant Story      "Minimal";
+Constant Headline   "^A sample game which uses PunyInform.^";
+
+Constant INITIAL_LOCATION_VALUE = example_room;
+
+Constant OPTIONAL_EXTENDED_METAVERBS;
+!Constant DEBUG_PARSEANDPERFORM;
+!Constant DEBUG_PARSEPATTERN;
+!Constant DEBUG_PARSETOKEN;
+!Constant DEBUG_CHECKNOUN;
+!Constant DEBUG_GETNEXTNOUN;
+!Constant DEBUG_SCOPE;
+Include "globals.h";
+Include "puny.h";
+
+Object example_room "Example Room"
+	with description "You are in an example room, for test purposes.",
+	has light;
+
+Object weight "lead weight" example_room
+	with name 'lead' 'weight',
+		before [;
+			Take: print_ret (The) self, " is too heavy to lift.";
+	]
+;
+
+Object table "table" example_room
+	with name 'table';
+
+[Initialise;
+	return 2;
+];
+
+!Verb 'place' = 'put';
+
+Extend 'put'
+	*	held 'under' noun		-> PutUnder;
+
+[PutUnderSub;
+	remove noun;
+        if (AfterRoutines()) return;
+	"You put ", (the) noun, " under ", (the) second, ".^^", (The) noun, " suddenly vanishes!";
+];

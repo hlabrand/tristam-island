@@ -1,0 +1,97 @@
+
+> steal
+I think you wanted to say "steal something". Please try again.
+
+> put me on table then get off
+You enter the table.
+
+You leave the table.
+
+> throw ball at air
+Do you mean the small blue ball, the small red ball or the small green ball?
+
+> small red
+(first taking the small red ball)
+Futile.
+
+> throw ball at air
+Do you mean the small red ball, the small blue ball or the small green ball?
+
+> red
+Futile.
+
+> throw ball at air
+Do you mean the small red ball, the small blue ball or the small green ball?
+
+> small red ball
+Futile.
+
+> take all balls
+small blue ball: Taken.
+small green ball: Taken.
+
+> take red cube
+Taken.
+
+> s
+White Room
+It's all white. The ball room lies to the north.
+
+You can see a red box (which is empty) and a transparent box (which is empty)
+here.
+
+> put balls in red box
+small green ball: You put the small green ball into the red box.
+small blue ball: You put the small blue ball into the red box.
+small red ball: You put the small red ball into the red box.
+
+> put red cube in transparent
+You put the red cube into the transparent box.
+
+> put transparent box in red box
+(first taking the transparent box)
+You put the transparent box into the red box.
+
+> close red box then get transparent box
+You close the red box.
+
+You can't see any such thing.
+
+> open red box
+You open the red box, revealing a transparent box (which contains a red cube), a
+small red ball, a small blue ball and a small green ball.
+
+> take red box
+Taken.
+
+> n
+Ball Room
+
+There is a blue table in the middle of the room.
+
+You can also see a black cube here.
+
+> put green into box
+Do you mean the red box or the transparent box?
+
+> red
+Already there.
+
+> put all cubes in box
+Do you mean the red box or the transparent box?
+
+> red
+red cube: (first taking the red cube)
+You put the red cube into the red box.
+black cube: (first taking the black cube)
+You put the black cube into the red box.
+
+> i
+You're carrying a red box (which contains a black cube, a red cube, a
+transparent box (which is empty), a small red ball, a small blue ball and a
+small green ball).
+
+> quit
+Are you sure you want to quit? yes
+
+[Hit any key to exit.]

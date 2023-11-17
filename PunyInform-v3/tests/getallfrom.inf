@@ -1,0 +1,114 @@
+!% -~S
+!% $OMIT_UNUSED_ROUTINES=1
+
+#Iftrue (#version_number == 8);
+Constant USEINFORM;
+#Endif;
+
+Constant Story      "Get All From";
+Constant Headline   "^A sample game which uses PunyInform.^";
+
+#IfnDef USEINFORM;
+Constant INITIAL_LOCATION_VALUE = Room1;
+Constant OPTIONAL_EXTENDED_METAVERBS;
+
+Include "globals.h";
+
+Include "puny.h";
+#IfNot;
+Include "Parser";
+Include "VerbLib";
+#EndIf;
+
+Object Room2 "Concealed box"
+	with
+		description "The room with the concealed box. Exits s",
+		s_to Room1,
+	has light;
+
+Object -> Box2 "box"
+	with
+		initial [;
+			print "There's a box here. ";
+#Ifndef USEINFORM;
+			if(PrintContents("In the box is ", self)) print ".";
+#EndIf;
+			"";
+		],
+		name 'box',
+	has open container concealed;
+
+Object -> -> Bag2 "bag"
+	with
+		name 'bag',
+	has open container;
+
+Object -> -> -> Rock2 "rock"
+	with
+		name 'rock';
+
+Object Room3 "Static box"
+	with
+		description "The room with the static box and static bag. Exits n",
+		n_to Room1,
+	has light;
+
+Object -> Box3 "box"
+	with
+		initial [;
+			print "There's a box here. ";
+#Ifndef USEINFORM;
+			if(PrintContents("In the box is ", self)) print ".";
+#EndIf;
+			"";
+		],
+		name 'box',
+	has open container static;
+
+Object -> -> Bag3 "bag"
+	with
+		name 'bag',
+	has open container static;
+
+Object -> -> -> Rock3 "rock"
+	with
+		name 'rock';
+
+Object Room1 "Normal box"
+	with
+		number 0,
+		description "The room with the normal box. Exits n, s",
+		n_to Room2,
+		s_to Room3,
+	has light;
+
+Object -> Box1 "box"
+	with
+		initial [;
+			print "There's a box here. ";
+#Ifndef USEINFORM;
+			if(PrintContents("In the box is ", self)) print ".";
+#EndIf;
+			"";
+		],
+		name 'box',
+	has open container;
+
+Object -> -> Bag1 "bag"
+	with
+		name 'bag',
+	has open container;
+
+Object -> -> -> Rock1 "rock"
+	with
+		name 'rock';
+
+[Initialise;
+    location = Room1;
+	print "^^try 'get all from bag'^^";
+];
+
+#Ifdef USEINFORM;
+Include "Grammar";
+#Endif;
+

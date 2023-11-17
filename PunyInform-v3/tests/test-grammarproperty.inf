@@ -1,0 +1,111 @@
+! this code looks messy but it tests all return values from the 
+! grammar property. -1, 0, 'verb' and -'verb'. See test-grammarproperty.cmd
+! for example inputs.
+
+#Iftrue (#version_number == 8);
+Constant USEINFORM;
+#Endif;
+
+Constant Story      "Parser test";
+Constant Headline   "^A parser test suite for PunyInform.^";
+Serial "200827";
+Constant INITIAL_LOCATION_VALUE = Library;
+
+! Uncomment to show time instead of score/turns
+!Statusline time;
+
+!Constant DEBUG;
+!Constant DEBUG_PARSEANDPERFORM;
+!Constant DEBUG_PARSEPATTERN;
+!Constant DEBUG_PARSETOKEN;
+!Constant DEBUG_CHECKNOUN;
+!Constant DEBUG_GETNEXTNOUN;
+!Constant DEBUG_SCOPE;
+
+! Uncomment to add optional features to PunyLib
+!Constant DEBUG;
+!Constant CUSTOM_ABBREVIATIONS;
+!Constant OPTIONAL_ALLOW_WRITTEN_NUMBERS;
+Constant OPTIONAL_EXTENDED_METAVERBS;
+Constant OPTIONAL_EXTENDED_VERBSET;
+!Constant OPTIONAL_GRAMMAR_PROPERTY;
+!Constant OPTIONAL_NO_DARKNESS;
+!Constant OPTIONAL_FULL_SCORE;
+!Constant OPTIONAL_FULL_DIRECTIONS;
+!Constant OPTIONAL_GUESS_MISSING_NOUN;
+!Constant OPTIONAL_MANUAL_SCOPE;
+!Constant RUNTIME_ERRORS = 0;
+
+#Ifdef USEINFORM;
+Include "Parser";
+Include "VerbLib";
+#IfNot;
+Include "globals.h";
+#EndIf;
+
+#Ifndef USEINFORM;
+Include "puny.h";
+#EndIf;
+
+! Uncomment to add PunyLib extensions
+!Include "ext_menu.h";
+!Include "ext_flags.h";
+!Include "ext_quote_box.h";
+!Include "ext_cheap_scenery.h";
+
+
+#Ifdef USEINFORM;
+Include "Grammar";
+#Endif;
+
+Object Library "The Library"
+	with
+	    description "You are in a library.",
+	has light;
+
+Object -> John "John"
+	with name 'john',
+	life [;
+	Answer:  print "answer words ", consult_words, " from ", consult_from, "^";
+	Ask: print "ask^";
+	Order: print "order ", action, ": inv ", ##Inv, " take ", ##Take, "^";
+	],
+	before [;
+	Consult: print "consult^";
+	],
+	orders [;
+    Open: "What do you want me to open";
+    Close: "What do you want me to close";
+    Jump: "I jump";
+    Unlock: "I unlock";
+    SwitchOff: "I switch off";
+    Inv: "I have nothing";
+	],
+	grammar [;
+	    print "grammar ", verb_wordnum, " ", verb_word == 'jump', "^";
+	    if(verb_word == 'open') {
+	        verb_wordnum++;
+	        return 'close';
+        }
+	    if(verb_word == 'close') {
+	        verb_wordnum++;
+	        return -'open';
+        }
+	    if(verb_word == 'jump') {
+	        action = ##Inv;
+	        rtrue;
+        }
+        rfalse;
+    ],
+	has animate proper;
+
+Object -> apple "apple"
+	with name 'apple',
+	has edible;
+
+[ Initialise;
+#IfDef USEINFORM;
+    location=INITIAL_LOCATION_VALUE;
+#EndIf;
+];
+
