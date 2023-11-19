@@ -2,7 +2,7 @@
 This post mortem has two parts!
 
 
-I actually wrote the first part a few months after the release of the game, but the opportunity to publish it never really came up. So here it is!
+I actually wrote the first part ~6 months after the release of the game, but the opportunity to publish it never really came up. So here it is!
 
 And a second part, to talk about the French translation and what's next, which at that point weren't really part of the picture.
 
@@ -94,12 +94,15 @@ As for Twitter, I already had a few hundred followers, but they weren't really o
 
 *** Final thoughts ***
 
-"Tristam Island" took close to 450 hours of work, which is a lot for a passion project. It hasn't sold very well [175 copies] in absolute numbers, thus making my hourly wage quite low; however, this is more money than I expected making from a text adventure in 2020, let's be honest. I also learned a lot of things, from managing social media to diving in all these retro platforms and their specifics. I am quite proud of the final package, as I feel like the game is very good, and the releases work very well; I am also happy I have a robust toolchain which will help for my next game. Finally, I have made a lot of connections in various communities, and seeing people talking about the game, being very interested in it, and offering their help, was an amazing experience. The retro community is definitely very welcoming and warm, and I am happy so many people know about my game.
+"Tristam Island" took close to 450 hours of work, which is a lot for a passion project. It hasn't sold very well [175 copies in 6 months, 350 in 3 years] in absolute numbers, thus making my hourly wage [total of $1850 USD, before itch's cut, 3 years later] quite low; however, this is more money than I expected making from a text adventure in 2020, let's be honest! [Plus, as of November 2023 the free demo was downloaded over 3,500 times, which (even if you take into account the multiple platforms) means a few hundred people were interested enough to give it a spin!] I also learned a lot of things, from managing social media to diving in all these retro platforms and their specifics. I am quite proud of the final package, as I feel like the game is very good, and the releases work very well; I am also happy I have a robust toolchain which will help for my next game. Finally, I have made a lot of connections in various communities, and seeing people talking about the game, being very interested in it, and offering their help, was an amazing experience. The retro community is definitely very welcoming and warm, and I am happy so many people know about my game.
 
 What's next? I am currently working on the French translation of the game, which also involves more fiddling for the accented characters to display properly; but there are quite a few French people excited to play it. The physical version will be handled by Poly.Play, who have done such a great job with Stefan Vogt and Davide Bucci's releases; I am excited to have it in my hands one day (and many other players are too, or so they tell me!). And, well, I should probably start thinking about a new game! I have several ideas, but I want to let them mature first, and find a great one that'll make a worthy followup to "Tristam Island". I've also started a job in 2021, so I'm not sure I can finish a new text adventure this year; so maybe see you all in 2022!
 
 
 ================================================================================
+
+Additional sections, written in November 2023:
+
 
 *** The French translation ***
 
