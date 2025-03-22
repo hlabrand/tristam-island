@@ -1187,7 +1187,8 @@ Include "parser.h";
 !       0:
 !         z = indirect(x-->m);
 !       1:
-			z = indirect(x-->m, a);
+			if(a) z = indirect(x-->m, a);
+			else z = indirect(x-->m);
 !       2:
 !         z = indirect(x-->m, a, b);
 !       3:

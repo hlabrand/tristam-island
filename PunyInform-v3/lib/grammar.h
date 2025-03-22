@@ -1500,10 +1500,11 @@ Global scope_cnt;
 ! HELP ROUTINES
 ! ---------------------
 
-[ _ListObjsMsg;
-	print "^You can ";
-	if(also_flag) print "also ";
-	print "see ";
+[ _ListObjsMsg p_parent;
+    p_parent = 0; ! Avoid warning
+    print "^You can ";
+    if(also_flag) print "also ";
+    print "see ";
 ];
 
 [ _ListObjsInOnMsg p_parent;
