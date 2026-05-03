@@ -980,7 +980,7 @@ Global transcript_mode = false;        ! true when game scripting is on
 
 [ ScriptOnSub;
 	transcript_mode = ((HDR_GAMEFLAGS-->0) & 1);
-	if (transcript_mode) "Transcripting is already on.";
+	if (transcript_mode) "Transcribing is already on.";
 	@output_stream 2;
 	if (((HDR_GAMEFLAGS-->0) & 1) == 0) "Attempt to begin transcript failed.";
 	print "Start of a transcript of^";
@@ -990,7 +990,7 @@ Global transcript_mode = false;        ! true when game scripting is on
 
 [ ScriptOffSub;
 	transcript_mode = ((HDR_GAMEFLAGS-->0) & 1);
-	if (transcript_mode == false) "Transcripting is already off.";
+	if (transcript_mode == false) "Transcribing is already off.";
 	print "^End of transcript.^";
 	@output_stream -2;
 	if ((HDR_GAMEFLAGS-->0) & 1) "Attempt to end transcript failed.";
@@ -2279,7 +2279,7 @@ Object -> -> Compartment "compartment"
 
 Object -> -> -> Fishingrod "fishing rod"
   with  name 'fishing' 'rod' 'pole' 'reel',
-        description [; print "This fishing rod is about four to five feet long, and it is in suprisingly good condition. Its reel still turns rather well, and the hook and the line are on there as well -- which is good, as you're not sure you would have known how to attach them there. It will be perfect for casting bait. "; <Examine FishingRodReel>; rtrue; ],
+        description [; print "This fishing rod is about four to five feet long, and it is in surprisingly good condition. Its reel still turns rather well, and the hook and the line are on there as well -- which is good, as you're not sure you would have known how to attach them there. It will be perfect for casting bait. "; <Examine FishingRodReel>; rtrue; ],
         before [; Cut1, Cut2, Attack: print_ret (string) MSG_SURVIVAL;
                 ! why is it "fishing rod: You kneel blabla"? punybug?
                 Drop: if (Albatros in location && location ~= OnlyRoomWaistDeep) {remove aFish; scope_modified = true; ALBATROSS_ALREADY_STOLE=1; print_ret (string) MSG_DROP_ROD_ALBATROSS_PERKS_UP, (string) MSG_ALBATROSS_VICTORY_LAP;}
@@ -4186,7 +4186,7 @@ Object ->  Emptyspamcan "empty Spam can"
 Object ALargeRock "large rock"
   with  name 'large' 'rock' 'stone' 'big',
         description "This rock is rather large and heavy; you can carry it for a while, maybe even throw it.",
-        before [; Insert: if (second == backpack) { if (keep_silent == 0) {"You'd rather not fill your backpack with rocks; surviving is alreay hard enough as it is.";} rtrue;} else {"That big rock won't fit.";} ! the keep_silent is important for when shuffling objects in the backpack to make room
+        before [; Insert: if (second == backpack) { if (keep_silent == 0) {"You'd rather not fill your backpack with rocks; surviving is already hard enough as it is.";} rtrue;} else {"That big rock won't fit.";} ! the keep_silent is important for when shuffling objects in the backpack to make room
                 ThrowAt: if (second == OneBigHouse && location == Shop or Woodshop or Houses2) { <<ThrowAt self ThreeWindows>>; };
         ],
         after [; Drop: "You drop the large rock, minding your toes."; ],
